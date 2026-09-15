@@ -8,40 +8,13 @@ Every day has one challenge, the same for every player. Days change at **00:00 U
 
 The challenges go round in a fixed order of 14 days. Today's is highlighted.
 
-<div id="daily-rotation" markdown>
-
-| Day | Challenge |
-| --- | --- |
-| 1 | 🏁 Finish a run. |
-| 2 | 📏 Reach tile 400 in one run. |
-| 3 | 🚪 Cross 2 biome gates in one run. |
-| 4 | 🚫 Reach tile 200 without buying an upgrade. |
-| 5 | 🎲 Finish a run of 60 rolls. |
-| 6 | 💰 Score 20,000 points in one run. |
-| 7 | 📏 Reach tile 250 in one run. |
-| 8 | 🚪 Cross 1 biome gate. |
-| 9 | 💰 Score 8,000 points in one run. |
-| 10 | 🎲 Finish a run of 35 rolls. |
-| 11 | 🚫 Reach tile 120 without buying an upgrade. |
-| 12 | 📏 Reach tile 380 in one run. |
-| 13 | 💰 Score 26,000 points in one run. |
-| 14 | 🎲 Finish a run of 50 rolls. |
-
-</div>
+<div class="rr-days"><div class="rr-day"><span class="rr-day-num">Day 1</span><span class="rr-day-icon">🏁</span><span>Finish a run.</span></div><div class="rr-day"><span class="rr-day-num">Day 2</span><span class="rr-day-icon">📏</span><span>Reach tile 400 in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 3</span><span class="rr-day-icon">🚪</span><span>Cross 2 biome gates in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 4</span><span class="rr-day-icon">🚫</span><span>Reach tile 200 without buying an upgrade.</span></div><div class="rr-day"><span class="rr-day-num">Day 5</span><span class="rr-day-icon">🎲</span><span>Finish a run of 60 rolls.</span></div><div class="rr-day"><span class="rr-day-num">Day 6</span><span class="rr-day-icon">💰</span><span>Score 20,000 points in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 7</span><span class="rr-day-icon">📏</span><span>Reach tile 250 in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 8</span><span class="rr-day-icon">🚪</span><span>Cross 1 biome gate.</span></div><div class="rr-day"><span class="rr-day-num">Day 9</span><span class="rr-day-icon">💰</span><span>Score 8,000 points in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 10</span><span class="rr-day-icon">🎲</span><span>Finish a run of 35 rolls.</span></div><div class="rr-day"><span class="rr-day-num">Day 11</span><span class="rr-day-icon">🚫</span><span>Reach tile 120 without buying an upgrade.</span></div><div class="rr-day"><span class="rr-day-num">Day 12</span><span class="rr-day-icon">📏</span><span>Reach tile 380 in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 13</span><span class="rr-day-icon">💰</span><span>Score 26,000 points in one run.</span></div><div class="rr-day"><span class="rr-day-num">Day 14</span><span class="rr-day-icon">🎲</span><span>Finish a run of 50 rolls.</span></div></div>
 
 ## Streak rewards
 
-Meet the challenge on back to back days to build a streak. Miss a day and the next claim starts again from day 1.
+Meet the challenge on back to back days to build a streak. Miss a day and the next claim starts again from day 1. Rewards are in meta points.
 
-| Streak day | Reward |
-| --- | --- |
-| 1 | 50 meta |
-| 2 | 60 meta |
-| 3 | 70 meta |
-| 4 | 80 meta |
-| 5 | 90 meta |
-| 6 | 100 meta |
-| 7 or more | 100 meta |
+<div class="rr-ladder"><div class="rr-step"><b>50</b><i style="height: 35%"></i><small>Day 1</small></div><div class="rr-step"><b>60</b><i style="height: 42%"></i><small>Day 2</small></div><div class="rr-step"><b>70</b><i style="height: 49%"></i><small>Day 3</small></div><div class="rr-step"><b>80</b><i style="height: 56%"></i><small>Day 4</small></div><div class="rr-step"><b>90</b><i style="height: 63%"></i><small>Day 5</small></div><div class="rr-step"><b>100</b><i style="height: 70%"></i><small>Day 6</small></div><div class="rr-step"><b>100</b><i style="height: 70%"></i><small>Day 7+</small></div></div>
 
 Reach a 7 day streak once to earn the **Keeper** dice, and it stays yours even if the streak breaks later.
 

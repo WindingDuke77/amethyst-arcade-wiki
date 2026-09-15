@@ -1,31 +1,29 @@
 ---
+title: Home
+template: home.html
 hide:
   - navigation
   - toc
 ---
 
-# Amethyst Arcade Wiki
+## Rogue Roller
 
-Guides, numbers and reference for Amethyst Arcade games.
+<div class="aa-tiles">
+<a class="aa-tile" href="rogue-roller/basics/" style="--ring: #22c55e"><img src="assets/rogue-roller/icon.png" alt=""><span><strong>The basics</strong><span class="aa-tile-text">How a run works, from your first roll to meta points.</span></span></a>
+<a class="aa-tile" href="rogue-roller/shop-upgrades/" style="--ring: #3b82f6"><span class="rr-gem">🛒</span><span><strong>Shop upgrades</strong><span class="aa-tile-text">Every card the shop can deal, with prices.</span></span></a>
+<a class="aa-tile" href="rogue-roller/gate-perks/" style="--ring: #8b5cf6"><span class="rr-gem">🚪</span><span><strong>Gate perks and Spark</strong><span class="aa-tile-text">The free cards you pick at every biome gate.</span></span></a>
+<a class="aa-tile" href="rogue-roller/meta-tree/" style="--ring: #3b82f6"><img src="assets/rogue-roller/badges/badge_constellation.png" alt=""><span><strong>Meta tree</strong><span class="aa-tile-text">Permanent upgrades, costs and ascension nodes.</span></span></a>
+<a class="aa-tile" href="rogue-roller/forge/" style="--ring: #eab308"><span class="rr-gem">💎</span><span><strong>Forge</strong><span class="aa-tile-text">Crates, drop chances and every die face effect.</span></span></a>
+<a class="aa-tile" href="rogue-roller/daily-challenges/" style="--ring: #22c55e"><span class="rr-gem">📅</span><span><strong>Daily challenges</strong><span class="aa-tile-text">Today's challenge and streak rewards.</span></span></a>
+<a class="aa-tile" href="rogue-roller/badges/" style="--ring: #f97316"><img src="assets/rogue-roller/badges/badge_topface.png" alt=""><span><strong>Badges</strong><span class="aa-tile-text">All the badges and how to earn them.</span></span></a>
+<a class="aa-tile" href="rogue-roller/cosmetics/" style="--ring: #f97316"><img src="assets/rogue-roller/skins/diceember.png" alt=""><span><strong>Cosmetics</strong><span class="aa-tile-text">Dice and ball skins, and where to get them.</span></span></a>
+<a class="aa-tile" href="rogue-roller/store/" style="--ring: #eab308"><img src="assets/rogue-roller/store/doublemeta.png" alt=""><span><strong>Store</strong><span class="aa-tile-text">Passes, packs and what Premium gives you.</span></span></a>
+<a class="aa-tile" href="rogue-roller/biomes/" style="--ring: #14b8a6"><span class="rr-gem">🌍</span><span><strong>Biomes</strong><span class="aa-tile-text">The six biomes and how long each one is.</span></span></a>
+</div>
 
-<div class="grid cards" markdown>
+## Community
 
--   **🎲 Rogue Roller**
-
-    Roll the die, hop that many tiles, and build a run that goes further every time.
-
-    [Open the Rogue Roller wiki](rogue-roller/index.md)
-
--   **💬 Discord**
-
-    Chat, updates, events and help from the community.
-
-    [Join the Amethyst Arcade Discord](https://discord.gg/dQrpnsb2r9)
-
--   **💡 Spotted a mistake?**
-
-    Tell us what's wrong or missing and a moderator will check it.
-
-    [Suggest a change](suggest-a-change.md)
-
+<div class="aa-tiles">
+<a class="aa-tile" href="https://discord.gg/dQrpnsb2r9" style="--ring: #5865f2"><span class="rr-gem">💬</span><span><strong>Discord</strong><span class="aa-tile-text">Chat, updates, events and help from other players.</span></span></a>
+<a class="aa-tile" href="suggest-a-change/" style="--ring: #22c55e"><span class="rr-gem">💡</span><span><strong>Suggest a change</strong><span class="aa-tile-text">Spotted a mistake? Tell us and a moderator will check it.</span></span></a>
 </div>

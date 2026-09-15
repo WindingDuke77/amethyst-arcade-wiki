@@ -2,18 +2,20 @@
 
 # Biomes
 
+<div class="rr-banner"><img src="../../assets/rogue-roller/biomes.jpg" alt="The Rogue Roller biomes"></div>
+
 There are **6 biomes**. Their order is shuffled at the start of every run, and after the 6th biome the same order repeats. Each biome ends at a gate, see [biomes and gates](basics.md#biomes-and-gates).
 
 ## Looks
 
-| Biome | Light tiles | Dark tiles | Void |
-| --- | --- | --- | --- |
-| Midnight | <span class="swatch" style="background: rgb(105, 95, 130)" title="rgb(105, 95, 130)"></span> | <span class="swatch" style="background: rgb(12, 10, 18)" title="rgb(12, 10, 18)"></span> | <span class="swatch" style="background: rgb(38, 8, 64)" title="rgb(38, 8, 64)"></span> |
-| Inferno | <span class="swatch" style="background: rgb(255, 205, 160)" title="rgb(255, 205, 160)"></span> | <span class="swatch" style="background: rgb(90, 22, 12)" title="rgb(90, 22, 12)"></span> | <span class="swatch" style="background: rgb(120, 25, 15)" title="rgb(120, 25, 15)"></span> |
-| Ocean | <span class="swatch" style="background: rgb(205, 235, 255)" title="rgb(205, 235, 255)"></span> | <span class="swatch" style="background: rgb(12, 45, 85)" title="rgb(12, 45, 85)"></span> | <span class="swatch" style="background: rgb(15, 40, 110)" title="rgb(15, 40, 110)"></span> |
-| Jungle | <span class="swatch" style="background: rgb(215, 250, 205)" title="rgb(215, 250, 205)"></span> | <span class="swatch" style="background: rgb(18, 60, 28)" title="rgb(18, 60, 28)"></span> | <span class="swatch" style="background: rgb(16, 75, 40)" title="rgb(16, 75, 40)"></span> |
-| Frost | <span class="swatch" style="background: rgb(235, 245, 255)" title="rgb(235, 245, 255)"></span> | <span class="swatch" style="background: rgb(70, 90, 120)" title="rgb(70, 90, 120)"></span> | <span class="swatch" style="background: rgb(45, 70, 130)" title="rgb(45, 70, 130)"></span> |
-| Cosmos | <span class="swatch" style="background: rgb(235, 225, 255)" title="rgb(235, 225, 255)"></span> | <span class="swatch" style="background: rgb(45, 12, 75)" title="rgb(45, 12, 75)"></span> | <span class="swatch" style="background: rgb(30, 6, 55)" title="rgb(30, 6, 55)"></span> |
+<div class="rr-grid rr-grid--wide">
+<div class="rr-card " style="--ring: rgb(105, 95, 130)"><div class="rr-card-head"><div class="rr-card-title"><strong>Midnight</strong></div></div><div class="rr-strip" style="--light: rgb(105, 95, 130); --dark: rgb(12, 10, 18); --void: rgb(38, 8, 64)"></div></div>
+<div class="rr-card " style="--ring: rgb(255, 205, 160)"><div class="rr-card-head"><div class="rr-card-title"><strong>Inferno</strong></div></div><div class="rr-strip" style="--light: rgb(255, 205, 160); --dark: rgb(90, 22, 12); --void: rgb(120, 25, 15)"></div></div>
+<div class="rr-card " style="--ring: rgb(205, 235, 255)"><div class="rr-card-head"><div class="rr-card-title"><strong>Ocean</strong></div></div><div class="rr-strip" style="--light: rgb(205, 235, 255); --dark: rgb(12, 45, 85); --void: rgb(15, 40, 110)"></div></div>
+<div class="rr-card " style="--ring: rgb(215, 250, 205)"><div class="rr-card-head"><div class="rr-card-title"><strong>Jungle</strong></div></div><div class="rr-strip" style="--light: rgb(215, 250, 205); --dark: rgb(18, 60, 28); --void: rgb(16, 75, 40)"></div></div>
+<div class="rr-card " style="--ring: rgb(235, 245, 255)"><div class="rr-card-head"><div class="rr-card-title"><strong>Frost</strong></div></div><div class="rr-strip" style="--light: rgb(235, 245, 255); --dark: rgb(70, 90, 120); --void: rgb(45, 70, 130)"></div></div>
+<div class="rr-card " style="--ring: rgb(235, 225, 255)"><div class="rr-card-head"><div class="rr-card-title"><strong>Cosmos</strong></div></div><div class="rr-strip" style="--light: rgb(235, 225, 255); --dark: rgb(45, 12, 75); --void: rgb(30, 6, 55)"></div></div>
+</div>
 
 ## Lengths
 

@@ -8,34 +8,34 @@ Every biome gate lets you pick a free perk card. Perks last for the rest of the 
 
 There are **15 perks**. Some pairs pull against each other, like Night Owl and Daybreak: taking the opposite card evens things out again.
 
-| Perk | What it does | Notes |
-| --- | --- | --- |
-| 🌜 Night Owl | Dark tiles pay double and light tiles pay half. |  |
-| 🌞 Daybreak | Light tiles pay double and dark tiles pay half. |  |
-| ⚖️ Even Keel | Roll an even number and the roll pays double. Odd numbers pay half. |  |
-| 🎭 Odd One Out | Roll an odd number and the roll pays double. Even numbers pay half. |  |
-| 📈 High Roller | Roll a 4 or higher and the roll pays double. Lower rolls pay half. |  |
-| 🐜 Underdog | Roll a 3 or lower and the roll pays double. Higher rolls are unchanged. |  |
-| 🃏 All In | Every roll pays 1.5x. |  |
-| 🔄 Coin Flip | Each roll pays double or half, with even odds. |  |
-| 🔒 Fixed Odds | Your landing multiplier is fixed at x2.5. Landing, Combo, Equinox and All Points cards stop counting. |  |
-| 🌗 Twilight | Every tile is worth +2. Unless Blackout or Whiteout is held, colours alternate every tile and Equinox pays in full. Streak cards stop working. |  |
-| 🌑 Blackout | Every tile turns dark and pays 25% less. Light Tiles, Landing, Jackpot, Combo, Streak, Equinox, Night Owl and Daybreak cards stop paying. Day Current stops charging without Conductor. Not offered if you hold a Jackpot or Combo, counting copies from your tree, or if light tiles have the bigger bonus. | Never dealt with Whiteout |
-| 🌕 Whiteout | Every tile turns light and pays 25% less. Dark Tiles, Landing, Jackpot, Combo, Streak, Equinox, Night Owl and Daybreak cards stop paying. Night Current stops charging without Conductor. Not offered if you hold a Jackpot or Combo, counting copies from your tree, or if dark tiles have the bigger bonus. | Never dealt with Blackout |
-| 🍀 Lucky Seven | Every 7th roll of the run pays triple. |  |
-| 🚶 Steady March | However the dice lands, you always move at least 4 tiles. | Never dealt with Snail's Pace |
-| 🐌 Snail's Pace | You never move more than 3 tiles, but every tile pays double. Steady March can only lift a move to 3. |  |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🌜</span><div class="rr-card-title"><strong>Night Owl</strong></div></div><p class="rr-card-body">Dark tiles pay double and light tiles pay half.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🌞</span><div class="rr-card-title"><strong>Daybreak</strong></div></div><p class="rr-card-body">Light tiles pay double and dark tiles pay half.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">⚖️</span><div class="rr-card-title"><strong>Even Keel</strong></div></div><p class="rr-card-body">Roll an even number and the roll pays double. Odd numbers pay half.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🎭</span><div class="rr-card-title"><strong>Odd One Out</strong></div></div><p class="rr-card-body">Roll an odd number and the roll pays double. Even numbers pay half.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">📈</span><div class="rr-card-title"><strong>High Roller</strong></div></div><p class="rr-card-body">Roll a 4 or higher and the roll pays double. Lower rolls pay half.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🐜</span><div class="rr-card-title"><strong>Underdog</strong></div></div><p class="rr-card-body">Roll a 3 or lower and the roll pays double. Higher rolls are unchanged.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🃏</span><div class="rr-card-title"><strong>All In</strong></div></div><p class="rr-card-body">Every roll pays 1.5x.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🔄</span><div class="rr-card-title"><strong>Coin Flip</strong></div></div><p class="rr-card-body">Each roll pays double or half, with even odds.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🔒</span><div class="rr-card-title"><strong>Fixed Odds</strong></div></div><p class="rr-card-body">Your landing multiplier is fixed at x2.5. Landing, Combo, Equinox and All Points cards stop counting.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🌗</span><div class="rr-card-title"><strong>Twilight</strong></div></div><p class="rr-card-body">Every tile is worth +2. Unless Blackout or Whiteout is held, colours alternate every tile and Equinox pays in full. Streak cards stop working.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🌑</span><div class="rr-card-title"><strong>Blackout</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Never with Whiteout</span></div></div></div><p class="rr-card-body">Every tile turns dark and pays 25% less. Light Tiles, Landing, Jackpot, Combo, Streak, Equinox, Night Owl and Daybreak cards stop paying. Day Current stops charging without Conductor. Not offered if you hold a Jackpot or Combo, counting copies from your tree, or if light tiles have the bigger bonus.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🌕</span><div class="rr-card-title"><strong>Whiteout</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Never with Blackout</span></div></div></div><p class="rr-card-body">Every tile turns light and pays 25% less. Dark Tiles, Landing, Jackpot, Combo, Streak, Equinox, Night Owl and Daybreak cards stop paying. Night Current stops charging without Conductor. Not offered if you hold a Jackpot or Combo, counting copies from your tree, or if dark tiles have the bigger bonus.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🍀</span><div class="rr-card-title"><strong>Lucky Seven</strong></div></div><p class="rr-card-body">Every 7th roll of the run pays triple.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🚶</span><div class="rr-card-title"><strong>Steady March</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Never with Snail's Pace</span></div></div></div><p class="rr-card-body">However the dice lands, you always move at least 4 tiles.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><span class="rr-gem">🐌</span><div class="rr-card-title"><strong>Snail's Pace</strong></div></div><p class="rr-card-body">You never move more than 3 tiles, but every tile pays double. Steady March can only lift a move to 3.</p></div>
+</div>
 
 ## Spark sources
 
 At the first gate of a run you choose how your Spark meter charges, and that choice lasts all run. See [Spark](basics.md#spark) for what a full meter pays.
 
-| Source | How it charges |
-| --- | --- |
-| 💧 Steady Drip | Every tile you land on charges 3 Spark. |
-| 🌑 Night Current | Land on a dark tile: charge 4 Spark. |
-| ☀️ Day Current | Land on a light tile: charge 4 Spark. |
-| 📏 Long Haul | Charge 1 Spark for every 2 tiles you move, up to 4 a roll, or 5 with Ignition. |
-| 🔥 Hot Hand | Roll a 4 or better: charge 4 Spark. |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">💧</span><div class="rr-card-title"><strong>Steady Drip</strong></div></div><p class="rr-card-body">Every tile you land on charges 3 Spark.</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">🌑</span><div class="rr-card-title"><strong>Night Current</strong></div></div><p class="rr-card-body">Land on a dark tile: charge 4 Spark.</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">☀️</span><div class="rr-card-title"><strong>Day Current</strong></div></div><p class="rr-card-body">Land on a light tile: charge 4 Spark.</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">📏</span><div class="rr-card-title"><strong>Long Haul</strong></div></div><p class="rr-card-body">Charge 1 Spark for every 2 tiles you move, up to 4 a roll, or 5 with Ignition.</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">🔥</span><div class="rr-card-title"><strong>Hot Hand</strong></div></div><p class="rr-card-body">Roll a 4 or better: charge 4 Spark.</p></div>
+</div>
 
 <p class="wiki-version">Numbers on this page match Rogue Roller version 2.0.0.</p>

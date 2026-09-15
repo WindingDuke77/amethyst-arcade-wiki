@@ -9,29 +9,24 @@ theme:
   custom_dir: overrides
   logo: assets/amethyst_arcade_icon.svg
   favicon: assets/amethyst_arcade_icon_512.png
+  font:
+    text: Inter
+    code: JetBrains Mono
   icon:
     repo: fontawesome/solid/lightbulb
   palette:
-    - media: "(prefers-color-scheme)"
+    - scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/brightness-auto
+        icon: material/weather-night
         name: Use light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: custom
       accent: custom
       toggle:
         icon: material/weather-sunny
         name: Use dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Use system theme
   features:
     - navigation.tabs
     - navigation.sections
@@ -41,6 +36,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
+    - toc.integrate
 
 extra_css:
   - stylesheets/extra.css

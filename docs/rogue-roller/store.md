@@ -8,45 +8,45 @@ Everything in the store is optional. Robux prices are shown in the game.
 
 Buy once, keep forever.
 
-| Pass | What it does |
-| --- | --- |
-| 🔁 Auto Roll | A toggle that rolls for you automatically. |
-| ⏩ Fast Forward | Your ball and the tiles move about twice as fast. The dice still rolls for real. |
-| ✨ Double Meta | Earn double meta points from every run. Tithe faces are not doubled. |
-| 🎨 Colour Picker | Mix your own colour for your dice and ball. Very dark ball colours get lightened. |
-| ♻️ Free Respec | Respec the meta tree whenever you like, with no daily wait. |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/autoroll.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Auto Roll</strong></div></div><p class="rr-card-body">A toggle that rolls for you automatically.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/fastforward.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Fast Forward</strong></div></div><p class="rr-card-body">Your ball and the tiles move about twice as fast. The dice still rolls for real.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/doublemeta.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Double Meta</strong></div></div><p class="rr-card-body">Earn double meta points from every run. Tithe faces are not doubled.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rgb.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Colour Picker</strong></div></div><p class="rr-card-body">Mix your own colour for your dice and ball. Very dark ball colours get lightened.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/freerespec.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Free Respec</strong></div></div><p class="rr-card-body">Respec the meta tree whenever you like, with no daily wait.</p></div>
+</div>
 
 ## Roblox Premium
 
-Auto Roll and Free Respec, free for as long as your membership lasts.
-
-A dice and a ball nobody can buy: yours to wear for as long as your Roblox Premium membership lasts. (Sovereign, Diadem)
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">👑</span><div class="rr-card-title"><strong>Roblox Premium</strong></div></div><p class="rr-card-body">Auto Roll and Free Respec, free for as long as your membership lasts.</p><p class="rr-card-body">A dice and a ball nobody can buy: yours to wear for as long as your Roblox Premium membership lasts. (Sovereign, Diadem)</p></div>
+</div>
 
 ## Roll packs
 
 Offered when a run gets low on rolls.
 
-| Pack | What you get |
-| --- | --- |
-| 🎲 +25 Rolls | 25 extra rolls, added to this run right now. |
-| 🎲 +50 Rolls | 50 extra rolls, better value than the 25 pack. |
-| 🎲 +100 Rolls | 100 extra rolls, the best value pack. |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rolls25.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+25 Rolls</strong></div></div><p class="rr-card-body">25 extra rolls, added to this run right now.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rolls50.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+50 Rolls</strong></div></div><p class="rr-card-body">50 extra rolls, better value than the 25 pack.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rolls100.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+100 Rolls</strong></div></div><p class="rr-card-body">100 extra rolls, the best value pack.</p></div>
+</div>
 
 ## Meta packs
 
-| Pack | What you get |
-| --- | --- |
-| 🌱 +250 Meta Points | 250 meta points for the upgrade tree. |
-| 🌿 +500 Meta Points | 500 meta points for the upgrade tree. |
-| 🌳 +750 Meta Points | 750 meta points for the upgrade tree, better value than the 500 pack. |
-| 🌟 +1,000 Meta Points | 1,000 meta points for the upgrade tree, the best value pack. |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/meta250.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+250 Meta Points</strong></div></div><p class="rr-card-body">250 meta points for the upgrade tree.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/meta500.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+500 Meta Points</strong></div></div><p class="rr-card-body">500 meta points for the upgrade tree.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/meta750.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+750 Meta Points</strong></div></div><p class="rr-card-body">750 meta points for the upgrade tree, better value than the 500 pack.</p></div>
+<div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/meta1000.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+1,000 Meta Points</strong></div></div><p class="rr-card-body">1,000 meta points for the upgrade tree, the best value pack.</p></div>
+</div>
 
 ## Other
 
-| Item | What you get |
-| --- | --- |
-| ♻️ Meta Tree Respec | An extra tree respec, used once your free one is gone. It never expires. |
-| 🎁 Starter Kit | 50 meta points, the Founder dice you can get no other way, and Free Respec forever. |
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/metareset.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Meta Tree Respec</strong></div></div><p class="rr-card-body">An extra tree respec, used once your free one is gone. It never expires.</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/starterkit.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Starter Kit</strong></div></div><p class="rr-card-body">50 meta points, the Founder dice you can get no other way, and Free Respec forever.</p></div>
+</div>
 
 The Starter Kit is only offered for the first 2 hours after you first join.
 

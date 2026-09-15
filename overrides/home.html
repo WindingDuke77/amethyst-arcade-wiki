@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <section class="aa-hero">
+    <div class="md-grid md-typeset aa-hero-inner">
+      <div>
+        <p class="aa-eyebrow">
+          <img src="{{ 'assets/amethyst_arcade_icon_512.png' | url }}" alt="">
+          Amethyst Arcade
+        </p>
+        <h1>Every roll, explained.</h1>
+        <p class="aa-lead">
+          The wiki for Amethyst Arcade games. Every upgrade, perk, crate and badge in
+          Rogue Roller, with the numbers straight from the game.
+        </p>
+        <div class="aa-actions">
+          <a href="{{ 'rogue-roller/' | url }}" class="md-button md-button--primary">Open the Rogue Roller wiki</a>
+          <a href="https://www.roblox.com/games/87428815126728" class="md-button">Play on Roblox</a>
+          <a href="https://discord.gg/dQrpnsb2r9" class="md-button">Join the Discord</a>
+        </div>
+      </div>
+      <div class="aa-hero-art">
+        <img src="{{ 'assets/rogue-roller/hero.jpg' | url }}" alt="Rogue Roller: roll, upgrade, go further">
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block content %}
+  {{ page.content }}
+{% endblock %}

@@ -3,5 +3,6 @@
   "installCommand": "python3 -m venv .venv && .venv/bin/pip install -r requirements.txt",
   "buildCommand": ".venv/bin/python -m mkdocs build --strict",
   "outputDirectory": "site",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "trailingSlash": true
 }

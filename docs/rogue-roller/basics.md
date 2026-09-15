@@ -2,6 +2,10 @@
 
 # The basics
 
+<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">100</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers to unlock</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">5</span><span class="rr-stat-label">ascensions to climb</span></div></div>
+
+<div class="rr-banner"><img src="../../assets/rogue-roller/run.jpg" alt="A Rogue Roller run with the Ult shop open"></div>
+
 ## A run
 
 - You start with **100 rolls** and a normal 1 to 6 die.
