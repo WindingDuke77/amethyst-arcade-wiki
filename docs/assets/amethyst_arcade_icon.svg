@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1454"/>
+      <stop offset="1" stop-color="#0E081F"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#B388FF" stop-opacity="0.8"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="faceLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E8FF"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="faceMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="faceDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <g fill="#FFFFFF">
+    <circle cx="76" cy="88" r="3.5" opacity="0.9"/>
+    <circle cx="150" cy="52" r="2" opacity="0.6"/>
+    <circle cx="432" cy="72" r="3" opacity="0.8"/>
+    <circle cx="472" cy="180" r="2" opacity="0.5"/>
+    <circle cx="52" cy="300" r="2.5" opacity="0.6"/>
+    <circle cx="90" cy="452" r="3" opacity="0.7"/>
+    <circle cx="430" cy="440" r="2.5" opacity="0.6"/>
+    <path d="M408 116 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" opacity="0.9"/>
+    <path d="M86 180 l4.5 12 12 4.5 -12 4.5 -4.5 12 -4.5 -12 -12 -4.5 12 -4.5 z" opacity="0.75"/>
+  </g>
+
+  <circle cx="256" cy="270" r="212" fill="url(#halo)"/>
+
+  <!-- left shard -->
+  <g transform="translate(152,428) rotate(-36)">
+    <polygon points="-24,0 -24,-128 0,-128 0,0" fill="url(#faceLight)"/>
+    <polygon points="0,0 0,-128 24,-128 24,0" fill="url(#faceMid)"/>
+    <polygon points="-24,-128 0,-164 0,-128" fill="#F3E8FF"/>
+    <polygon points="0,-128 0,-164 24,-128" fill="#C084FC"/>
+  </g>
+
+  <!-- right shard -->
+  <g transform="translate(372,428) rotate(34)">
+    <polygon points="-20,0 -20,-104 0,-104 0,0" fill="url(#faceLight)"/>
+    <polygon points="0,0 0,-104 20,-104 20,0" fill="url(#faceDark)"/>
+    <polygon points="-20,-104 0,-136 0,-104" fill="#E9D5FF"/>
+    <polygon points="0,-104 0,-136 20,-104" fill="#A855F7"/>
+  </g>
+
+  <!-- centre crystal -->
+  <polygon points="198,412 198,184 228,172 228,415" fill="url(#faceLight)"/>
+  <polygon points="228,415 228,172 292,172 292,415" fill="url(#faceMid)"/>
+  <polygon points="292,415 292,172 318,184 318,412" fill="url(#faceDark)"/>
+  <polygon points="198,184 228,172 258,88" fill="#F3E8FF"/>
+  <polygon points="228,172 292,172 258,88" fill="#DDB8FF"/>
+  <polygon points="292,172 318,184 258,88" fill="#A855F7"/>
+  <polygon points="238,192 252,188 244,310 232,314" fill="#FFFFFF" opacity="0.3"/>
+  <polygon points="246,120 262,104 256,140" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- small front shards -->
+  <g transform="translate(206,432) rotate(-14)">
+    <polygon points="-16,0 -16,-78 0,-78 0,0" fill="url(#faceMid)"/>
+    <polygon points="0,0 0,-78 16,-78 16,0" fill="url(#faceDark)"/>
+    <polygon points="-16,-78 0,-102 0,-78" fill="#DDB8FF"/>
+    <polygon points="0,-78 0,-102 16,-78" fill="#9333EA"/>
+  </g>
+  <g transform="translate(314,434) rotate(12)">
+    <polygon points="-14,0 -14,-64 0,-64 0,0" fill="url(#faceMid)"/>
+    <polygon points="0,0 0,-64 14,-64 14,0" fill="url(#faceDark)"/>
+    <polygon points="-14,-64 0,-86 0,-64" fill="#DDB8FF"/>
+    <polygon points="0,-64 0,-86 14,-64" fill="#9333EA"/>
+  </g>
+
+</svg>

@@ -1,0 +1,23 @@
+name: Wiki change
+description: Suggest a fix or an addition for the wiki
+labels: ["suggestion"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Which page is it about?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: What is wrong or missing, and what it should say instead.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: Optional. A screenshot, the game version, or how to see it in game.
