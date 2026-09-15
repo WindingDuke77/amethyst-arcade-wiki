@@ -44,6 +44,7 @@ extra_css:
 extra_javascript:
   - javascripts/daily.js
 
+copyright: Game icon artwork adapted from <a href="https://github.com/microsoft/fluentui-emoji">Microsoft Fluent Emoji</a>, MIT License.
 extra:
   generator: false
   social:

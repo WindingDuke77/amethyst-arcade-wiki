@@ -280,6 +280,13 @@
   box-shadow: 0 0 16px color-mix(in srgb, var(--ring) 35%, transparent);
 }
 
+/* A ringed game icon: the ring is drawn in the image, so it takes the gem's size and glow, not its border. */
+.rr-art--icon {
+  width: 2.7rem;
+  height: 2.7rem;
+  box-shadow: 0 0 14px color-mix(in srgb, var(--ring) 38%, transparent);
+}
+
 .rr-card-title {
   min-width: 0;
 }
@@ -511,6 +518,14 @@
   font-size: 1.4rem;
 }
 
+/* Sized so the drawn icon matches the emoji it replaced and the tile keeps its height. */
+.rr-day-icon img {
+  display: block;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.18rem 0;
+}
+
 .rr-day.is-today {
   border-color: var(--aa-green);
   box-shadow: 0 0 0 1px var(--aa-green), 0 0 24px rgba(34, 197, 94, 0.3);
@@ -679,11 +694,6 @@
   height: 3rem;
   border-radius: 50%;
   box-shadow: 0 0 16px color-mix(in srgb, var(--ring) 40%, transparent);
-}
-
-.aa-tile .rr-gem {
-  width: 3rem;
-  height: 3rem;
 }
 
 .aa-tile strong {
