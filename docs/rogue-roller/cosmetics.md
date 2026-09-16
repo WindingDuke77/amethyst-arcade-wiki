@@ -47,4 +47,4 @@ Everyone can paint their dice and ball with these colours for free, on top of an
 
 The Colour Picker [pass](store.md#game-passes) lets you mix any colour you like.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.0.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>

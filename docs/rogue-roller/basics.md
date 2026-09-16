@@ -12,6 +12,7 @@
 - Each roll moves your ball that many tiles, and every tile you cross pays points: 1 point to start with, plus whatever your upgrades add.
 - Tiles are light or dark. Lots of cards care which colour you land on.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
+- **Auto Roll** rolls for you. Everyone unlocks it after 15 minutes of play, counted across sessions, and the Auto Roll [pass](store.md) or Roblox Premium unlocks it straight away.
 
 ## Biomes and gates
 
@@ -50,7 +51,7 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 
 - A fill needs **44 Spark** and pays **2 rolls**.
 - Every payout makes the next fill cost 1 more, for the rest of the run.
-- Some limits no upgrade can pass: a source charges at most 5 Spark at a time, a fill never costs less than 39, and a fill never pays more than 3 rolls. The Surge [forge effect](forge.md) adds its charge on top.
+- Some limits no upgrade can pass: a source charges at most 5 Spark at a time, a fill never costs less than 39, and a fill never pays more than 3 rolls. The Surge and Ember [forge effects](forge.md) add their charge on top.
 
 ## Meta points
 
@@ -73,10 +74,10 @@ What a score is worth with an empty tree and no bonuses:
 
 ## Ascension
 
-Own every level of the base meta tree and you can ascend, up to 5 times. Ascending resets your tree and gives you **50% more meta from every run** for good. Each ascension also opens a new [node](meta-tree.md#ascension-nodes) and earns a [dice skin](cosmetics.md).
+Own every level of the base meta tree and you can ascend, up to 5 times. Ascending resets your tree and gives you **50% more meta from every run** for good. Each ascension also opens a new [branch of nodes](meta-tree.md#ascension-nodes), with abilities that change how a run plays, and earns a [dice skin](cosmetics.md).
 
 ## Daily challenge
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.0.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>
