@@ -6,7 +6,7 @@ The forge puts permanent effects on the faces of your die. Open crates with meta
 
 ## Crates
 
-Every crate draws from all 36 effects. Dearer crates can't land below a certain rarity, which takes the commons (and more) out of the draw.
+Every crate draws from all 37 effects. Dearer crates can't land below a certain rarity, which takes the commons (and more) out of the draw.
 
 <div class="rr-grid rr-grid--wide">
 <div class="rr-card " style="--ring: rgb(158, 150, 178)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/crates/worn.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Worn Crate</strong><div class="rr-tags"><span class="rr-tag">150 meta</span></div></div></div><div class="rr-odds-list"><div class="rr-odds" style="--c: rgb(158, 150, 178)"><span>Common</span><div class="rr-bar"><i style="width: 55.39%"></i></div><b>55.39%</b></div><div class="rr-odds" style="--c: rgb(90, 206, 160)"><span>Uncommon</span><div class="rr-bar"><i style="width: 26.71%"></i></div><b>26.71%</b></div><div class="rr-odds" style="--c: rgb(92, 170, 255)"><span>Rare</span><div class="rr-bar"><i style="width: 12.86%"></i></div><b>12.86%</b></div><div class="rr-odds" style="--c: rgb(190, 124, 255)"><span>Epic</span><div class="rr-bar"><i style="width: 3.56%"></i></div><b>3.56%</b></div><div class="rr-odds" style="--c: rgb(255, 102, 153)"><span>Legendary</span><div class="rr-bar"><i style="width: 1.19%"></i></div><b>1.19%</b></div><div class="rr-odds" style="--c: rgb(255, 178, 66)"><span>Mythic</span><div class="rr-bar"><i style="width: 0.30%"></i></div><b>0.3%</b></div></div></div>
@@ -80,10 +80,46 @@ The numbers along the bottom of each card are the chance of getting that exact e
 ### Mythic
 
 <div class="rr-grid ">
-<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/avalanche.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Avalanche</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Scoring</span></div></div></div><p class="rr-card-body">This face pays four times over, on any tile.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.07%</b></span><span class="rr-price"><small>Gilded</small><b>0.17%</b></span><span class="rr-price"><small>Astral</small><b>0.41%</b></span></div></div>
-<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/resonance.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Resonance</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">Every lucky bonus that hit this throw pays again: each Double Down hit, a won Coin Flip, Lucky Seven, and a Bloom, Glow or Turnabout an earlier throw set up. The extra is capped at 10x.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.07%</b></span><span class="rr-price"><small>Gilded</small><b>0.17%</b></span><span class="rr-price"><small>Astral</small><b>0.41%</b></span></div></div>
-<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/omnishot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Omni Shot</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">A 1 in 4 chance to throw the dice twice more, up to 4 times a roll. Those throws can trigger it again and charge no Spark.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.07%</b></span><span class="rr-price"><small>Gilded</small><b>0.17%</b></span><span class="rr-price"><small>Astral</small><b>0.41%</b></span></div></div>
-<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/eternity.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Eternity</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">Every roll this face lands is written down. When you cross a biome gate, every written roll pays again, then the list clears.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.07%</b></span><span class="rr-price"><small>Gilded</small><b>0.17%</b></span><span class="rr-price"><small>Astral</small><b>0.41%</b></span></div></div>
+<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/avalanche.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Avalanche</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Scoring</span></div></div></div><p class="rr-card-body">This face pays four times over, on any tile.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.06%</b></span><span class="rr-price"><small>Gilded</small><b>0.13%</b></span><span class="rr-price"><small>Astral</small><b>0.33%</b></span></div></div>
+<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/resonance.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Resonance</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">Every lucky bonus that hit this throw pays again: each Double Down hit, a won Coin Flip, Lucky Seven, and a Bloom, Glow or Turnabout an earlier throw set up. The extra is capped at 10x.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.06%</b></span><span class="rr-price"><small>Gilded</small><b>0.13%</b></span><span class="rr-price"><small>Astral</small><b>0.33%</b></span></div></div>
+<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/omnishot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Omni Shot</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">A 1 in 4 chance to throw the dice twice more, up to 4 times a roll. Those throws can trigger it again and charge no Spark.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.06%</b></span><span class="rr-price"><small>Gilded</small><b>0.13%</b></span><span class="rr-price"><small>Astral</small><b>0.33%</b></span></div></div>
+<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/eternity.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Eternity</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">Every roll this face lands is written down. When you cross a biome gate, every written roll pays again, then the list clears.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.06%</b></span><span class="rr-price"><small>Gilded</small><b>0.13%</b></span><span class="rr-price"><small>Astral</small><b>0.33%</b></span></div></div>
+<div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/forge/chaos.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Chaos</strong><div class="rr-tags"><span class="rr-tag">Mythic</span><span class="rr-tag rr-tag--plain">Trigger</span></div></div></div><p class="rr-card-body">Every time this face lands it turns into a random effect at its top level and does what that effect does, Omni Shot included. Common effects come up most, mythic ones least. It never turns into an effect that moves you, weighs the die or copies a face.</p><div class="rr-card-foot"><span class="rr-price"><small>Worn</small><b>0.06%</b></span><span class="rr-price"><small>Gilded</small><b>0.13%</b></span><span class="rr-price"><small>Astral</small><b>0.33%</b></span></div></div>
 </div>
+
+## Chaos draws
+
+Every time a Chaos face lands, it turns into one of these 28 effects at the effect's top level and works exactly like that effect for that throw. Weight effects, effects that move you and Mimic are never drawn.
+
+| Effect | Rarity | Chance each landing |
+| --- | --- | --- |
+| Gilded | Common | 5.93% |
+| Moonstone | Common | 5.93% |
+| Stepping Stone | Common | 5.93% |
+| Sunstone | Common | 5.93% |
+| Surge | Common | 5.93% |
+| Ember | Uncommon | 4.44% |
+| Glow | Uncommon | 4.44% |
+| Magpie | Uncommon | 4.44% |
+| Multi Shot | Uncommon | 4.44% |
+| Tithe | Uncommon | 4.44% |
+| Twin Star | Uncommon | 4.44% |
+| Echo | Rare | 3.7% |
+| Gambit | Rare | 3.7% |
+| Keystone | Rare | 3.7% |
+| Bloom | Epic | 2.96% |
+| Crown | Epic | 2.96% |
+| Fuse | Epic | 2.96% |
+| Obsidian | Epic | 2.96% |
+| Supernova | Epic | 2.96% |
+| Turnabout | Epic | 2.96% |
+| Card Counter | Legendary | 2.22% |
+| Philosopher's Stone | Legendary | 2.22% |
+| Wheel of Fortune | Legendary | 2.22% |
+| Wildcard | Legendary | 2.22% |
+| Avalanche | Mythic | 1.48% |
+| Eternity | Mythic | 1.48% |
+| Omni Shot | Mythic | 1.48% |
+| Resonance | Mythic | 1.48% |
 
 <p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>

@@ -9,7 +9,7 @@ Everything in the store is optional. Robux prices are shown in the game.
 Buy once, keep forever.
 
 <div class="rr-grid ">
-<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/autoroll.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Auto Roll</strong></div></div><p class="rr-card-body">A toggle that rolls for you automatically.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/autoroll.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Autopilot</strong></div></div><p class="rr-card-body">Auto Roll from your first run, as fast as the game allows. It can pick your gate cards and stop when your rolls run low.</p></div>
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/fastforward.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Fast Forward</strong></div></div><p class="rr-card-body">Your ball and the tiles move about twice as fast. The dice still rolls for real.</p></div>
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/doublemeta.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Double Meta</strong></div></div><p class="rr-card-body">Earn double meta points from every run. Tithe faces are not doubled.</p></div>
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rgb.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Colour Picker</strong></div></div><p class="rr-card-body">Mix your own colour for your dice and ball. Very dark ball colours get lightened.</p></div>
@@ -19,7 +19,7 @@ Buy once, keep forever.
 ## Roblox Premium
 
 <div class="rr-grid ">
-<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">👑</span><div class="rr-card-title"><strong>Roblox Premium</strong></div></div><p class="rr-card-body">Auto Roll and Free Respec, free for as long as your membership lasts.</p><p class="rr-card-body">A dice and a ball nobody can buy: yours to wear for as long as your Roblox Premium membership lasts. (Sovereign, Diadem)</p></div>
+<div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><span class="rr-gem">👑</span><div class="rr-card-title"><strong>Roblox Premium</strong></div></div><p class="rr-card-body">Autopilot and Free Respec, free for as long as your membership lasts.</p><p class="rr-card-body">A dice and a ball nobody can buy: yours to wear for as long as your Roblox Premium membership lasts. (Sovereign, Diadem)</p></div>
 </div>
 
 ## Roll packs

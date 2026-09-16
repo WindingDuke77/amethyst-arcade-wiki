@@ -12,7 +12,8 @@
 - Each roll moves your ball that many tiles, and every tile you cross pays points: 1 point to start with, plus whatever your upgrades add.
 - Tiles are light or dark. Lots of cards care which colour you land on.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
-- **Auto Roll** rolls for you. Everyone unlocks it after 15 minutes of play, counted across sessions, and the Auto Roll [pass](store.md) or Roblox Premium unlocks it straight away.
+- **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the AUTO button in a run to open its menu.
+- **Autopilot**, the [pass](store.md) (also included with Roblox Premium), unlocks Auto Roll straight away, rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
 
 ## Biomes and gates
 
