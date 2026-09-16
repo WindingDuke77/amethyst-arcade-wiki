@@ -19,7 +19,8 @@ The board is split into [biomes](biomes.md). Each one ends at a gate tile, and y
 
 - Reaching a gate gives you **11 rolls** (more with Gate Greeter in the [meta tree](meta-tree.md)) and a free [perk card](gate-perks.md).
 - At the first gate you also pick your [Spark source](gate-perks.md#spark-sources).
-- You can redeal the perk cards 2 times per run, at most once per gate. The Spark choice cannot be redealt.
+- You can redeal the perk cards 2 times per run, at most once per gate. A redeal swaps both cards. The Spark choice cannot be redealt.
+- A gate never deals a perk card you were shown at the gate before, whether you picked a card, skipped or redealt there. The only exception is late in a run when no other card is left.
 
 Biomes get longer as you go. After biome 3, each one is 125 tiles longer than the last.
 
