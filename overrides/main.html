@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+{% endblock %}
+
 {% block content %}
   {{ super() }}
   {% if page and not page.is_homepage and page.url != "suggest-a-change/" %}
