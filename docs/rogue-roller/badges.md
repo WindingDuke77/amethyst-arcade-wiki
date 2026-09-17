@@ -37,4 +37,4 @@ Rogue Roller has **30 badges**. Each name links to the badge on Roblox.
 <div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/badges/badge_wardrobe.png" alt="" loading="lazy"><div class="rr-card-title"><strong><a href="https://www.roblox.com/badges/2734054518902614">Wardrobe</a></strong></div></div><p class="rr-card-body">Own 10 cosmetics you bought.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>

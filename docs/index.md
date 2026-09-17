@@ -18,7 +18,7 @@ hide:
 <a class="aa-tile" href="rogue-roller/badges/" style="--ring: #f97316"><img src="assets/rogue-roller/badges/badge_topface.png" alt=""><span><strong>Badges</strong><span class="aa-tile-text">All the badges and how to earn them.</span></span></a>
 <a class="aa-tile" href="rogue-roller/cosmetics/" style="--ring: #f97316"><img src="assets/rogue-roller/skins/diceember.png" alt=""><span><strong>Cosmetics</strong><span class="aa-tile-text">Dice and ball skins, and where to get them.</span></span></a>
 <a class="aa-tile" href="rogue-roller/store/" style="--ring: #eab308"><img src="assets/rogue-roller/store/doublemeta.png" alt=""><span><strong>Store</strong><span class="aa-tile-text">Passes, packs and what Premium gives you.</span></span></a>
-<a class="aa-tile" href="rogue-roller/biomes/" style="--ring: #14b8a6"><img src="assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">The six biomes and how long each one is.</span></span></a>
+<a class="aa-tile" href="rogue-roller/biomes/" style="--ring: #14b8a6"><img src="assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">Every biome, its look and weather, and how long each one is.</span></span></a>
 </div>
 
 ## Community

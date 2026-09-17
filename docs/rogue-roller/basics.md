@@ -11,6 +11,8 @@
 - You start with **100 rolls** and a normal 1 to 6 die.
 - Each roll moves your ball that many tiles, and every tile you cross pays points: 1 point to start with, plus whatever your upgrades add.
 - Tiles are light or dark. Lots of cards care which colour you land on.
+- The list beside the board shows your whole build: the perks you picked and the shop upgrades you hold, with a count on each. Hover or tap a row to read what it does.
+- Rolling into a new biome shows its name on a title card.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
 - **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the AUTO button in a run to open its menu.
 - **Autopilot**, the [pass](store.md) (also included with Roblox Premium), unlocks Auto Roll straight away, rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
@@ -81,4 +83,4 @@ Own every level of the base meta tree and you can ascend, up to 5 times. Ascendi
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>

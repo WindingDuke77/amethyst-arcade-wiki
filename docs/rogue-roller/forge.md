@@ -16,6 +16,40 @@ Every crate draws from all 37 effects. Dearer crates can't land below a certain 
 
 Every 40th crate you open is **Rare or better**, whichever crate it is.
 
+## Your bag
+
+Cards you open go into your bag. Copies of the same effect share one card with a count. Above the bag:
+
+- **Search** by effect name or rarity.
+- The **rarity** button shows every card, then only Common, Uncommon and so on up to Mythic.
+- The **sort** button puts cards in the order you got them, rarest first, or A to Z.
+
+A card from a new crate always shows, so opening one clears the search and the rarity filter.
+
+## Loadouts
+
+Tap **LOADOUTS** on the forge page to save what your die wears and put it back on later.
+
+- **SAVE** stores all six faces in a slot. Saving over a used slot asks first.
+- **LOAD** puts the saved effects back on. Faces that already match stay put, the rest go back to your bag, then each face takes its card from the bag. If a card is no longer in your bag, that face is left bare.
+- Tap a slot's name to rename it, up to 20 characters.
+- Loadouts load between runs, not during one.
+
+You start with 1 free slot. Each extra slot costs more meta than the last, up to 10 slots:
+
+| Slot | Price |
+| --- | --- |
+| Slot 1 | Free |
+| Slot 2 | 500 meta |
+| Slot 3 | 1,250 meta |
+| Slot 4 | 3,150 meta |
+| Slot 5 | 7,800 meta |
+| Slot 6 | 19,550 meta |
+| Slot 7 | 48,850 meta |
+| Slot 8 | 122,050 meta |
+| Slot 9 | 305,200 meta |
+| Slot 10 | 762,950 meta |
+
 ## Effects
 
 The numbers along the bottom of each card are the chance of getting that exact effect from one crate. Weight effects make a face come up more or less often, so their size can't be given as a number.
@@ -122,4 +156,4 @@ Every time a Chaos face lands, it turns into one of these 28 effects at the effe
 | Omni Shot | Mythic | 1.48% |
 | Resonance | Mythic | 1.48% |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>

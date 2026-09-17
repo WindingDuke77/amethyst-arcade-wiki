@@ -254,4 +254,4 @@ Every ascension opens a branch: the ascension's first node, then more nodes hang
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/meta/treasureMap.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Treasure Map</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Ascension 5</span><span class="rr-tag rr-tag--plain">Needs Midas Touch</span><span class="rr-tag rr-tag--plain">1 level</span></div></div></div><p class="rr-card-body">The first golden tile you land on in each biome pays 10x.</p><div class="rr-card-foot"><span class="rr-price"><small>Lv 1</small><b>1,700</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>

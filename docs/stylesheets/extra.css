@@ -212,13 +212,13 @@
 
 .rr-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(15.5rem, 100%), 1fr));
   gap: 0.9rem;
   margin: 1.2em 0 2.2em;
 }
 
 .rr-grid--wide {
-  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(19rem, 100%), 1fr));
 }
 
 .rr-card {
@@ -642,20 +642,157 @@
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2), 0 0 14px color-mix(in srgb, var(--c) 50%, transparent);
 }
 
-.rr-strip {
+/* A biome's board preview arrives as the card body: pulled above the head and out to the card's edges. */
+.rr-scene {
   position: relative;
-  height: 3.4rem;
-  border-radius: 12px;
-  background: var(--void);
+  order: -1;
+  height: 7.5rem;
+  margin: -0.95rem -1rem 0;
   overflow: hidden;
+  background:
+    radial-gradient(55% 60% at 50% 60%, color-mix(in srgb, var(--sparkle) 24%, transparent), transparent 72%),
+    linear-gradient(180deg, color-mix(in srgb, var(--void) 55%, #000) 0%, var(--void) 100%);
 }
 
-.rr-strip::before {
+.rr-biome::before {
+  z-index: 1;
+}
+
+/* The shadow sits on the outer box so it falls straight down the screen, under the tilted row. */
+.rr-board {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0.9rem 0.6rem rgba(0, 0, 0, 0.55));
+}
+
+.rr-board span {
+  display: flex;
+  gap: 0.2rem;
+  transform: perspective(22rem) rotateX(52deg) rotateZ(-16deg);
+}
+
+.rr-board i {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  background: var(--light);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0.3rem 0 color-mix(in srgb, var(--light) 55%, #000);
+}
+
+.rr-board i:nth-child(even) {
+  background: var(--dark);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 0.3rem 0 color-mix(in srgb, var(--dark) 55%, #000);
+}
+
+.rr-mote {
+  position: absolute;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: var(--sparkle);
+  box-shadow: 0 0 0.45rem var(--sparkle);
+  opacity: 0.85;
+}
+
+.rr-mote:nth-of-type(1) { left: 9%; top: 22%; }
+.rr-mote:nth-of-type(2) { left: 30%; top: 86%; scale: 0.7; }
+.rr-mote:nth-of-type(3) { left: 36%; top: 12%; scale: 1.25; }
+.rr-mote:nth-of-type(4) { left: 55%; top: 24%; scale: 0.8; }
+.rr-mote:nth-of-type(5) { left: 74%; top: 12%; }
+.rr-mote:nth-of-type(6) { left: 90%; top: 40%; scale: 1.3; }
+.rr-mote:nth-of-type(7) { left: 82%; top: 80%; scale: 0.75; }
+
+.rr-scene--embers .rr-mote {
+  width: 0.22rem;
+  height: 0.22rem;
+  box-shadow: 0 0 0.3rem 0.08rem var(--sparkle);
+}
+
+.rr-scene--fireflies .rr-mote,
+.rr-scene--spores .rr-mote {
+  box-shadow: 0 0 0.4rem 0.14rem var(--sparkle);
+}
+
+.rr-scene--spores .rr-mote {
+  width: 0.42rem;
+  height: 0.42rem;
+  opacity: 0.6;
+}
+
+.rr-scene--bubbles .rr-mote {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: transparent;
+  border: 1.5px solid var(--sparkle);
+  box-shadow: 0 0 0.3rem color-mix(in srgb, var(--sparkle) 45%, transparent);
+}
+
+.rr-scene--stars .rr-mote {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 0;
+  box-shadow: none;
+  clip-path: polygon(50% 0, 61% 39%, 100% 50%, 61% 61%, 50% 100%, 39% 61%, 0 50%, 39% 39%);
+}
+
+.rr-scene--petals .rr-mote {
+  width: 0.55rem;
+  height: 0.34rem;
+  border-radius: 80% 0;
+  rotate: -25deg;
+  box-shadow: none;
+}
+
+.rr-scene--dust .rr-mote {
+  width: 0.9rem;
+  height: 0.12rem;
+  border-radius: 0.1rem;
+  rotate: -6deg;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.rr-scene--rain .rr-mote {
+  width: 0.12rem;
+  height: 1rem;
+  border-radius: 0.1rem;
+  rotate: -16deg;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.rr-scene--rain::after {
   content: "";
   position: absolute;
-  inset: 0.9rem -1.5rem;
-  transform: skewX(-24deg);
-  background: repeating-linear-gradient(90deg, var(--light) 0 2.2rem, var(--dark) 2.2rem 4.4rem);
+  top: 0.3rem;
+  left: 63%;
+  width: 1rem;
+  height: 2.6rem;
+  background: var(--sparkle);
+  clip-path: polygon(55% 0, 15% 55%, 45% 55%, 30% 100%, 85% 40%, 55% 40%, 75% 0);
+}
+
+/* On hover the air moves the way the biome's weather does. */
+@media (prefers-reduced-motion: no-preference) {
+  .rr-mote {
+    transition: translate 0.6s ease;
+  }
+
+  .rr-biome:hover .rr-mote {
+    translate: 0 -0.35rem;
+  }
+
+  .rr-biome:hover .rr-scene--snow .rr-mote,
+  .rr-biome:hover .rr-scene--petals .rr-mote,
+  .rr-biome:hover .rr-scene--rain .rr-mote {
+    translate: 0.15rem 0.4rem;
+  }
+
+  .rr-biome:hover .rr-scene--dust .rr-mote {
+    translate: 0.6rem 0;
+  }
 }
 
 /* ------------------------------------------------------------ home and section tiles */
