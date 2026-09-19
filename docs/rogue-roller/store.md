@@ -17,6 +17,8 @@ Buy once, keep forever.
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/bulkcrates.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Crate Master</strong></div></div><p class="rr-card-body">Open 10 crates at once and see every card straight away, with no reveal animation.</p></div>
 </div>
 
+Where Roblox limits paid random items, crates can't be opened, so the Crate Master pass is not sold there.
+
 ## Roblox Premium
 
 <div class="rr-grid ">

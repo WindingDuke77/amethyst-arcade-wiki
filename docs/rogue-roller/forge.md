@@ -16,9 +16,20 @@ Every crate draws from all 37 effects. Dearer crates can't land below a certain 
 
 Every 40th crate you open is **Rare or better**, whichever crate it is.
 
-You can open 5 crates in one go with the **OPEN x5** button, or 10 with the [Crate Master](store.md#game-passes) pass. Each crate still rolls on its own and counts toward the guarantee, so the odds are the same as opening them one by one.
+**Opening in bulk:** tap the **OPEN x1** button on the forge page to switch between x1, x5 and x10, then pick a crate and confirm. A batch costs the crate's price times the count, and all its cards show on one reveal. x10 needs the [Crate Master](store.md#game-passes) pass, which also shows every batch's cards straight away. Each crate still rolls on its own and counts toward the guarantee, so the odds are the same as opening them one by one.
 
-**Weekend luck:** every weekend, from Friday 20:00 UTC to Monday 04:00 UTC, every rarity above a crate's lowest is twice as likely. The odds panel in the game says when it is on.
+**Weekend luck:** every weekend, from Friday 20:00 UTC to Monday 04:00 UTC, every rarity above a crate's lowest gets 2 times its usual weight in the draw. The crate's lowest rarity comes up less and every rarity above it comes up more. The odds panel in the game says when it is on and shows the boosted chances.
+
+**Extra luck:** from Friday 18 September 20:00 UTC to Tuesday 22 September 07:00 UTC, the same boost runs without a break.
+
+| Crate | Rarity | Usual chance | Weekend chance |
+| --- | --- | --- | --- |
+| Worn Crate | Common | 55.39% | 38.3% |
+| Worn Crate | Mythic | 0.3% | 0.41% |
+| Gilded Crate | Uncommon | 59.87% | 42.72% |
+| Gilded Crate | Mythic | 0.67% | 0.95% |
+| Astral Crate | Rare | 71.82% | 56.03% |
+| Astral Crate | Mythic | 1.66% | 2.59% |
 
 Crates can't be opened while a run is live or [saved](basics.md#save-and-quit), and the rest of the forge waits too. In places where Roblox limits paid random items, crates are not available at all; cards already in your bag still work.
 

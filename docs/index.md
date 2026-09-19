@@ -9,7 +9,7 @@ hide:
 ## Rogue Roller
 
 <div class="aa-tiles">
-<a class="aa-tile" href="rogue-roller/basics/" style="--ring: #22c55e"><img src="assets/rogue-roller/icon.png" alt=""><span><strong>The basics</strong><span class="aa-tile-text">How a run works, from your first roll to meta points.</span></span></a>
+<a class="aa-tile" href="rogue-roller/basics/" style="--ring: #22c55e"><img src="assets/rogue-roller/icon.png" alt=""><span><strong>The basics</strong><span class="aa-tile-text">How a run works, from your first roll to save and quit and meta points.</span></span></a>
 <a class="aa-tile" href="rogue-roller/shop-upgrades/" style="--ring: #3b82f6"><img src="assets/rogue-roller/icons/sections/shop.png" alt=""><span><strong>Shop upgrades</strong><span class="aa-tile-text">Every card the shop can deal, with prices.</span></span></a>
 <a class="aa-tile" href="rogue-roller/gate-perks/" style="--ring: #8b5cf6"><img src="assets/rogue-roller/icons/sections/gates.png" alt=""><span><strong>Gate perks and Spark</strong><span class="aa-tile-text">The free cards you pick at every biome gate.</span></span></a>
 <a class="aa-tile" href="rogue-roller/meta-tree/" style="--ring: #3b82f6"><img src="assets/rogue-roller/badges/badge_constellation.png" alt=""><span><strong>Meta tree</strong><span class="aa-tile-text">Permanent upgrades, costs and ascension branches.</span></span></a>
@@ -18,7 +18,7 @@ hide:
 <a class="aa-tile" href="rogue-roller/badges/" style="--ring: #f97316"><img src="assets/rogue-roller/badges/badge_topface.png" alt=""><span><strong>Badges</strong><span class="aa-tile-text">All the badges and how to earn them.</span></span></a>
 <a class="aa-tile" href="rogue-roller/cosmetics/" style="--ring: #f97316"><img src="assets/rogue-roller/skins/diceember.png" alt=""><span><strong>Cosmetics</strong><span class="aa-tile-text">Dice and ball skins, and where to get them.</span></span></a>
 <a class="aa-tile" href="rogue-roller/store/" style="--ring: #eab308"><img src="assets/rogue-roller/store/doublemeta.png" alt=""><span><strong>Store</strong><span class="aa-tile-text">Passes, packs and what Premium gives you.</span></span></a>
-<a class="aa-tile" href="rogue-roller/biomes/" style="--ring: #14b8a6"><img src="assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">Every biome, its look and weather, and how long each one is.</span></span></a>
+<a class="aa-tile" href="rogue-roller/biomes/" style="--ring: #14b8a6"><img src="assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">Every biome, its look, weather, creatures and sounds, and how long each one is.</span></span></a>
 </div>
 
 ## Community

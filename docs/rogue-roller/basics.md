@@ -61,7 +61,7 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
 
 - SAVE & QUIT can't be used mid roll, while a purchase is going through, while a Last Chance offer is showing, or once the run is out of rolls and can only end.
-- While a run is saved, the [forge](forge.md), [meta tree](meta-tree.md) buys and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on both cards and says why, and those pages have a **CONTINUE RUN** button.
+- While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on both cards and says why, and those pages have a **CONTINUE RUN** button.
 - **NEW GAME** asks before it throws a saved run away. The meta that run earned is already yours.
 
 ## Leaderboards
@@ -69,7 +69,8 @@ Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu wit
 The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, all time and this week.
 
 - Weekly boards start fresh every Monday at 00:00 UTC.
-- A run goes on the weekly boards for the week it started, so a run you save and finish in a later week does not post to the new week.
+- A run posts to the weekly boards only while the week it started is still on. Its score goes up when you finish it, save and quit, or leave the game.
+- Once Monday 00:00 UTC passes, a run that started the week before reaches no weekly board, whether it kept going or was continued from a save. The all time boards still count it.
 
 ## Meta points
 

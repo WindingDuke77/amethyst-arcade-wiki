@@ -2,10 +2,10 @@
 
 # Daily challenges
 
-Every day has one challenge, the same for every player. Days change at **00:00 UTC**. Meet the challenge in a run and the reward is paid when that run ends.
+Every day has one challenge, the same for every player. Days change at **00:00 UTC**. Meet the challenge in a run and the reward is paid when that run ends, or straight away if you [save and quit](basics.md#save-and-quit) or leave the game.
 
 - A run is judged against the challenge of the day it started, even if it goes past midnight.
-- A run you [save and quit](basics.md#save-and-quit) and continue on a later day no longer counts toward any challenge.
+- A run you save (with SAVE & QUIT or by leaving) and then continue on a later UTC day than the one it started on no longer counts toward any challenge.
 
 ## Rotation
 

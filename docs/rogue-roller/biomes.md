@@ -8,7 +8,7 @@ There are **10 biomes**. Their order is shuffled at the start of every run, and 
 
 ## Looks
 
-Every biome paints the board in its own colours and fills the air with its own weather. Each one also has its own creatures flying or swimming around you, its own sound playing under the music, and its own colour grade with a soft glow.
+Every biome paints the board in its own colours and fills the air with its own weather. Each one also has its own creatures flying or swimming around you, its own sound playing under the music, and its own colour grade, with a soft glow on most devices.
 
 <div class="rr-grid rr-grid--wide">
 <div class="rr-card rr-biome" style="--ring: rgb(146, 132, 160)"><div class="rr-card-head"><div class="rr-card-title"><strong>Midnight</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Drifting motes</span><span class="rr-tag rr-tag--plain">Bats</span><span class="rr-tag rr-tag--plain">Sound: crickets</span></div></div></div><p class="rr-card-body">Dusky violet and black tiles in a still purple night.</p><div class="rr-scene rr-scene--motes" style="--light: rgb(105, 95, 130); --dark: rgb(12, 10, 18); --void: rgb(38, 8, 64); --sparkle: rgb(255, 255, 255)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
@@ -28,8 +28,9 @@ Every biome paints the board in its own colours and fills the air with its own w
 - Trees sway, crystals spin, lamps glow and the floating islands drift.
 - Creatures wander around your ball and come back if they stray too far.
 - The biome sound follows the EFFECTS volume slider in the settings.
-- Phones run a lighter version with fewer creatures and moving props.
-- On the lowest graphics settings, or with Reduced Motion turned on in your Roblox settings, the creatures and moving scenery switch off.
+- Phones, and Roblox graphics quality 4 to 6 on any device, run a lighter version with fewer creatures and moving props and a softer glow. Phones skip the glow unless graphics quality is set by hand to 7 or higher.
+- With graphics quality set by hand to 3 or lower, or with Reduced Motion turned on in your Roblox settings, the creatures and moving scenery switch off. Graphics quality 3 or lower also drops the glow.
+- Automatic graphics counts as 4 to 6 on phones and 7 or higher everywhere else.
 
 ## Lengths
 
