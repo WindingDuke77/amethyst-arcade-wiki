@@ -16,6 +16,10 @@ Every crate draws from all 37 effects. Dearer crates can't land below a certain 
 
 Every 40th crate you open is **Rare or better**, whichever crate it is.
 
+You can open 5 crates in one go with the **OPEN x5** button, or 10 with the [Crate Master](store.md#game-passes) pass. Each crate still rolls on its own and counts toward the guarantee, so the odds are the same as opening them one by one.
+
+**Weekend luck:** every weekend, from Friday 20:00 UTC to Monday 04:00 UTC, every rarity above a crate's lowest is twice as likely. The odds panel in the game says when it is on.
+
 ## Your bag
 
 Cards you open go into your bag. Copies of the same effect share one card with a count. Above the bag:
@@ -156,4 +160,4 @@ Every time a Chaos face lands, it turns into one of these 28 effects at the effe
 | Omni Shot | Mythic | 1.48% |
 | Resonance | Mythic | 1.48% |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>

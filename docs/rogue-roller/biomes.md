@@ -40,4 +40,4 @@ The length depends on how many biomes into the run you are, not which biome it i
 | 9 | 1,070 | 5,075 |
 | 10 | 1,195 | 6,270 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>

@@ -56,6 +56,10 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 - Every payout makes the next fill cost 1 more, for the rest of the run.
 - Some limits no upgrade can pass: a source charges at most 5 Spark at a time, a fill never costs less than 39, and a fill never pays more than 3 rolls. The Surge and Ember [forge effects](forge.md) add their charge on top.
 
+## Save and quit
+
+Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same. While a run is saved, the forge, meta tree buys and loadout loads wait until you finish or end it.
+
 ## Meta points
 
 When a run ends, your score turns into meta points. Spend them on the [meta tree](meta-tree.md), [forge crates](forge.md) and [cosmetics](cosmetics.md).
@@ -83,4 +87,4 @@ Own every level of the base meta tree and you can ascend, up to 5 times. Ascendi
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>

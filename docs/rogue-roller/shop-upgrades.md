@@ -87,4 +87,4 @@ Dealt in the Ult shop.
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/upgrades/golden3.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Golden Lode</strong><div class="rr-tags"><span class="rr-tag">Tier 4</span><span class="rr-tag rr-tag--plain">Needs Golden Tiles</span></div></div></div><p class="rr-card-body">Golden tiles pay +40 more (needs Golden Tiles).</p><div class="rr-card-foot"><span class="rr-price"><small>1st</small><b>22,000</b></span><span class="rr-price"><small>2nd</small><b>176,000</b></span><span class="rr-price"><small>3rd</small><b>594,000</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>

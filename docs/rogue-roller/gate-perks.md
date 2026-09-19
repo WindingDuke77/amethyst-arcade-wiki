@@ -51,4 +51,4 @@ At the first gate of a run you choose how your Spark meter charges, and that cho
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/spark/sparkHot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Hot Hand</strong></div></div><p class="rr-card-body">Roll a 4 or better: charge 4 Spark.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>
