@@ -20,6 +20,8 @@ You can open 5 crates in one go with the **OPEN x5** button, or 10 with the [Cra
 
 **Weekend luck:** every weekend, from Friday 20:00 UTC to Monday 04:00 UTC, every rarity above a crate's lowest is twice as likely. The odds panel in the game says when it is on.
 
+Crates can't be opened while a run is live or [saved](basics.md#save-and-quit), and the rest of the forge waits too. In places where Roblox limits paid random items, crates are not available at all; cards already in your bag still work.
+
 ## Your bag
 
 Cards you open go into your bag. Copies of the same effect share one card with a count. Above the bag:
@@ -37,7 +39,7 @@ Tap **LOADOUTS** on the forge page to save what your die wears and put it back o
 - **SAVE** stores all six faces in a slot. Saving over a used slot asks first.
 - **LOAD** puts the saved effects back on. Faces that already match stay put, the rest go back to your bag, then each face takes its card from the bag. If a card is no longer in your bag, that face is left bare.
 - Tap a slot's name to rename it, up to 20 characters.
-- Loadouts load between runs, not during one.
+- Loadouts load between runs, not during one or while a run is [saved](basics.md#save-and-quit). Saving and renaming still work.
 
 You start with 1 free slot. Each extra slot costs more meta than the last, up to 10 slots:
 

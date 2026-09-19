@@ -4,6 +4,9 @@
 
 Every day has one challenge, the same for every player. Days change at **00:00 UTC**. Meet the challenge in a run and the reward is paid when that run ends.
 
+- A run is judged against the challenge of the day it started, even if it goes past midnight.
+- A run you [save and quit](basics.md#save-and-quit) and continue on a later day no longer counts toward any challenge.
+
 ## Rotation
 
 The challenges go round in a fixed order of 14 days. Today's is highlighted.

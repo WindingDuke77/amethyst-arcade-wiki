@@ -11,7 +11,7 @@
 - You start with **100 rolls** and a normal 1 to 6 die.
 - Each roll moves your ball that many tiles, and every tile you cross pays points: 1 point to start with, plus whatever your upgrades add.
 - Tiles are light or dark. Lots of cards care which colour you land on.
-- The list beside the board shows your whole build: the perks you picked and the shop upgrades you hold, with a count on each. Hover or tap a row to read what it does.
+- The build panel beside the board shows your whole build as a grid of icons: the perks you picked and the shop upgrades you hold, with a count on a card when you have more than one. Hover, tap or select a card to read what it does.
 - Rolling into a new biome shows its name on a title card.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
 - **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the AUTO button in a run to open its menu.
@@ -58,7 +58,18 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 
 ## Save and quit
 
-Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same. While a run is saved, the forge, meta tree buys and loadout loads wait until you finish or end it.
+Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
+
+- SAVE & QUIT can't be used mid roll, while a purchase is going through, while a Last Chance offer is showing, or once the run is out of rolls and can only end.
+- While a run is saved, the [forge](forge.md), [meta tree](meta-tree.md) buys and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on both cards and says why, and those pages have a **CONTINUE RUN** button.
+- **NEW GAME** asks before it throws a saved run away. The meta that run earned is already yours.
+
+## Leaderboards
+
+The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, all time and this week.
+
+- Weekly boards start fresh every Monday at 00:00 UTC.
+- A run goes on the weekly boards for the week it started, so a run you save and finish in a later week does not post to the new week.
 
 ## Meta points
 

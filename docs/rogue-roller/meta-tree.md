@@ -7,6 +7,7 @@
 Meta points buy permanent upgrades that help every run. Each node needs the node before it, starting from Awakening.
 
 - The tree only shows nodes up to 3 steps from what you own, so there is more to find as it grows.
+- Buying waits while a run is live or [saved](basics.md#save-and-quit), because a new node would change that run.
 - You get one free respec every 24 hours, which refunds what you spent. After that, a Meta Tree Respec from the [store](store.md) works any time, and the Free Respec pass or Roblox Premium removes the wait.
 
 ## The whole tree
