@@ -99,4 +99,4 @@ Own every level of the base meta tree and you can ascend, up to 5 times. Ascendi
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>

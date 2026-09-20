@@ -53,4 +53,4 @@ Offered when a run gets low on rolls.
 
 The Starter Kit is only offered for the first 2 hours after you first join.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>

@@ -69,7 +69,13 @@ You start with 1 free slot. Each extra slot costs more meta than the last, up to
 
 ## Effects
 
-The numbers along the bottom of each card are the chance of getting that exact effect from one crate. Weight effects make a face come up more or less often, so their size can't be given as a number.
+The numbers along the bottom of each card are the chance of getting that exact effect from one crate. Weight effects put a hidden lump inside the dice, so one side comes up more often and the side opposite it less. Only the heaviest weight on your dice counts. These chances were measured over thousands of test throws, so they are close rather than exact, and the odds panel in the game shows them for the dice you wear.
+
+| Weight effect | Side it favours | That side | The side opposite | Each other side |
+| --- | --- | --- | --- | --- |
+| Loadstone | Its own side | 20.7% | 12.8% | 16.6% |
+| Feather | The side opposite it | 23.1% | 10.7% | 16.6% |
+| Magnet | Its own side | 41.5% | 5.4% | 13.3% |
 
 ### Common
 
@@ -173,4 +179,4 @@ Every time a Chaos face lands, it turns into one of these 28 effects at the effe
 | Omni Shot | Mythic | 1.48% |
 | Resonance | Mythic | 1.48% |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>

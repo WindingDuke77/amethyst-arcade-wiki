@@ -21,4 +21,4 @@ Meet the challenge on back to back days to build a streak. Miss a day and the ne
 
 Reach a 7 day streak once to earn the **Keeper** dice, and it stays yours even if the streak breaks later.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>
