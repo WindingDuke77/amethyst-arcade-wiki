@@ -44,7 +44,7 @@ extra_css:
 extra_javascript:
   - javascripts/daily.js
 
-copyright: Game icon artwork adapted from <a href="https://github.com/microsoft/fluentui-emoji">Microsoft Fluent Emoji</a>, MIT License.
+copyright: Game icon artwork adapted from <a href="https://github.com/microsoft/fluentui-emoji">Microsoft Fluent Emoji</a>, MIT License. Trash can and lock icons from <a href="https://fontawesome.com">Font Awesome Free</a> by Fonticons, Inc., <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
 extra:
   generator: false
   social:
@@ -74,9 +74,11 @@ nav:
   - Rogue Roller:
       - rogue-roller/index.md
       - The basics: rogue-roller/basics.md
+      - How the numbers work: rogue-roller/formulas.md
       - Shop upgrades: rogue-roller/shop-upgrades.md
       - Gate perks and Spark: rogue-roller/gate-perks.md
       - Meta tree: rogue-roller/meta-tree.md
+      - Ascension perks: rogue-roller/ascension-perks.md
       - Forge: rogue-roller/forge.md
       - Daily challenges: rogue-roller/daily-challenges.md
       - Badges: rogue-roller/badges.md

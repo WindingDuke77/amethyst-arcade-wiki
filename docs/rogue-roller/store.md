@@ -15,9 +15,12 @@ Buy once, keep forever.
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rgb.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Colour Picker</strong></div></div><p class="rr-card-body">Mix your own colour for your dice and ball. Very dark ball colours get lightened.</p></div>
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/freerespec.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Free Respec</strong></div></div><p class="rr-card-body">Respec the meta tree whenever you like, with no daily wait.</p></div>
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/bulkcrates.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Crate Master</strong></div></div><p class="rr-card-body">Open 10 crates at once and see every card straight away, with no reveal animation.</p></div>
+<div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/perksockets.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Extra Sockets</strong></div></div><p class="rr-card-body">Two more start grant sockets in the ascension perk shop, so every run can start with two more of your perks.</p></div>
 </div>
 
-Where Roblox limits paid random items, crates can't be opened, so the Crate Master pass is not sold there.
+The Extra Sockets pass works once you have [ascended](basics.md#ascension): it adds 2 sockets on top of the ones you own, whether or not you have bought the Stardust ones (see [start grant sockets](ascension-perks.md#start-grant-sockets)).
+
+Where Roblox limits paid random items, the Crate Master pass and roll packs are not sold. Crates still open there.
 
 ## Roblox Premium
 
@@ -53,4 +56,4 @@ Offered when a run gets low on rolls.
 
 The Starter Kit is only offered for the first 2 hours after you first join.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>

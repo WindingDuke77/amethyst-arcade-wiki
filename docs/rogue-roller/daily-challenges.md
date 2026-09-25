@@ -6,6 +6,7 @@ Every day has one challenge, the same for every player. Days change at **00:00 U
 
 - A run is judged against the challenge of the day it started, even if it goes past midnight.
 - A run you save (with SAVE & QUIT or by leaving) and then continue on a later UTC day than the one it started on no longer counts toward any challenge.
+- A "run of so many rolls" challenge is met the moment you make that roll. The run does not have to end there.
 
 ## Rotation
 
@@ -15,10 +16,10 @@ The challenges go round in a fixed order of 14 days. Today's is highlighted.
 
 ## Streak rewards
 
-Meet the challenge on back to back days to build a streak. Miss a day and the next claim starts again from day 1. Rewards are in meta points.
+Meet the challenge on back to back days to build a streak. Miss a day and the next claim starts again from day 1. Rewards are in meta points, paid as shown: Double Meta, Alchemist and ascending do not raise them.
 
 <div class="rr-ladder"><div class="rr-step"><b>50</b><i style="height: 35%"></i><small>Day 1</small></div><div class="rr-step"><b>60</b><i style="height: 42%"></i><small>Day 2</small></div><div class="rr-step"><b>70</b><i style="height: 49%"></i><small>Day 3</small></div><div class="rr-step"><b>80</b><i style="height: 56%"></i><small>Day 4</small></div><div class="rr-step"><b>90</b><i style="height: 63%"></i><small>Day 5</small></div><div class="rr-step"><b>100</b><i style="height: 70%"></i><small>Day 6</small></div><div class="rr-step"><b>100</b><i style="height: 70%"></i><small>Day 7+</small></div></div>
 
 Reach a 7 day streak once to earn the **Keeper** dice, and it stays yours even if the streak breaks later.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>

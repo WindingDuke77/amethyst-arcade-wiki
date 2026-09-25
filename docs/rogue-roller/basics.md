@@ -2,7 +2,7 @@
 
 # The basics
 
-<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">100</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers to unlock</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">5</span><span class="rr-stat-label">ascensions to climb</span></div></div>
+<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">100</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers to unlock</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">250+</span><span class="rr-stat-label">Stardust every ascension pays</span></div></div>
 
 <div class="rr-banner"><img src="../../assets/rogue-roller/run.jpg" alt="A Rogue Roller run with the Ult shop open"></div>
 
@@ -61,8 +61,9 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
 
 - SAVE & QUIT can't be used mid roll, while a purchase is going through, while a Last Chance offer is showing, or once the run is out of rolls and can only end.
-- While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on both cards and says why, and those pages have a **CONTINUE RUN** button.
+- While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending, [keeping levels](#keeping-levels), the [ascension perk wall](ascension-perks.md) (pouring, setting start grants and buying sockets) and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on each card and says why, and those pages have a **CONTINUE RUN** button.
 - **NEW GAME** asks before it throws a saved run away. The meta that run earned is already yours.
+- The **trash can** beside NEW GAME on HOME shows while a run is saved. It deletes the saved run for good without starting a new one. It asks first, and the meta that run earned is already yours.
 
 ## Leaderboards
 
@@ -74,12 +75,16 @@ The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, 
 
 ## Meta points
 
-When a run ends, your score turns into meta points. Spend them on the [meta tree](meta-tree.md), [forge crates](forge.md) and [cosmetics](cosmetics.md).
+When a run ends, your score turns into meta points. Spend them on the [meta tree](meta-tree.md), [forge crates](forge.md), [loadout slots](forge.md#loadouts), [cosmetics](cosmetics.md) and, from your 6th ascension, the [ascension fee](#ascension).
 
+- Your score is every point the run earned. Points you spend in the shop still count.
 - Meta grows with the square root of your score, so four times the score pays about twice the meta.
-- Points your tree hands you for free don't count: 0.7 points come off your score for every meta point you have spent in the tree.
-- Past 500 meta a run, a higher score still pays more, but much more slowly.
-- Alchemist in the tree adds 25% per level, every ascension adds 50%, and the Double Meta [pass](store.md) doubles it.
+- Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
+- Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
+- Alchemist in the tree adds 25% per level, each of the first 5 ascensions adds 50%. These multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it.
+- Your [daily challenge](daily-challenges.md) reward and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
+
+Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
 
 What a score is worth with an empty tree and no bonuses:
 
@@ -93,10 +98,54 @@ What a score is worth with an empty tree and no bonuses:
 
 ## Ascension
 
-Own every level of the base meta tree and you can ascend, up to 5 times. Ascending resets your tree and gives you **50% more meta from every run** for good. Each ascension also opens a new [branch of nodes](meta-tree.md#ascension-nodes), with abilities that change how a run plays, and earns a [dice skin](cosmetics.md).
+Own every level of every meta tree node open to you and you can ascend, as many times as you like. Levels you [kept](#keeping-levels) count as owned. Ascending trades your tree and your banked meta for Stardust, and you climb the tree again from the start, less any levels you kept.
+
+Once you have ascended 5 times, every ascension after that also needs a fee banked first. It spends **13,000 banked meta** on top of the whole tree, 200 more each time, up to **22,000** from 50 ascensions. That meta pays no Stardust; meta you bank above it still does.
+
+- Each of the first 5 ascensions gives you **50% more meta from every run** for good, up to **3.5x** at 5 ascensions. After that your meta multiplier stays at 3.5x. Every ascension, the first 5 included, also pays Stardust.
+- Ascensions 1, 2, 3, 4, 5, 10, 25 and 50 each open more [meta tree nodes](meta-tree.md#ascension-nodes), with abilities that change how a run plays.
+- The first 5 ascensions each earn a [dice skin](cosmetics.md).
+- Ascending never takes your Stardust, [perks](ascension-perks.md), start grant sockets, kept levels, skins, badges, passes or forge cards.
+
+### Stardust
+
+Ascending is the only way to earn Stardust for the [perk shop](ascension-perks.md), and how much depends on the meta you ascend with. The ASCEND window shows the whole receipt before you confirm.
+
+- **250 Stardust** for every ascension.
+- **1 Stardust for every 80 meta** you ascend with, rounded down: what the levels in your tree cost at today's prices, plus the meta you have banked above the fee. Levels you keep with Stardust and the ascension fee do not count.
+- Astrolabe adds 10% of that meta part per level, Nebula 25% and Singularity 50%, rounded down.
+- Star Charter adds 200 Stardust per level and Zodiac 500.
+- If you ascended before Stardust existed, your next ascension also pays **900 Stardust** for each of those earlier ascensions, once.
+
+Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#stardust-from-ascending).
+
+What an ascension pays with every node open to you bought, the fee banked and nothing kept. Nothing new opens between these rows, so an ascension between two of them pays what the row above it does; only the fee rises.
+
+| Ascensions done | Meta in the tree | Meta fee | Stardust |
+| --- | --- | --- | --- |
+| 0 | 4,268 | - | 303 |
+| 1 | 30,618 | - | 1,346 |
+| 2 | 43,968 | - | 1,563 |
+| 3 | 54,768 | - | 1,739 |
+| 4 | 66,718 | - | 1,932 |
+| 5 | 77,818 | 13,000 | 2,113 |
+| 10 | 94,918 | 14,000 | 3,391 |
+| 25 | 114,518 | 17,000 | 4,068 |
+| 50 | 154,518 | 22,000 | 5,808 |
+
+### Keeping levels
+
+Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta-tree.md#base-tree) for good. Pick a node on the meta tree and press **KEEP** on its info bar. It shows the Stardust the next level costs, like KEEP (510 Stardust), and you confirm with **KEEP IT**. A node reads **KEPT FOREVER** once every level of it is kept. A kept level stays in your tree through every ascension and respec, so each climb starts further along. Ascension nodes are never kept.
+
+- A level costs **500 Stardust plus 10 for every meta** it costs: Awakening is 510, and the whole base tree 78,680.
+- Keep a node's levels in order, and keep the first level of the node before it first.
+- Keeping a level you do not own yet adds it to your tree straight away. Keeping a level you already bought with meta this climb gives that meta back.
+- Kept levels count as owned, so they count toward the whole tree you need to ascend.
+- Kept levels pay no Stardust when you ascend, because you never give them up. They still count toward the [points a run must pass](#meta-points) before it pays meta.
+- Keeping waits while a run is live or [saved](#save-and-quit).
 
 ## Daily challenge
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>

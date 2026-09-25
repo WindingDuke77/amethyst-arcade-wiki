@@ -27,3 +27,7 @@ The Rogue Roller icon artwork on this wiki (docs/assets/rogue-roller/icons) is a
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
 ```
+
+## Font Awesome Free
+
+The trash can and lock icons in Rogue Roller come from [Font Awesome Free](https://fontawesome.com) 6.7.2 (solid `trash-can` and `lock`) by Fonticons, Inc., used under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). They were changed by rendering them to white PNGs, and the game tints them. The icons for the Suggest a change button and the Discord and GitHub links in this wiki's theme are Font Awesome Free icons too, shipped with the Material for MkDocs theme.

@@ -36,7 +36,7 @@ Skins change how your dice and ball look. They are only for looks and never chan
 <div class="rr-card " style="--ring: rgb(176, 255, 226)"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/skins/ballwisp.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Wisp</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #8b5cf6">Shop</span><span class="rr-tag rr-tag--plain">Force Field</span></div></div></div><p class="rr-card-body">260 meta or Robux in the store</p></div>
 <div class="rr-card " style="--ring: rgb(255, 138, 226)"><div class="rr-card-head"><span class="rr-ball" style="--c: rgb(255, 138, 226)"></span><div class="rr-card-title"><strong>Diadem</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #eab308">Premium</span><span class="rr-tag rr-tag--plain">Diamond Plate</span></div></div></div><p class="rr-card-body">Roblox Premium members, while the membership lasts</p></div>
 <div class="rr-card " style="--ring: rgb(255, 226, 140)"><div class="rr-card-head"><span class="rr-ball" style="--c: rgb(255, 226, 140)"></span><div class="rr-card-title"><strong>Pathmaker</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Earned</span><span class="rr-tag rr-tag--plain">Neon</span></div></div></div><p class="rr-card-body">Reach tile 5,000 in one run</p></div>
-<div class="rr-card " style="--ring: rgb(180, 246, 255)"><div class="rr-card-head"><span class="rr-ball" style="--c: rgb(180, 246, 255)"></span><div class="rr-card-title"><strong>Centurion</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Earned</span><span class="rr-tag rr-tag--plain">Foil</span></div></div></div><p class="rr-card-body">Finish 100 runs</p></div>
+<div class="rr-card " style="--ring: rgb(180, 246, 255)"><div class="rr-card-head"><span class="rr-ball" style="--c: rgb(180, 246, 255)"></span><div class="rr-card-title"><strong>Centurion</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Earned</span><span class="rr-tag rr-tag--plain">Foil</span></div></div></div><p class="rr-card-body">Play 100 runs. A saved run counts once</p></div>
 </div>
 
 ## Colours
@@ -47,4 +47,4 @@ Everyone can paint their dice and ball with these colours for free, on top of an
 
 The Colour Picker [pass](store.md#game-passes) lets you mix any colour you like.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 2.4.1.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>
