@@ -2,7 +2,7 @@
 
 <div class="rr-banner"><img src="../assets/rogue-roller/hero.jpg" alt="Rogue Roller: roll, upgrade, go further"></div>
 
-Roll the die, hop that many tiles, and pick how your fuel comes back. Every run you buy upgrades with points, pick perks at biome gates, and turn your score into meta points that make the next run go further. Finish the meta tree and you can ascend. Ascending pays Stardust, which unlocks rarer perks and perks you start every run with.
+Roll the die, hop that many tiles, and pick how your fuel comes back. Every run you buy upgrades with points, pick perks at biome gates, and turn your score into meta points that make the next run go further. Finish the meta tree and you can ascend. Ascending pays Stardust, which unlocks rarer perks and perks you start every run with, and opens challenges: runs with their own rules, medals and perks you can only win there.
 
 [Play Rogue Roller on Roblox](https://www.roblox.com/games/87428815126728){ .md-button .md-button--primary }
 [Join the Discord](https://discord.gg/dQrpnsb2r9){ .md-button }
@@ -20,10 +20,11 @@ Rogue Roller is based on [RollScape](https://store.steampowered.com/app/2904290/
 <a class="aa-tile" href="ascension-perks/" style="--ring: #ec4899"><img src="../assets/rogue-roller/badges/badge_walloffame.png" alt=""><span><strong>Ascension perks</strong><span class="aa-tile-text">Spend Stardust to unlock rarer gate perks and start every run with them.</span></span></a>
 <a class="aa-tile" href="forge/" style="--ring: #eab308"><img src="../assets/rogue-roller/icons/sections/forge.png" alt=""><span><strong>Forge</strong><span class="aa-tile-text">Crates, drop chances and every die face effect.</span></span></a>
 <a class="aa-tile" href="daily-challenges/" style="--ring: #22c55e"><img src="../assets/rogue-roller/icons/sections/daily.png" alt=""><span><strong>Daily challenges</strong><span class="aa-tile-text">Today's challenge and streak rewards.</span></span></a>
+<a class="aa-tile" href="challenges/" style="--ring: #f59e0b"><img src="../assets/rogue-roller/badges/badge_achiever.png" alt=""><span><strong>Challenges</strong><span class="aa-tile-text">Eight rule sets, five medals each, and the Limited perks they reward.</span></span></a>
 <a class="aa-tile" href="badges/" style="--ring: #f97316"><img src="../assets/rogue-roller/badges/badge_topface.png" alt=""><span><strong>Badges</strong><span class="aa-tile-text">All the badges and how to earn them.</span></span></a>
 <a class="aa-tile" href="cosmetics/" style="--ring: #f97316"><img src="../assets/rogue-roller/skins/diceember.png" alt=""><span><strong>Cosmetics</strong><span class="aa-tile-text">Dice and ball skins, and where to get them.</span></span></a>
 <a class="aa-tile" href="store/" style="--ring: #eab308"><img src="../assets/rogue-roller/store/doublemeta.png" alt=""><span><strong>Store</strong><span class="aa-tile-text">Passes, packs and what Premium gives you.</span></span></a>
-<a class="aa-tile" href="biomes/" style="--ring: #14b8a6"><img src="../assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">Every biome, its look, weather, creatures and sounds, and how long each one is.</span></span></a>
+<a class="aa-tile" href="biomes/" style="--ring: #14b8a6"><img src="../assets/rogue-roller/icons/sections/biomes.png" alt=""><span><strong>Biomes</strong><span class="aa-tile-text">Every biome, its climate and weather, creatures and sounds, and how long each one is.</span></span></a>
 </div>
 
 Most pages are built straight from the game's own settings, so the numbers match the version shown at the bottom of each page.

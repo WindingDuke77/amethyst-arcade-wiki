@@ -49,4 +49,42 @@ The length depends on how many biomes into the run you are, not which biome it i
 | 9 | 1,070 | 5,075 |
 | 10 | 1,195 | 6,270 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>
+## Climates and weather
+
+Every biome belongs to one of **5 climates**, two biomes each. Some forge effects and meta tree nodes only work in one climate.
+
+Weather can strike in every run. Each roll has a **3%** chance to start the good weather of the climate you are in, and a **2%** chance to start its bad weather instead. Good weather lasts 10 rolls and bad weather 10, counting the roll it started on. A new strike replaces whatever weather is running; weather never stacks. Bad weather never stops a roll moving at least one tile. The weather in play shows under **EFFECTS** in the run panel, with the rolls it has left.
+
+- **Forecast** halves the chance of bad weather.
+- **Stormchaser** raises the chance of good weather to 5%.
+- **Long Exposure** makes good weather last 15 rolls.
+
+| Climate | Biomes | Good weather | Bad weather |
+| --- | --- | --- | --- |
+| ⛈️ Stormy | Ocean, Storm | Struck by Lightning | Downpour |
+| 🔥 Scorched | Inferno, Desert | Heatwave | Heat Haze |
+| ❄️ Frozen | Frost, Cosmos | Snowblind | Black Ice |
+| 🌿 Overgrown | Jungle, Toxic | Overgrowth | Mudslide |
+| 🌆 Twilight | Midnight, Sakura | Moonstruck | Gloom |
+
+### Good weather
+
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Struck by Lightning</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Stormy</span></div></div></div><p class="rr-card-body">Every roll is +3.</p></div>
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/heatwave.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Heatwave</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Scorched</span></div></div></div><p class="rr-card-body">Golden tiles arrive 2 sooner.</p></div>
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/snowblind.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Snowblind</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Frozen</span></div></div></div><p class="rr-card-body">Every tile you pass is worth +4.</p></div>
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/overgrowth.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Overgrowth</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Overgrown</span></div></div></div><p class="rr-card-body">Every roll moves 2 more tiles.</p></div>
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/moonstruck.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Moonstruck</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Twilight</span></div></div></div><p class="rr-card-body">Light and dark bonuses both count on every tile.</p></div>
+</div>
+
+### Bad weather
+
+<div class="rr-grid ">
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/downpour.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Downpour</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Stormy</span></div></div></div><p class="rr-card-body">Every roll is -1.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/heathaze.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Heat Haze</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Scorched</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/blackice.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Black Ice</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Frozen</span></div></div></div><p class="rr-card-body">Every roll moves 1 tile less.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/mudslide.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Mudslide</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Overgrown</span></div></div></div><p class="rr-card-body">Every roll is -1.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/gloom.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Gloom</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Twilight</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
+</div>
+
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>

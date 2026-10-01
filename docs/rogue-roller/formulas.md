@@ -18,7 +18,7 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 3. **Curve.** Divide what is left by **500**, take the square root and multiply by **3**.
 4. **Tail.** If the curve comes to more than **500**, it becomes 500 + 234 x ln(curve / 500), where ln is the natural log. Past 500 a bigger score still pays more, but much more slowly. The curve reaches 500 at about 13,900,000 points above the floor.
 5. **Alchemist.** Multiply by 1 + 0.25 for each level of the Alchemist node, so up to **x2** at level 4.
-6. **Ascension.** Multiply by 1 + 0.5 for each ascension, counting at most 5, so **x3.5** from 5 ascensions on.
+6. **Ascension.** Multiply by 1 + 0.5 for each of the first 5 ascensions (**x3.5** at 5), plus 0.1 for each of the next 20, so **x5.5** from 25 ascensions on.
 7. **Round down.** This is the only rounding in the sum.
 8. **Double Meta.** The [pass](store.md) doubles the result, after the round down.
 
@@ -26,7 +26,7 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 left  = score - 0.7 x tree
 curve = 3 x sqrt(left / 500)
 if curve > 500:  curve = 500 + 234 x ln(curve / 500)
-meta  = round down( curve x (1 + 0.25 x Alchemist) x (1 + 0.5 x min(ascensions, 5)) )
+meta  = round down( curve x (1 + 0.25 x Alchemist) x (1 + 0.5 x min(ascensions, 5) + 0.1 x clamp(ascensions - 5, 0, 20)) )
 with Double Meta:  meta x 2
 ```
 
@@ -39,18 +39,18 @@ These are added after the sum, so Alchemist, ascensions and Double Meta never ra
 
 ### Worked example
 
-A 10,000,000 point run after 5 ascensions, with every node open to you bought (a tree worth 77,818 meta), Alchemist at level 4 and Double Meta:
+A 10,000,000 point run after 5 ascensions, with every node open to you bought (a tree worth 92,318 meta), Alchemist at level 4 and Double Meta:
 
 | Step | Value |
 | --- | --- |
 | Score | 10,000,000 |
-| Floor | 0.7 x 77,818 = 54,472.6 |
-| Left after the floor | 9,945,527.4 |
-| Curve | 3 x square root of (9,945,527.4 / 500) = 423.11, under 500 |
-| Alchemist level 4 | x 2 = 846.21 |
-| 5 ascensions | x 3.5 = 2,961.75 |
-| Round down | 2,961 |
-| Double Meta | x 2 = **5,922** |
+| Floor | 0.7 x 92,318 = 64,622.6 |
+| Left after the floor | 9,935,377.4 |
+| Curve | 3 x square root of (9,935,377.4 / 500) = 422.89, under 500 |
+| Alchemist level 4 | x 2 = 845.78 |
+| 5 ascensions | x 3.5 = 2,960.24 |
+| Round down | 2,960 |
+| Double Meta | x 2 = **5,920** |
 
 And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,341.64. That is over 500, so it becomes 500 + 234 x ln(1,341.64 / 500) = 730.97, which rounds down to **730** meta.
 
@@ -60,9 +60,9 @@ What a run pays, before the daily reward and Tithe and Magpie. "Whole tree" mean
 
 | Score | Empty tree | Whole base tree | Whole tree, 5 ascensions | Same with Double Meta |
 | --- | --- | --- | --- | --- |
-| 100,000 | 42 | 83 | 200 | 400 |
-| 1,000,000 | 134 | 267 | 913 | 1,826 |
-| 10,000,000 | 424 | 848 | 2,961 | 5,922 |
+| 100,000 | 42 | 83 | 176 | 352 |
+| 1,000,000 | 134 | 267 | 908 | 1,816 |
+| 10,000,000 | 424 | 848 | 2,960 | 5,920 |
 | 100,000,000 | 730 | 1,461 | 5,116 | 10,232 |
 | 1,000,000,000 | 1,000 | 2,000 | 7,002 | 14,004 |
 
@@ -71,14 +71,14 @@ The floor and multiplier with the whole tree bought. The first points of a run, 
 | Ascensions done | Meta in the tree | Floor (points) | Ascension multiplier |
 | --- | --- | --- | --- |
 | 0 | 4,268 | 2,987.6 | x 1 |
-| 1 | 30,618 | 21,432.6 | x 1.5 |
-| 2 | 43,968 | 30,777.6 | x 2 |
-| 3 | 54,768 | 38,337.6 | x 2.5 |
-| 4 | 66,718 | 46,702.6 | x 3 |
-| 5 | 77,818 | 54,472.6 | x 3.5 |
-| 10 | 94,918 | 66,442.6 | x 3.5 |
-| 25 | 114,518 | 80,162.6 | x 3.5 |
-| 50 | 154,518 | 108,162.6 | x 3.5 |
+| 1 | 32,118 | 22,482.6 | x 1.5 |
+| 2 | 54,468 | 38,127.6 | x 2 |
+| 3 | 69,268 | 48,487.6 | x 2.5 |
+| 4 | 81,218 | 56,852.6 | x 3 |
+| 5 | 92,318 | 64,622.6 | x 3.5 |
+| 10 | 109,418 | 76,592.6 | x 4 |
+| 25 | 129,018 | 90,312.6 | x 5.5 |
+| 50 | 169,018 | 118,312.6 | x 5.5 |
 
 ## Stardust from ascending
 
@@ -115,12 +115,12 @@ Your 6th ascension, with every node open to you bought and 10,000 meta banked ab
 | --- | --- |
 | Banked meta | 23,000 |
 | Fee | 13,000, which leaves 10,000 |
-| Meta in the tree | 77,818 |
-| Meta traded in | 77,818 + 10,000 = 87,818 |
-| Meta part | 87,818 / 80 = 1,097.72, rounded down to 1,097 |
-| Share | 10% x Astrolabe 3 = 30%, so 1,097 x 30% rounded down is 329 |
+| Meta in the tree | 92,318 |
+| Meta traded in | 92,318 + 10,000 = 102,318 |
+| Meta part | 102,318 / 80 = 1,278.97, rounded down to 1,278 |
+| Share | 10% x Astrolabe 3 = 30%, so 1,278 x 30% rounded down is 383 |
 | Flat | 200 x Star Charter 3 = 600 |
-| Total | 250 + 1,097 + 329 + 600 = **2,276** |
+| Total | 250 + 1,278 + 383 + 600 = **2,511** |
 
 ### Examples
 
@@ -129,17 +129,17 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 | Ascensions done | Meta fee | Meta in the tree | Share | Flat | Only the fee | 10,000 more banked | Whole base tree kept |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | - | 4,268 | 0% | 0 | 303 | 428 | - |
-| 1 | - | 30,618 | 30% | 600 | 1,346 | 1,509 | - |
-| 2 | - | 43,968 | 30% | 600 | 1,563 | 1,726 | - |
-| 3 | - | 54,768 | 30% | 600 | 1,739 | 1,901 | - |
-| 4 | - | 66,718 | 30% | 600 | 1,932 | 2,095 | - |
-| 5 | 13,000 | 77,818 | 30% | 600 | 2,113 | 2,276 | 2,044 |
-| 10 | 14,000 | 94,918 | 30% | 1,600 | 3,391 | 3,554 | 3,322 |
-| 25 | 17,000 | 114,518 | 55% | 1,600 | 4,068 | 4,261 | 3,985 |
-| 50 | 22,000 | 154,518 | 105% | 1,600 | 5,808 | 6,064 | 5,699 |
+| 1 | - | 32,118 | 30% | 600 | 1,371 | 1,533 | - |
+| 2 | - | 54,468 | 30% | 600 | 1,734 | 1,896 | - |
+| 3 | - | 69,268 | 30% | 600 | 1,974 | 2,137 | - |
+| 4 | - | 81,218 | 30% | 600 | 2,169 | 2,332 | - |
+| 5 | 13,000 | 92,318 | 30% | 600 | 2,348 | 2,511 | 2,280 |
+| 10 | 14,000 | 109,418 | 30% | 1,600 | 3,627 | 3,789 | 3,558 |
+| 25 | 17,000 | 129,018 | 55% | 1,600 | 4,348 | 4,542 | 4,266 |
+| 50 | 22,000 | 169,018 | 105% | 1,600 | 6,179 | 6,435 | 6,070 |
 
 ### Keeping a level
 
 [Keeping a level](basics.md#keeping-levels) for good costs **500 Stardust + 10 x the level's meta price**, rounded up. A kept level leaves the meta traded in, so it pays no Stardust when you ascend, but it still counts toward the floor a run must pass.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>

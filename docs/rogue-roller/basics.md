@@ -14,8 +14,9 @@
 - The build panel beside the board shows your whole build as a grid of icons: the perks you picked and the shop upgrades you hold, with a count on a card when you have more than one. Hover, tap or select a card to read what it does.
 - Rolling into a new biome shows its name on a title card.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
-- **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the AUTO button in a run to open its menu.
+- **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the Auto Roll button (the loop arrows) in a run to open its menu.
 - **Autopilot**, the [pass](store.md) (also included with Roblox Premium), unlocks Auto Roll straight away, rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
+- **Overdrive** speeds up a deep run for free: x1.25 from 15,000 tiles, x1.5 from 30,000 tiles and x2 from 50,000 tiles. The tiers do not stack, and they work on top of Fast Forward. Only the walk and the pauses speed up, never what a roll pays.
 
 ## Biomes and gates
 
@@ -58,12 +59,12 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 
 ## Save and quit
 
-Open the MENU in a run and press **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
+Press the cog in a run to pause it, then **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
 
 - SAVE & QUIT can't be used mid roll, while a purchase is going through, while a Last Chance offer is showing, or once the run is out of rolls and can only end.
 - While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending, [keeping levels](#keeping-levels), the [ascension perk wall](ascension-perks.md) (pouring, setting start grants and buying sockets) and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on each card and says why, and those pages have a **CONTINUE RUN** button.
-- **NEW GAME** asks before it throws a saved run away. The meta that run earned is already yours.
-- The **trash can** beside NEW GAME on HOME shows while a run is saved. It deletes the saved run for good without starting a new one. It asks first, and the meta that run earned is already yours.
+- **NEW RUN** asks before it throws a saved run away. The meta that run earned is already yours.
+- The **bin** beside NEW RUN on the home screen shows while a run is saved. It deletes the saved run for good without starting a new one. It asks first, and the meta that run earned is already yours.
 
 ## Leaderboards
 
@@ -81,7 +82,7 @@ When a run ends, your score turns into meta points. Spend them on the [meta tree
 - Meta grows with the square root of your score, so four times the score pays about twice the meta.
 - Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
 - Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
-- Alchemist in the tree adds 25% per level, each of the first 5 ascensions adds 50%. These multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it.
+- Alchemist in the tree adds 25% per level, each of the first 5 ascensions adds 50% and each of the next 20 adds 10%. These multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it.
 - Your [daily challenge](daily-challenges.md) reward and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
 
 Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
@@ -102,7 +103,7 @@ Own every level of every meta tree node open to you and you can ascend, as many 
 
 Once you have ascended 5 times, every ascension after that also needs a fee banked first. It spends **13,000 banked meta** on top of the whole tree, 200 more each time, up to **22,000** from 50 ascensions. That meta pays no Stardust; meta you bank above it still does.
 
-- Each of the first 5 ascensions gives you **50% more meta from every run** for good, up to **3.5x** at 5 ascensions. After that your meta multiplier stays at 3.5x. Every ascension, the first 5 included, also pays Stardust.
+- Each of the first 5 ascensions gives you **50% more meta from every run** for good, up to **3.5x** at 5 ascensions. Each of the next 20 adds **10% more**, up to **5.5x** at 25 ascensions, and after that your meta multiplier stays there. Every ascension also pays Stardust.
 - Ascensions 1, 2, 3, 4, 5, 10, 25 and 50 each open more [meta tree nodes](meta-tree.md#ascension-nodes), with abilities that change how a run plays.
 - The first 5 ascensions each earn a [dice skin](cosmetics.md).
 - Ascending never takes your Stardust, [perks](ascension-perks.md), start grant sockets, kept levels, skins, badges, passes or forge cards.
@@ -124,18 +125,18 @@ What an ascension pays with every node open to you bought, the fee banked and no
 | Ascensions done | Meta in the tree | Meta fee | Stardust |
 | --- | --- | --- | --- |
 | 0 | 4,268 | - | 303 |
-| 1 | 30,618 | - | 1,346 |
-| 2 | 43,968 | - | 1,563 |
-| 3 | 54,768 | - | 1,739 |
-| 4 | 66,718 | - | 1,932 |
-| 5 | 77,818 | 13,000 | 2,113 |
-| 10 | 94,918 | 14,000 | 3,391 |
-| 25 | 114,518 | 17,000 | 4,068 |
-| 50 | 154,518 | 22,000 | 5,808 |
+| 1 | 32,118 | - | 1,371 |
+| 2 | 54,468 | - | 1,734 |
+| 3 | 69,268 | - | 1,974 |
+| 4 | 81,218 | - | 2,169 |
+| 5 | 92,318 | 13,000 | 2,348 |
+| 10 | 109,418 | 14,000 | 3,627 |
+| 25 | 129,018 | 17,000 | 4,348 |
+| 50 | 169,018 | 22,000 | 6,179 |
 
 ### Keeping levels
 
-Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta-tree.md#base-tree) for good. Pick a node on the meta tree and press **KEEP** on its info bar. It shows the Stardust the next level costs, like KEEP (510 Stardust), and you confirm with **KEEP IT**. A node reads **KEPT FOREVER** once every level of it is kept. A kept level stays in your tree through every ascension and respec, so each climb starts further along. Ascension nodes are never kept.
+Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta-tree.md#base-tree) for good. Pick a node on the meta tree and press **KEEP FOREVER** on its info card. It shows the Stardust the next level costs, like KEEP (510 Stardust), and you confirm with **KEEP IT**. A node reads **KEPT FOREVER** once every level of it is kept. A kept level stays in your tree through every ascension and respec, so each climb starts further along. Ascension nodes are never kept.
 
 - A level costs **500 Stardust plus 10 for every meta** it costs: Awakening is 510, and the whole base tree 78,680.
 - Keep a node's levels in order, and keep the first level of the node before it first.
@@ -148,4 +149,4 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.0.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>
