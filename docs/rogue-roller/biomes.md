@@ -87,4 +87,4 @@ Weather can strike in every run. Each roll has a **3%** chance to start the good
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/gloom.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Gloom</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Twilight</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>

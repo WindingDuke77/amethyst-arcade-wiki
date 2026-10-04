@@ -121,4 +121,4 @@ Sockets you can use always show first in the band, then the ones still to buy.
 <div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/perks/perkLoneWolf.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Lone Wolf</strong><div class="rr-tags"><span class="rr-tag" style="--ring: rgb(255, 178, 66)">Legendary</span><span class="rr-tag" style="--ring: #eab308">Limited: Perk Hater</span></div></div></div><p class="rr-card-body">Every tile pays +3, and the first tile of every roll pays 0.5x more.</p><div class="rr-card-foot"><span class="rr-price"><small>First fill</small><b>3,600</b></span><span class="rr-price"><small>Start grant</small><b>12,000</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>

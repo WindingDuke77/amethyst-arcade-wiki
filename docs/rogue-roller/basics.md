@@ -16,7 +16,7 @@
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
 - **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the Auto Roll button (the loop arrows) in a run to open its menu.
 - **Autopilot**, the [pass](store.md) (also included with Roblox Premium), unlocks Auto Roll straight away, rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
-- **Overdrive** speeds up a deep run for free: x1.25 from 15,000 tiles, x1.5 from 30,000 tiles and x2 from 50,000 tiles. The tiers do not stack, and they work on top of Fast Forward. Only the walk and the pauses speed up, never what a roll pays.
+- **Overdrive** speeds up a deep run for free: x1.25 from 5,000 tiles, then x0.25 more every 3,000 tiles, up to x5 from 50,000 tiles. It works on top of Fast Forward. Only the walk and the pauses speed up, never what a roll pays.
 
 ## Biomes and gates
 
@@ -82,7 +82,7 @@ When a run ends, your score turns into meta points. Spend them on the [meta tree
 - Meta grows with the square root of your score, so four times the score pays about twice the meta.
 - Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
 - Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
-- Alchemist in the tree adds 25% per level, each of the first 5 ascensions adds 50% and each of the next 20 adds 10%. These multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it.
+- Alchemist in the tree adds 25% per level, each of the first 5 ascensions adds 50%, each of the next 20 adds 10% and every one after that adds 3%. These multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it, and so does Rebound for the first 5 runs after an ascension from 10 on.
 - Your [daily challenge](daily-challenges.md) reward and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
 
 Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
@@ -101,9 +101,10 @@ What a score is worth with an empty tree and no bonuses:
 
 Own every level of every meta tree node open to you and you can ascend, as many times as you like. Levels you [kept](#keeping-levels) count as owned. Ascending trades your tree and your banked meta for Stardust, and you climb the tree again from the start, less any levels you kept.
 
-Once you have ascended 5 times, every ascension after that also needs a fee banked first. It spends **13,000 banked meta** on top of the whole tree, 200 more each time, up to **22,000** from 50 ascensions. That meta pays no Stardust; meta you bank above it still does.
+Once you have ascended 5 times, every ascension after that also needs a fee banked first. It spends **13,000 banked meta** on top of the whole tree, 200 more each time to 25 ascensions, then 500 more each time, up to **40,000** from 71 ascensions. That meta pays no Stardust; meta you bank above it still does.
 
-- Each of the first 5 ascensions gives you **50% more meta from every run** for good, up to **3.5x** at 5 ascensions. Each of the next 20 adds **10% more**, up to **5.5x** at 25 ascensions, and after that your meta multiplier stays there. Every ascension also pays Stardust.
+- Each of the first 5 ascensions gives you **50% more meta from every run** for good, up to **3.5x** at 5 ascensions. Each of the next 20 adds **10% more**, up to **5.5x** at 25 ascensions, and every ascension after that adds **3% more**, with no cap (6.25x at 50). Every ascension also pays Stardust.
+- **Rebound:** from 10 ascensions on, the first **5 runs** after each ascension pay **x2 meta**, so climbing the tree again goes faster. It stacks with Double Meta, and a run you leave before the first roll gives its Rebound back.
 - Ascensions 1, 2, 3, 4, 5, 10, 25 and 50 each open more [meta tree nodes](meta-tree.md#ascension-nodes), with abilities that change how a run plays.
 - The first 5 ascensions each earn a [dice skin](cosmetics.md).
 - Ascending never takes your Stardust, [perks](ascension-perks.md), start grant sockets, kept levels, skins, badges, passes or forge cards.
@@ -132,7 +133,7 @@ What an ascension pays with every node open to you bought, the fee banked and no
 | 5 | 92,318 | 13,000 | 2,348 |
 | 10 | 109,418 | 14,000 | 3,627 |
 | 25 | 129,018 | 17,000 | 4,348 |
-| 50 | 169,018 | 22,000 | 6,179 |
+| 50 | 169,018 | 29,500 | 6,179 |
 
 ### Keeping levels
 
@@ -149,4 +150,4 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 
 There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.1.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
