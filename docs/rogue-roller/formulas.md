@@ -18,7 +18,7 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 3. **Curve.** Divide what is left by **500**, take the square root and multiply by **3**.
 4. **Tail.** If the curve comes to more than **500**, it becomes 500 + 234 x ln(curve / 500), where ln is the natural log. Past 500 a bigger score still pays more, but much more slowly. The curve reaches 500 at about 13,900,000 points above the floor.
 5. **Alchemist.** Multiply by 1 + 0.25 for each level of the Alchemist node, so up to **x2** at level 4.
-6. **Ascension.** Multiply by 1 + 0.5 for each of the first 5 ascensions (**x3.5** at 5), plus 0.1 for each of the next 20 (**x5.5** at 25), plus 0.03 for every ascension after that.
+6. **Ascension.** Multiply by 1 + 0.5 for each of the first 5 ascensions (**x3.5** at 5). Past 5, add 2 x ln(1 + (ascensions - 5) / 5) / ln(5) to that 3.5. Each ascension then adds a little less than the one before: **x5.5** at 25, about **x6.4** at 50 and about **x7.2** at 100, with no cap.
 7. **Round down.** This is the only rounding in the sum.
 8. **Double Meta.** The [pass](store.md) doubles the result, after the round down.
 9. **Rebound.** For the first 5 runs after an ascension from 10 on, the result is multiplied by 2 again.
@@ -27,7 +27,9 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 left  = score - 0.7 x tree
 curve = 3 x sqrt(left / 500)
 if curve > 500:  curve = 500 + 234 x ln(curve / 500)
-meta  = round down( curve x (1 + 0.25 x Alchemist) x (1 + 0.5 x min(ascensions, 5) + 0.1 x clamp(ascensions - 5, 0, 20) + 0.03 x max(0, ascensions - 25)) )
+asc   = 1 + 0.5 x min(ascensions, 5)
+if ascensions > 5:  asc = 3.5 + 2 x ln(1 + (ascensions - 5) / 5) / ln(5)
+meta  = round down( curve x (1 + 0.25 x Alchemist) x asc )
 with Double Meta:  meta x 2
 with Rebound:  meta x 2
 ```
@@ -78,9 +80,9 @@ The floor and multiplier with the whole tree bought. The first points of a run, 
 | 3 | 69,268 | 48,487.6 | x 2.5 |
 | 4 | 81,218 | 56,852.6 | x 3 |
 | 5 | 92,318 | 64,622.6 | x 3.5 |
-| 10 | 109,418 | 76,592.6 | x 4 |
+| 10 | 109,418 | 76,592.6 | x 4.36 |
 | 25 | 129,018 | 90,312.6 | x 5.5 |
-| 50 | 169,018 | 118,312.6 | x 6.25 |
+| 50 | 169,018 | 118,312.6 | x 6.36 |
 
 ## Stardust from ascending
 
@@ -88,7 +90,7 @@ You can [ascend](basics.md#ascension) when you own every level of every node ope
 
 ### Step by step
 
-1. **Fee.** None for your first 5 ascensions. Your 6th costs **13,000 meta**, and each one after that **200 more**, up to 40,000. It comes out of your banked meta first and pays no Stardust.
+1. **Fee.** None for your first 5 ascensions. Your 6th costs **13,000 meta**, and each one after that **3.6% more** than the one before, rounded to the nearest 100, with no cap. It comes out of your banked meta first and pays no Stardust.
 2. **Meta traded in.** What your tree is worth, leaving out levels you kept with Stardust, plus the banked meta left after the fee.
 3. **Meta part.** Divide by **80** and round down.
 4. **Share.** Astrolabe 10% a level, Nebula 25% a level and Singularity 50% a level, added up to a whole percent (at most 105%). Multiply the meta part by it and round down. The share only grows the meta part.
@@ -99,7 +101,7 @@ You can [ascend](basics.md#ascension) when you own every level of every node ope
 Every node level is read from the tree you trade in, before it is wiped.
 
 ```text
-fee       = 0 if ascensions done < 5, else min(40000, 13000 + 200 x (ascensions done - 5))
+fee       = 0 if ascensions done < 5, else 13000 x 1.036 ^ (ascensions done - 5), rounded to the nearest 100
 meta      = tree (not kept) + max(0, banked - fee)
 meta part = round down(meta / 80)
 share     = round down(meta part x (10% x Astrolabe + 25% x Nebula + 50% x Singularity))
@@ -136,9 +138,9 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 | 3 | - | 69,268 | 30% | 600 | 1,974 | 2,137 | - |
 | 4 | - | 81,218 | 30% | 600 | 2,169 | 2,332 | - |
 | 5 | 13,000 | 92,318 | 30% | 600 | 2,348 | 2,511 | 2,280 |
-| 10 | 14,000 | 109,418 | 30% | 1,600 | 3,627 | 3,789 | 3,558 |
-| 25 | 17,000 | 129,018 | 55% | 1,600 | 4,348 | 4,542 | 4,266 |
-| 50 | 29,500 | 169,018 | 105% | 1,600 | 6,179 | 6,435 | 6,070 |
+| 10 | 15,500 | 109,418 | 30% | 1,600 | 3,627 | 3,789 | 3,558 |
+| 25 | 26,400 | 129,018 | 55% | 1,600 | 4,348 | 4,542 | 4,266 |
+| 50 | 63,800 | 169,018 | 105% | 1,600 | 6,179 | 6,435 | 6,070 |
 
 ### Keeping a level
 
