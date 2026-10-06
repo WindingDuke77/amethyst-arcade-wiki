@@ -9,6 +9,7 @@ Challenges open after your **first finished run**. Each one is a normal run unde
 - Open the page with the **CHALLENGES** card on the home screen, beside the daily tasks.
 - Every challenge has its own leaderboard of best scores: press **TOP** on its card. A challenge run does not count for the main leaderboards or the daily tasks, except a daily task to earn a challenge medal.
 - A challenge run pays **1.5x meta**, on top of the medal rewards below.
+- Medal meta is times your ascension multiplier, so the table is what you get before ascending.
 - SAVE & QUIT and CONTINUE work as in any run, and a medal is kept even if you leave. Starting a challenge while a normal run is saved asks you to **CONTINUE RUN** or **DELETE & PLAY** first.
 
 ## The medals

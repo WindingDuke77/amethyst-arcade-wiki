@@ -36,10 +36,11 @@ with Rebound:  meta x 2
 
 ### Paid on top
 
-These are added after the sum, so Alchemist, ascensions and Double Meta never raise them:
+These are added after the sum, so Alchemist and Double Meta never raise them, but each one is times your ascension multiplier:
 
 - Your [daily tasks](daily-challenges.md), from a base of 100 to 400 meta a day by streak, times your band and each task's tier.
-- Tithe and Magpie [forge](forge.md) faces pay meta the moment they land, up to **120 a run** between them.
+- Tithe and Magpie [forge](forge.md) faces pay meta the moment they land, up to **120 a run** between them (the cap grows with the multiplier too).
+- [Challenge](challenges.md) medals, and the Daily Run's finish bonus and top 10 prizes.
 
 ### Worked example
 

@@ -22,7 +22,7 @@ Your band is set by your build the first time you play each day, and holds for t
 
 ## Pay and the streak
 
-Finish any task on back to back days to build a streak. Miss a day and the streak starts again from day 1. Each day has a base pay by streak day, times your band: easy pays the base, medium 1.5x and hard 2x. Finishing all three in one day adds 50% of the three on top. Every 7th day of a streak also opens a free **Worn Crate**, or pays its 150 meta price where crates are not on sale. Double Meta, Alchemist and ascending do not raise any of it.
+Finish any task on back to back days to build a streak. Miss a day and the streak starts again from day 1. Each day has a base pay by streak day, times your band: easy pays the base, medium 1.5x and hard 2x. Finishing all three in one day adds 50% of the three on top. Every 7th day of a streak also opens a free **Astral Crate**, or pays its 850 meta price where crates are not on sale. Ascending raises all of it by your ascension multiplier; Double Meta and Alchemist do not.
 
 <div class="rr-ladder"><div class="rr-step"><b>100</b><i style="height: 18%"></i><small>Day 1</small></div><div class="rr-step"><b>125</b><i style="height: 22%"></i><small>Day 2</small></div><div class="rr-step"><b>150</b><i style="height: 26%"></i><small>Day 3</small></div><div class="rr-step"><b>200</b><i style="height: 35%"></i><small>Day 4</small></div><div class="rr-step"><b>250</b><i style="height: 44%"></i><small>Day 5</small></div><div class="rr-step"><b>300</b><i style="height: 52%"></i><small>Day 6</small></div><div class="rr-step"><b>400</b><i style="height: 70%"></i><small>Day 7+</small></div></div>
 
@@ -36,7 +36,7 @@ The table is the Growing band (x1).
 | 4 | 200 | 200 | 300 | 400 | 450 |
 | 5 | 250 | 250 | 375 | 500 | 563 |
 | 6 | 300 | 300 | 450 | 600 | 675 |
-| 7+ | 400 + Worn Crate | 400 | 600 | 800 | 900 |
+| 7+ | 400 + Astral Crate | 400 | 600 | 800 | 900 |
 
 Reach a 7 day streak once to earn the **Keeper** dice, and it stays yours even if the streak breaks later.
 
