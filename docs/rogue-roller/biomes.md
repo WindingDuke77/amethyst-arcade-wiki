@@ -4,7 +4,7 @@
 
 <div class="rr-banner"><img src="../../assets/rogue-roller/biomes.jpg" alt="The Rogue Roller biomes"></div>
 
-There are **10 biomes**. Their order is shuffled at the start of every run, and after the 10th biome the same order repeats. Each biome ends at a gate, see [biomes and gates](basics.md#biomes-and-gates).
+There are **15 biomes**. Their order is shuffled at the start of every run, and after the 15th biome the same order repeats. Each biome ends at a gate, see [biomes and gates](basics.md#biomes-and-gates).
 
 ## Looks
 
@@ -21,6 +21,11 @@ Every biome paints the board in its own colours and fills the air with its own w
 <div class="rr-card rr-biome" style="--ring: rgb(102, 168, 42)"><div class="rr-card-head"><div class="rr-card-title"><strong>Toxic</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Glowing spores</span><span class="rr-tag rr-tag--plain">Buzzing flies</span><span class="rr-tag rr-tag--plain">Sound: gurgling swamp water</span></div></div></div><p class="rr-card-body">Acid lime and murky green tiles in a poisonous haze.</p><div class="rr-scene rr-scene--spores" style="--light: rgb(210, 255, 150); --dark: rgb(38, 70, 22); --void: rgb(34, 82, 24); --sparkle: rgb(170, 255, 60)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
 <div class="rr-card rr-biome" style="--ring: rgb(198, 120, 158)"><div class="rr-card-head"><div class="rr-card-title"><strong>Sakura</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Falling petals</span><span class="rr-tag rr-tag--plain">Butterflies and floating lanterns</span><span class="rr-tag rr-tag--plain">Sound: wind chimes</span></div></div></div><p class="rr-card-body">Blossom pink and plum tiles in a soft rosy glow.</p><div class="rr-scene rr-scene--petals" style="--light: rgb(255, 226, 238); --dark: rgb(118, 44, 80); --void: rgb(140, 58, 100); --sparkle: rgb(255, 182, 216)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
 <div class="rr-card rr-biome" style="--ring: rgb(117, 136, 166)"><div class="rr-card-head"><div class="rr-card-title"><strong>Storm</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Rain and lightning</span><span class="rr-tag rr-tag--plain">Crows</span><span class="rr-tag rr-tag--plain">Sound: heavy rain and thunder</span></div></div></div><p class="rr-card-body">Cloud grey and slate tiles under a thundering sky.</p><div class="rr-scene rr-scene--rain" style="--light: rgb(200, 210, 226); --dark: rgb(34, 40, 56); --void: rgb(44, 50, 76); --sparkle: rgb(190, 222, 255)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
+<div class="rr-card rr-biome" style="--ring: rgb(97, 149, 139)"><div class="rr-card-head"><div class="rr-card-title"><strong>Monsoon</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Rain and lightning</span><span class="rr-tag rr-tag--plain">Dragonflies</span><span class="rr-tag rr-tag--plain">Sound: warm steady rain</span></div></div></div><p class="rr-card-body">Pale jade and deep teal tiles on rain soaked terraces under a slate sky.</p><div class="rr-scene rr-scene--rain" style="--light: rgb(196, 226, 214); --dark: rgb(30, 62, 58); --void: rgb(36, 58, 70); --sparkle: rgb(158, 240, 208)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
+<div class="rr-card rr-biome" style="--ring: rgb(208, 123, 73)"><div class="rr-card-head"><div class="rr-card-title"><strong>Canyon</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Blowing sand</span><span class="rr-tag rr-tag--plain">Hawks</span><span class="rr-tag rr-tag--plain">Sound: dry canyon wind</span></div></div></div><p class="rr-card-body">Sandstone and rust red tiles among red mesas in amber light.</p><div class="rr-scene rr-scene--dust" style="--light: rgb(246, 196, 150); --dark: rgb(142, 56, 30); --void: rgb(160, 70, 34); --sparkle: rgb(255, 176, 112)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
+<div class="rr-card rr-biome" style="--ring: rgb(68, 148, 130)"><div class="rr-card-head"><div class="rr-card-title"><strong>Aurora</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Falling snow</span><span class="rr-tag rr-tag--plain">Snowy owls</span><span class="rr-tag rr-tag--plain">Sound: a still polar hush</span></div></div></div><p class="rr-card-body">Ice white and deep sea blue tiles on an ice field under green light.</p><div class="rr-scene rr-scene--snow" style="--light: rgb(220, 250, 240); --dark: rgb(20, 60, 80); --void: rgb(16, 40, 70); --sparkle: rgb(120, 255, 190)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
+<div class="rr-card rr-biome" style="--ring: rgb(110, 90, 146)"><div class="rr-card-head"><div class="rr-card-title"><strong>Mire</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Glowing spores</span><span class="rr-tag rr-tag--plain">Glowing moths and flies</span><span class="rr-tag rr-tag--plain">Sound: a bubbling bog</span></div></div></div><p class="rr-card-body">Pale moss and peat brown tiles in a swamp lit by glowing mushrooms.</p><div class="rr-scene rr-scene--spores" style="--light: rgb(200, 235, 170); --dark: rgb(40, 48, 30); --void: rgb(30, 40, 36); --sparkle: rgb(190, 140, 255)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
+<div class="rr-card rr-biome" style="--ring: rgb(188, 101, 55)"><div class="rr-card-head"><div class="rr-card-title"><strong>Autumn</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Falling petals</span><span class="rr-tag rr-tag--plain">Crows and butterflies</span><span class="rr-tag rr-tag--plain">Sound: rustling leaves</span></div></div></div><p class="rr-card-body">Peach and maple red tiles in the woods at dusk, with orange leaves falling.</p><div class="rr-scene rr-scene--petals" style="--light: rgb(255, 214, 160); --dark: rgb(110, 44, 24); --void: rgb(120, 52, 40); --sparkle: rgb(255, 150, 70)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
 </div>
 
 ## A living world
@@ -48,10 +53,15 @@ The length depends on how many biomes into the run you are, not which biome it i
 | 8 | 945 | 4,005 |
 | 9 | 1,070 | 5,075 |
 | 10 | 1,195 | 6,270 |
+| 11 | 1,320 | 7,590 |
+| 12 | 1,445 | 9,035 |
+| 13 | 1,570 | 10,605 |
+| 14 | 1,695 | 12,300 |
+| 15 | 1,820 | 14,120 |
 
 ## Climates and weather
 
-Every biome belongs to one of **5 climates**, two biomes each. Some forge effects and meta tree nodes only work in one climate.
+Every biome belongs to one of **5 climates**, 3 biomes each. Some forge effects and meta tree nodes only work in one climate.
 
 Weather can strike in every run. Each roll has a **3%** chance to start the good weather of the climate you are in, and a **2%** chance to start its bad weather instead. Good weather lasts 10 rolls and bad weather 10, counting the roll it started on. A new strike replaces whatever weather is running; weather never stacks. Bad weather never stops a roll moving at least one tile. The weather in play shows under **EFFECTS** in the run panel, with the rolls it has left.
 
@@ -61,11 +71,11 @@ Weather can strike in every run. Each roll has a **3%** chance to start the good
 
 | Climate | Biomes | Good weather | Bad weather |
 | --- | --- | --- | --- |
-| ⛈️ Stormy | Ocean, Storm | Struck by Lightning | Downpour |
-| 🔥 Scorched | Inferno, Desert | Heatwave | Heat Haze |
-| ❄️ Frozen | Frost, Cosmos | Snowblind | Black Ice |
-| 🌿 Overgrown | Jungle, Toxic | Overgrowth | Mudslide |
-| 🌆 Twilight | Midnight, Sakura | Moonstruck | Gloom |
+| ⛈️ Stormy | Ocean, Storm, Monsoon | Struck by Lightning | Downpour |
+| 🔥 Scorched | Inferno, Desert, Canyon | Heatwave | Heat Haze |
+| ❄️ Frozen | Frost, Cosmos, Aurora | Snowblind | Black Ice |
+| 🌿 Overgrown | Jungle, Toxic, Mire | Overgrowth | Mudslide |
+| 🌆 Twilight | Midnight, Sakura, Autumn | Moonstruck | Gloom |
 
 ### Good weather
 
@@ -87,4 +97,4 @@ Weather can strike in every run. Each roll has a **3%** chance to start the good
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/gloom.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Gloom</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Twilight</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>

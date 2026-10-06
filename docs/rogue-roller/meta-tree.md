@@ -325,4 +325,4 @@ Ascensions 1, 2, 3, 4, 5, 10, 25 and 50 each open more nodes, hanging off nodes 
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/meta/singularity.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Singularity</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Ascension 50</span><span class="rr-tag rr-tag--plain">Needs Nebula</span><span class="rr-tag rr-tag--plain">1 level</span></div></div></div><p class="rr-card-body">Ascending turns your meta into 50% more Stardust.</p><div class="rr-card-foot"><span class="rr-price"><small>Lv 1</small><b>8,000</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>

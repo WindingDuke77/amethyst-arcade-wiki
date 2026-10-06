@@ -53,4 +53,4 @@ Rogue Roller has **46 badges**. Each name links to the badge on Roblox.
 <div class="rr-card " style="--ring: #8b5cf6"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/badges/badge_unchallenged.png" alt="" loading="lazy"><div class="rr-card-title"><strong><a href="https://www.roblox.com/badges/3389870918476889">Unchallenged</a></strong></div></div><p class="rr-card-body">Earn platinum in every challenge.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>

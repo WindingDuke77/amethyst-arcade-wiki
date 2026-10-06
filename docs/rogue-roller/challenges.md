@@ -6,8 +6,8 @@ Challenges open after your **first finished run**. Each one is a normal run unde
 
 - Your meta tree counts. Your forge counts too, except in Unrigged.
 - Start grant sockets are ignored, so every medal is earned by the rules and your tree.
-- Open the page with the **CHALLENGES** card on the home screen, beside the daily challenge.
-- Every challenge has its own leaderboard of best scores: press **TOP** on its card. A challenge run does not count for the main leaderboards or the daily challenge.
+- Open the page with the **CHALLENGES** card on the home screen, beside the daily tasks.
+- Every challenge has its own leaderboard of best scores: press **TOP** on its card. A challenge run does not count for the main leaderboards or the daily tasks, except a daily task to earn a challenge medal.
 - A challenge run pays **1.5x meta**, on top of the medal rewards below.
 - SAVE & QUIT and CONTINUE work as in any run, and a medal is kept even if you leave. Starting a challenge while a normal run is saved asks you to **CONTINUE RUN** or **DELETE & PLAY** first.
 
@@ -36,4 +36,4 @@ Targets are in medal order: Clear / Bronze / Silver / Gold / Platinum.
 | 🪫 Out Of Fuel | Nothing refuels: no gate rolls, no Spark rolls, no Refuel, no Fresh Legs, no Sixth Sense. | tiles | 1,500 / 3,000 / 6,000 / 9,000 / 25,000 | Reserve Tank |
 | 🚫 Perk Hater | Biome gates deal no perk cards. The refuel still pays. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Lone Wolf |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>

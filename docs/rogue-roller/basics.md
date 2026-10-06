@@ -83,7 +83,7 @@ When a run ends, your score turns into meta points. Spend them on the [meta tree
 - Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
 - Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
 - Alchemist in the tree adds 25% per level. Each of the first 5 ascensions adds 50%; after that each ascension adds a little less than the one before (23% for your 6th), reaching x5.5 at 25 and about x6.4 at 50, with no cap. The Alchemist and ascension bonuses multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it, and so does Rebound for the first 5 runs after an ascension from 10 on.
-- Your [daily challenge](daily-challenges.md) reward and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
+- Your [daily tasks](daily-challenges.md) and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
 
 Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
 
@@ -146,8 +146,8 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 - Kept levels pay no Stardust when you ascend, because you never give them up. They still count toward the [points a run must pass](#meta-points) before it pays meta.
 - Keeping waits while a run is live or [saved](#save-and-quit).
 
-## Daily challenge
+## Daily tasks
 
-There is one [daily challenge](daily-challenges.md) a day, the same for everyone, and it changes at midnight UTC. Meet it in a run to earn meta.
+There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and a hard one, and they change at midnight UTC. Their targets and pay fit your build. Finish any of them to earn meta and keep your streak.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>

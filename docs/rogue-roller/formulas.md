@@ -38,7 +38,7 @@ with Rebound:  meta x 2
 
 These are added after the sum, so Alchemist, ascensions and Double Meta never raise them:
 
-- Your [daily challenge](daily-challenges.md) reward, 50 to 100 meta by streak.
+- Your [daily tasks](daily-challenges.md), from a base of 100 to 400 meta a day by streak, times your band and each task's tier.
 - Tithe and Magpie [forge](forge.md) faces pay meta the moment they land, up to **120 a run** between them.
 
 ### Worked example
@@ -60,7 +60,7 @@ And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,34
 
 ### Examples
 
-What a run pays, before the daily reward and Tithe and Magpie. "Whole tree" means every node open to you bought, with Alchemist at level 4.
+What a run pays, before the daily tasks and Tithe and Magpie. "Whole tree" means every node open to you bought, with Alchemist at level 4.
 
 | Score | Empty tree | Whole base tree | Whole tree, 5 ascensions | Same with Double Meta |
 | --- | --- | --- | --- | --- |
@@ -146,4 +146,4 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 
 [Keeping a level](basics.md#keeping-levels) for good costs **500 Stardust + 10 x the level's meta price**, rounded up. A kept level leaves the meta traded in, so it pays no Stardust when you ascend, but it still counts toward the floor a run must pass.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.2.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
