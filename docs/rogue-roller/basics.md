@@ -13,10 +13,55 @@
 - Tiles are light or dark. Lots of cards care which colour you land on.
 - The build panel beside the board shows your whole build as a grid of icons: the perks you picked and the shop upgrades you hold, with a count on a card when you have more than one. Hover, tap or select a card to read what it does.
 - Rolling into a new biome shows its name on a title card.
-- The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points).
-- **Auto Roll** rolls for you, with a 1 second pause between rolls. Everyone unlocks it after 15 minutes of play, counted across sessions. Tap the Auto Roll button (the loop arrows) in a run to open its menu.
-- **Autopilot**, the [pass](store.md) (also included with Roblox Premium), unlocks Auto Roll straight away, rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
+- The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points). From your 6th run on, an **OUT OF ROLLS** offer first gives you 12 seconds to buy [more rolls](store.md#roll-packs) and carry on.
+- **Auto Roll** rolls for you, with a 1 second pause between rolls. It is free for everyone from the first roll of their first run. Tap the Auto Roll button (the loop arrows) in a run to open its menu.
+- **Autopilot**, the [pass](store.md#game-passes) (also included with Roblox Premium), rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
 - **Overdrive** speeds up a deep run for free: x1.25 from 5,000 tiles, then x0.25 more every 3,000 tiles, up to x5 from 50,000 tiles. It works on top of Fast Forward. Only the walk and the pauses speed up, never what a roll pays.
+
+### Edit HUD
+
+**Edit HUD** lets you lay out the run screen yourself. It is marked **EXPERIMENTAL**. In a run, press the cog to pause, then **EDIT** on the EDIT HUD row of the settings.
+
+- Drag a piece to move it, and tap or click its eye to hide it. With a controller, the D-pad picks a piece, the left stick moves it and Y hides it.
+- The pieces are POINTS, ROLLS, TILES, PAUSE, STATS, ROLL (with the Auto Roll and Fast Forward buttons), SPARK, SHOP, BUILD, MODE CARD (the challenge or Daily Run card) and DICE, plus the DETAILS card. Hiding DETAILS is the same as switching it off.
+- PAUSE, ROLLS, ROLL and SHOP can move but never hide.
+- **SAVE** keeps the layout, **CANCEL** drops your changes and **RESET ALL** puts every piece back where it started.
+- Each layout is saved for the platform you are on (PC, phone or console), so each one keeps its own.
+- It can't open while a gate choice is showing or during the tutorial.
+
+## Getting started
+
+New players get 6 **Getting started** goals in place of the [daily tasks](daily-challenges.md). The **GETTING STARTED** card sits where the daily tasks go on the home screen and shows one goal at a time. Meet it, press **CLAIM** for its meta, and the next goal shows.
+
+| Goal | What to do | Meta |
+| --- | --- | --- |
+| 1 | 🏁 Finish your first run. | 100 |
+| 2 | 👣 Reach tile 300 in one run. | 150 |
+| 3 | 🚪 Cross a biome gate. | 200 |
+| 4 | 🌱 Buy a node in the meta tree. | 250 |
+| 5 | 🎲 Play 3 runs. | 300 |
+| 6 | 🏔️ Reach tile 1,000 in one run. | 500 |
+
+- The 6 goals pay **1,500 meta** in all.
+- A goal counts everything you have done so far, so one you already meet is ready to claim as soon as it shows.
+- Nothing done in a [sandbox](#sandbox) counts.
+- Your [daily tasks](#daily-tasks) start once the last goal is claimed.
+- Players who already had 10 or more runs, or had ascended, when Getting started arrived in version 3.4 skip it and its meta, and keep their daily tasks.
+
+### What opens as you play
+
+Some of the game opens after a number of runs. A run counts once, when it ends or the first time you save it. Until then the feature shows a lock and the runs it needs, and when it opens a **NEW** card says what it does.
+
+| Feature | Opens after | What it is |
+| --- | --- | --- |
+| Rollodex | 1 run | A log of the perks, upgrades, forge cards, biomes, weather, creatures and badges you meet. Fill a tab to win its title. |
+| [Challenges and the Daily Run](challenges.md) | 1 run | Runs with their own rules and medals, and a Daily Run with one kit for everyone. |
+| [Leaderboard](#leaderboards) | 1 run | Top scores and longest runs, all time and this week. |
+| Stats | 3 runs | Your records, lifetime totals, how you play and your last ten runs. |
+| [Forge](forge.md) | 5 runs | Meta buys crates of effects for the faces of your die. |
+| [Sandbox](#sandbox) | 5 runs | Practice runs with any build you have unlocked. They earn nothing. |
+
+Anyone who had already used the Forge (opened a crate, or has a card in the bag or on a face) keeps it, and anyone who owns Sandbox keeps that too.
 
 ## Biomes and gates
 
@@ -61,14 +106,30 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 
 Press the cog in a run to pause it, then **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
 
-- SAVE & QUIT can't be used mid roll, while a purchase is going through, while a Last Chance offer is showing, or once the run is out of rolls and can only end.
+- SAVE & QUIT can't be used mid roll, while a purchase is going through, while the OUT OF ROLLS offer is showing, or once the run is out of rolls and can only end.
 - While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending, [keeping levels](#keeping-levels), the [ascension perk wall](ascension-perks.md) (pouring, setting start grants and buying sockets) and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on each card and says why, and those pages have a **CONTINUE RUN** button.
 - **NEW RUN** asks before it throws a saved run away. The meta that run earned is already yours.
 - The **bin** beside NEW RUN on the home screen shows while a run is saved. It deletes the saved run for good without starting a new one. It asks first, and the meta that run earned is already yours.
 
+## Sandbox
+
+**SANDBOX** on the home screen starts a practice run built from what you have unlocked. It earns nothing and saves nothing, so you can try out a build without risk.
+
+- **Unlocking:** the tile opens after 5 runs (see [what opens as you play](#what-opens-as-you-play)). Then press **UNLOCK** to buy it once for **2,500 meta**. It is yours for good, and ascending keeps it. You can buy it while a run is saved, but not during a run.
+- Before you start, pick your setup on five tabs. The page remembers your last setup.
+    - **UPGRADES:** any [shop upgrade](shop-upgrades.md) your shop has dealt you, up to 10 copies of each (1 of a card that is one per run). For a card that picks a side, you choose the faces. Conductor needs a Spark source, which a run only picks at its first gate, so it is never given at the start.
+    - **PERKS:** any [gate perk](gate-perks.md) you have met, poured on the wall or not. Common perks always count as met. A challenge's Limited perk joins once you have its Platinum medal.
+    - **DIE:** any [forge](forge.md) card you own, worn or in your bag, on any face at any level up to that effect's top level. **COPY MY DIE** copies the die you wear and **LOADOUT** copies a saved [loadout](forge.md#loadouts). Sandbox levels never change your cards.
+    - **TREE:** every [meta tree](meta-tree.md) node you own, from 0 (off) up to the level you bought. **ALL MINE** sets every node to your level. Alchemist, Star Charter, Zodiac, Astrolabe, Nebula and Singularity only pay meta or Stardust, so they do nothing here.
+    - **RULES:** the start biome (any biome you have reached, or **RANDOM** for the usual shuffled order), **NO ROLL LIMIT** or a set number of rolls from 1 to 999, and starting points of 0, 1K, 10K, 100K, 1M or 10M. The roll count is exact, so nodes that add rolls at the start do not change it. Starting points go on top of the points your tree starts you with.
+- In the run, the shop and gates deal like a normal run. Your [start grants](ascension-perks.md#start-grant-sockets) are not used, since you pick perks instead. No rolls are sold, so there are no roll packs and no OUT OF ROLLS offer.
+- Nothing counts: no meta, leaderboard scores, badges, daily tasks, Getting started goals, forge XP, stats, run history or skins. Perks, biomes and anything else you meet there are not marked as met or added to your Rollodex.
+- Your saved run is never touched. It is held aside while you play, and **CONTINUE** on the home screen picks it up after.
+- To stop, press the cog and **END SANDBOX**. Leaving the game ends it too, because a sandbox is never saved. The **SANDBOX OVER** screen shows the points you scored and the tiles you travelled.
+
 ## Leaderboards
 
-The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, all time and this week.
+The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, all time and this week. It opens after your first run.
 
 - Weekly boards start fresh every Monday at 00:00 UTC.
 - A run posts to the weekly boards only while the week it started is still on. Its score goes up when you finish it, save and quit, or leave the game.
@@ -76,14 +137,14 @@ The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, 
 
 ## Meta points
 
-When a run ends, your score turns into meta points. Spend them on the [meta tree](meta-tree.md), [forge crates](forge.md), [loadout slots](forge.md#loadouts), [cosmetics](cosmetics.md) and, from your 6th ascension, the [ascension fee](#ascension).
+When a run ends, your score turns into meta points. Spend them on the [meta tree](meta-tree.md), [forge crates](forge.md), [loadout slots](forge.md#loadouts), [cosmetics](cosmetics.md), the [Sandbox](#sandbox) and, from your 6th ascension, the [ascension fee](#ascension).
 
 - Your score is every point the run earned. Points you spend in the shop still count.
 - Meta grows with the square root of your score, so four times the score pays about twice the meta.
 - Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
 - Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
 - Alchemist in the tree adds 25% per level. Each of the first 5 ascensions adds 50%; after that each ascension adds a little less than the one before (23% for your 6th), reaching x5.5 at 25 and about x6.4 at 50, with no cap. The Alchemist and ascension bonuses multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it, and so does Rebound for the first 5 runs after an ascension from 10 on.
-- Your [daily tasks](daily-challenges.md) and Tithe and Magpie [forge](forge.md) faces are paid on top. They are never multiplied or doubled.
+- Your [daily tasks](daily-challenges.md) and Tithe and Magpie [forge](forge.md) faces are paid on top. Alchemist and Double Meta never raise them, but your ascension multiplier does.
 
 Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
 
@@ -148,6 +209,6 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 
 ## Daily tasks
 
-There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and a hard one, and they change at midnight UTC. Their targets and pay fit your build. Finish any of them to earn meta and keep your streak.
+There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and a hard one, and they change at midnight UTC. Their targets and pay fit your build. Finish any of them to earn meta and keep your streak. New players do the [Getting started](#getting-started) goals first, and their daily tasks start once all 6 are claimed.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>

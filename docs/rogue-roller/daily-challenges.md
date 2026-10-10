@@ -8,6 +8,7 @@ Every day has three tasks: an easy, a medium and a hard one. Days change at **00
 - A run you save and then continue on a later UTC day than the one it started on no longer counts toward any task.
 - Challenge runs never count, except toward a task to earn a challenge medal. A Daily Run counts like any run.
 - "One run" tasks take your best single run of the day. "The whole day" tasks add up across every run that day.
+- New players do the 6 [Getting started](basics.md#getting-started) goals first. Daily tasks start once the last one is claimed.
 
 ## Bands
 
@@ -78,9 +79,9 @@ N is the band's target in the table. A task a band is not dealt never comes up f
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/upgrades/golden.png" alt="" loading="lazy"></span> Land on N golden tiles today. | The whole day | 6 | 15 | 25 | 35 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyGates.png" alt="" loading="lazy"></span> Cross N biome gates in one run. | One run | 3 | 5 | 7 | 8 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/ui/challenges.png" alt="" loading="lazy"></span> Earn a challenge medal. | The whole day | not dealt | 1 | 1 | 1 |
-| <span class="rr-day-icon">📅</span> Finish today's Daily Run. | The whole day | not dealt | 1 | 1 | 1 |
-| <span class="rr-day-icon">🃏</span> Take a gold or purple perk at a gate. | The whole day | not dealt | 1 | 1 | 1 |
+| <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyRun.png" alt="" loading="lazy"></span> Finish today's Daily Run. | The whole day | not dealt | 1 | 1 | 1 |
+| <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyPerk.png" alt="" loading="lazy"></span> Take a gold or purple perk at a gate. | The whole day | not dealt | 1 | 1 | 1 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"></span> Get struck by weather N times today. | The whole day | 10 | 16 | 25 | 30 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyNoShop.png" alt="" loading="lazy"></span> Reach tile N without buying an upgrade. | One run | 300 | 800 | 1,200 | 1,500 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>

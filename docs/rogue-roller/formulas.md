@@ -147,4 +147,4 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 
 [Keeping a level](basics.md#keeping-levels) for good costs **500 Stardust + 10 x the level's meta price**, rounded up. A kept level leaves the meta traded in, so it pays no Stardust when you ascend, but it still counts toward the floor a run must pass.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>

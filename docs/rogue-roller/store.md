@@ -30,7 +30,7 @@ Where Roblox limits paid random items, the Crate Master pass and roll packs are 
 
 ## Roll packs
 
-Offered when a run gets low on rolls.
+Offered when a run gets low on rolls. When a run runs out, the **OUT OF ROLLS** offer gives you 12 seconds to buy a pack and carry on, from your 6th run on. No rolls are sold in a Daily Run, the Out Of Fuel challenge or a [sandbox](basics.md#sandbox).
 
 <div class="rr-grid ">
 <div class="rr-card " style="--ring: #22c55e"><div class="rr-card-head"><img class="rr-art" src="../../assets/rogue-roller/store/rolls25.png" alt="" loading="lazy"><div class="rr-card-title"><strong>+25 Rolls</strong></div></div><p class="rr-card-body">25 extra rolls, added to this run right now.</p></div>
@@ -56,4 +56,4 @@ Offered when a run gets low on rolls.
 
 The Starter Kit is only offered for the first 2 hours after you first join.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>

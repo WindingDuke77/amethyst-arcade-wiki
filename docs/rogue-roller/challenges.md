@@ -2,7 +2,7 @@
 
 # Challenges
 
-Challenges open after your **first finished run**. Each one is a normal run under a fixed set of rules, scored on points or on the tile you reach, with 5 medals to earn. Each challenge rewards its own **Limited** perk, a card you can only get by clearing that challenge.
+Challenges open after your **first finished run**. Each one is a normal run under a fixed set of rules, scored on points or on the tile you reach, with 5 medals to earn. Each challenge rewards its own **Limited** perk, a card you can only get by earning that challenge's Platinum medal.
 
 - Your meta tree counts. Your forge counts too, except in Unrigged.
 - Start grant sockets are ignored, so every medal is earned by the rules and your tree.
@@ -16,11 +16,11 @@ Challenges open after your **first finished run**. Each one is a normal run unde
 
 | Medal | Reward, the first time |
 | --- | --- |
-| Clear | 250 meta, the challenge's badge, and its Limited perk unlocks: you meet it, so you can pour it on the Ascension perks page, and gates may deal it from then on. |
-| Bronze | 500 meta |
-| Silver | 1,000 meta |
-| Gold | 1,500 meta, and the perk's first fill is poured for free. |
-| Platinum | 2,500 meta and bragging rights. Platinum in every challenge earns a badge. |
+| Clear | 250 meta and the challenge's badge. |
+| Bronze | 500 meta. |
+| Silver | 1,000 meta. |
+| Gold | 1,500 meta. |
+| Platinum | 2,500 meta. Its Limited perk unlocks: you meet it, so you can pour it on the Ascension perks page, and gates may deal it from then on. Platinum in every challenge earns a badge. |
 
 ## The challenges
 
@@ -37,4 +37,4 @@ Targets are in medal order: Clear / Bronze / Silver / Gold / Platinum.
 | 🪫 Out Of Fuel | Nothing refuels: no gate rolls, no Spark rolls, no Refuel, no Fresh Legs, no Sixth Sense. | tiles | 1,500 / 3,000 / 6,000 / 9,000 / 25,000 | Reserve Tank |
 | 🚫 Perk Hater | Biome gates deal no perk cards. The refuel still pays. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Lone Wolf |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>

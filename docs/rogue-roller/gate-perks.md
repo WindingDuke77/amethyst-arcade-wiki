@@ -12,7 +12,7 @@ There are **47 perks**. 28 are Common. The other 19 are tagged with their rarity
 - Seeing a perk at a gate counts as meeting it, even if you do not take it. Once you have met it and [ascended](basics.md#ascension), you can pour its first fill on the [ascension perk wall](ascension-perks.md) to unlock it.
 - A perk above Common with both fills done can be **barred**: press BAR on the perk wall and no gate deals it until you unbar it. Common perks can never be barred.
 - The 29 tagged **No downside** only ever help. Most of the rest trade one thing for another, and some pairs pull against each other, like Night Owl and Daybreak: taking the opposite card evens things out again.
-- 8 perks are **Limited**: each one comes only from its [challenge](challenges.md). No gate deals it, and the wall will not take Stardust for it, until you clear that challenge.
+- 8 perks are **Limited**: each one comes only from its [challenge](challenges.md). No gate deals it, and the wall will not take Stardust for it, until you earn that challenge's Platinum medal.
 - 7 perks share an effect with an [ascension node](meta-tree.md#ascension-nodes), and their cards name it. A run counts at most 2 copies of each, the node's and the perk's, and a gate stops dealing the card once you have that many, a start grant copy included.
 
 <div class="rr-grid ">
@@ -77,4 +77,4 @@ At the first gate of a run the game deals two of these 5 sources at random and y
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/spark/sparkHot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Hot Hand</strong></div></div><p class="rr-card-body">Roll a 4 or better: charge 4 Spark.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.3.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>
