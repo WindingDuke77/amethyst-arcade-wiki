@@ -229,4 +229,4 @@ Every time a Chaos face lands, it turns into one of these 37 effects and works e
 | Omni Shot | Mythic | 1.13% | 1, 2, 3, 4 |
 | Resonance | Mythic | 1.13% | 1, 2, 3, 4 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>

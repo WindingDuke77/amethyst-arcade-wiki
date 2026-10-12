@@ -6,7 +6,7 @@
 
 After your first [ascension](basics.md#ascension), the **ASCENSION PERKS** card on UPGRADES opens a wall of perk cells you work with [Stardust](basics.md#stardust), the currency ascending pays.
 
-Pick a rarity along the top, press a cell to pour Stardust into it, and the readout along the bottom shows what the perk does, what a press costs and how far the fill has got.
+Pick a rarity along the top and press a cell to pick it. The readout along the bottom shows what the perk does, what a press costs and how far the fill has got, and its **POUR** button pours the Stardust in, so a stray tap on the wall never pours into the wrong perk. On a controller, **A** on a cell pours.
 
 Every fill of every perk on the wall, leaving out the Limited perks, comes to **97,500 Stardust**, which is what the Wall of Fame [badge](badges.md) asks for. A Limited perk's cell stays locked until you earn the Platinum medal in its [challenge](challenges.md).
 
@@ -21,7 +21,7 @@ Every perk is bought in two fills.
 
 ## Layers and presses
 
-A fill lays down layers of Stardust, one more for every step of rarity. The first layer takes **5 presses** and every layer above it takes 1 more. Hold a cell to keep pouring. A fill's price is split across its presses, so every press costs about the same.
+A fill lays down layers of Stardust, one more for every step of rarity. The first layer takes **5 presses** and every layer above it takes 1 more. Hold **POUR** to keep pouring. A fill's price is split across its presses, so every press costs about the same.
 
 | Rarity | Layers | Presses per layer | Presses a fill | First fill (Stardust) | Start grant (Stardust) |
 | --- | --- | --- | --- | --- | --- |
@@ -121,4 +121,4 @@ Sockets you can use always show first in the band, then the ones still to buy.
 <div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/perks/perkLoneWolf.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Lone Wolf</strong><div class="rr-tags"><span class="rr-tag" style="--ring: rgb(255, 178, 66)">Legendary</span><span class="rr-tag" style="--ring: #eab308">Limited: Perk Hater</span></div></div></div><p class="rr-card-body">The first tile of every roll pays 0.5x more for every tile the roll moves. Every other tile pays 25% less.</p><div class="rr-card-foot"><span class="rr-price"><small>First fill</small><b>3,600</b></span><span class="rr-price"><small>Start grant</small><b>12,000</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>

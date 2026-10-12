@@ -211,4 +211,4 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 
 There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and a hard one, and they change at midnight UTC. Their targets and pay fit your build. Finish any of them to earn meta and keep your streak. New players do the [Getting started](#getting-started) goals first, and their daily tasks start once all 6 are claimed.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>

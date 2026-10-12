@@ -37,4 +37,4 @@ Targets are in medal order: Clear / Bronze / Silver / Gold / Platinum.
 | 🪫 Out Of Fuel | Nothing refuels: no gate rolls, no Spark rolls, no Refuel, no Fresh Legs, no Sixth Sense. | tiles | 1,500 / 3,000 / 6,000 / 9,000 / 25,000 | Reserve Tank |
 | 🚫 Perk Hater | Biome gates deal no perk cards. The refuel still pays. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Lone Wolf |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
