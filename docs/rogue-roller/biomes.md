@@ -8,7 +8,7 @@ There are **15 biomes**. Their order is shuffled at the start of every run, and 
 
 ## Looks
 
-Every biome paints the board in its own colours and fills the air with its own weather. Each one also has its own creatures flying or swimming around you, its own sound playing under the music, and its own colour grade, with a soft glow on most devices.
+Each biome has its own tile colours and something in the air, like falling snow or rising embers. It also has its own creatures around your ball, a sound under the music and a colour grade, with a soft glow on most devices.
 
 <div class="rr-grid rr-grid--wide">
 <div class="rr-card rr-biome" style="--ring: rgb(146, 132, 160)"><div class="rr-card-head"><div class="rr-card-title"><strong>Midnight</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Drifting motes</span><span class="rr-tag rr-tag--plain">Bats</span><span class="rr-tag rr-tag--plain">Sound: crickets</span></div></div></div><p class="rr-card-body">Dusky violet and black tiles in a still purple night.</p><div class="rr-scene rr-scene--motes" style="--light: rgb(105, 95, 130); --dark: rgb(12, 10, 18); --void: rgb(38, 8, 64); --sparkle: rgb(255, 255, 255)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
@@ -28,7 +28,7 @@ Every biome paints the board in its own colours and fills the air with its own w
 <div class="rr-card rr-biome" style="--ring: rgb(188, 101, 55)"><div class="rr-card-head"><div class="rr-card-title"><strong>Autumn</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Falling petals</span><span class="rr-tag rr-tag--plain">Crows and butterflies</span><span class="rr-tag rr-tag--plain">Sound: rustling leaves</span></div></div></div><p class="rr-card-body">Peach and maple red tiles in the woods at dusk, with orange leaves falling.</p><div class="rr-scene rr-scene--petals" style="--light: rgb(255, 214, 160); --dark: rgb(110, 44, 24); --void: rgb(120, 52, 40); --sparkle: rgb(255, 150, 70)" aria-hidden="true"><div class="rr-board"><span><i></i><i></i><i></i><i></i><i></i><i></i></span></div><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i><i class="rr-mote"></i></div></div>
 </div>
 
-## A living world
+## Moving scenery and graphics
 
 - Trees sway, crystals spin, lamps glow and the floating islands drift.
 - Creatures wander around your ball and come back if they stray too far.
@@ -80,7 +80,7 @@ Weather can strike in every run. Each roll has a **3%** chance to start the good
 ### Good weather
 
 <div class="rr-grid ">
-<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Struck by Lightning</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Stormy</span></div></div></div><p class="rr-card-body">Every roll is +3.</p></div>
+<div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Struck by Lightning</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Stormy</span></div></div></div><p class="rr-card-body">Every roll counts 3 higher.</p></div>
 <div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/heatwave.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Heatwave</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Scorched</span></div></div></div><p class="rr-card-body">Golden tiles arrive 2 sooner.</p></div>
 <div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/snowblind.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Snowblind</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Frozen</span></div></div></div><p class="rr-card-body">Every tile you pass is worth +4.</p></div>
 <div class="rr-card " style="--ring: #3b82f6"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/overgrowth.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Overgrowth</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #3b82f6">Overgrown</span></div></div></div><p class="rr-card-body">Every roll moves 2 more tiles.</p></div>
@@ -90,11 +90,11 @@ Weather can strike in every run. Each roll has a **3%** chance to start the good
 ### Bad weather
 
 <div class="rr-grid ">
-<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/downpour.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Downpour</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Stormy</span></div></div></div><p class="rr-card-body">Every roll is -1.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/downpour.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Downpour</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Stormy</span></div></div></div><p class="rr-card-body">Every roll counts 1 lower.</p></div>
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/heathaze.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Heat Haze</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Scorched</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/blackice.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Black Ice</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Frozen</span></div></div></div><p class="rr-card-body">Every roll moves 1 tile less.</p></div>
-<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/mudslide.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Mudslide</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Overgrown</span></div></div></div><p class="rr-card-body">Every roll is -1.</p></div>
+<div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/mudslide.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Mudslide</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Overgrown</span></div></div></div><p class="rr-card-body">Every roll counts 1 lower.</p></div>
 <div class="rr-card " style="--ring: #ec4899"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/climate/gloom.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Gloom</strong><div class="rr-tags"><span class="rr-tag" style="--ring: #ec4899">Twilight</span></div></div></div><p class="rr-card-body">Every roll pays 25% less.</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>

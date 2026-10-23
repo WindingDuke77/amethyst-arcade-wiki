@@ -2,7 +2,7 @@
 
 <div class="rr-banner"><img src="../assets/rogue-roller/hero.jpg" alt="Rogue Roller: roll, upgrade, go further"></div>
 
-Roll the die, hop that many tiles, and pick how your fuel comes back. Every run you buy upgrades with points, pick perks at biome gates, and turn your score into meta points that make the next run go further. Finish the meta tree and you can ascend. Ascending pays Stardust, which unlocks rarer perks and perks you start every run with, and opens challenges: runs with their own rules, medals and perks you can only win there.
+Roll the die, hop that many tiles, and pick how your fuel comes back. Every run you buy upgrades with points, pick a road and its perk at each biome gate, and turn your score into meta points that make the next run go further. Finish the meta tree and you can ascend. Ascending pays Stardust, which you spend on perks that every run starts with. After your first run, challenges open: runs with their own rules, medals and perks you can only win there.
 
 [Play Rogue Roller on Roblox](https://www.roblox.com/games/87428815126728){ .md-button .md-button--primary }
 [Join the Discord](https://discord.gg/dQrpnsb2r9){ .md-button }
@@ -12,12 +12,13 @@ Rogue Roller is based on [RollScape](https://store.steampowered.com/app/2904290/
 ## Where to start
 
 <div class="aa-tiles">
-<a class="aa-tile" href="basics/" style="--ring: #22c55e"><img src="../assets/rogue-roller/icon.png" alt=""><span><strong>The basics</strong><span class="aa-tile-text">How a run works, Getting started, biomes, the shop, Spark, save and quit, Sandbox, leaderboards, meta points, ascension and Stardust.</span></span></a>
+<a class="aa-tile" href="basics/" style="--ring: #22c55e"><img src="../assets/rogue-roller/icon.png" alt=""><span><strong>The basics</strong><span class="aa-tile-text">How a run works, Getting started, biomes, the shop, Spark, save and quit, Sandbox, leaderboards and seasons, meta points, ascension, Stardust, playing with friends and coming back.</span></span></a>
 <a class="aa-tile" href="formulas/" style="--ring: #8b5cf6"><img src="../assets/rogue-roller/icons/meta/alchemist.png" alt=""><span><strong>How the numbers work</strong><span class="aa-tile-text">The exact sums for the meta a run pays and the Stardust an ascension pays.</span></span></a>
 <a class="aa-tile" href="shop-upgrades/" style="--ring: #3b82f6"><img src="../assets/rogue-roller/icons/sections/shop.png" alt=""><span><strong>Shop upgrades</strong><span class="aa-tile-text">Every card the shop can deal, with prices.</span></span></a>
 <a class="aa-tile" href="gate-perks/" style="--ring: #8b5cf6"><img src="../assets/rogue-roller/icons/sections/gates.png" alt=""><span><strong>Gate perks and Spark</strong><span class="aa-tile-text">The free cards you pick at biome gates.</span></span></a>
-<a class="aa-tile" href="meta-tree/" style="--ring: #3b82f6"><img src="../assets/rogue-roller/badges/badge_constellation.png" alt=""><span><strong>Meta tree</strong><span class="aa-tile-text">Permanent upgrades, costs and ascension branches.</span></span></a>
-<a class="aa-tile" href="ascension-perks/" style="--ring: #ec4899"><img src="../assets/rogue-roller/badges/badge_walloffame.png" alt=""><span><strong>Ascension perks</strong><span class="aa-tile-text">Spend Stardust to unlock rarer gate perks and start every run with them.</span></span></a>
+<a class="aa-tile" href="roads/" style="--ring: #eab308"><img src="../assets/rogue-roller/icons/challenges/coinflip.png" alt=""><span><strong>Roads and events</strong><span class="aa-tile-text">The two roads at each gate and every event on them.</span></span></a>
+<a class="aa-tile" href="meta-tree/" style="--ring: #3b82f6"><img src="../assets/rogue-roller/badges/badge_constellation.png" alt=""><span><strong>Meta tree</strong><span class="aa-tile-text">Permanent upgrades and their costs, including the nodes ascension opens.</span></span></a>
+<a class="aa-tile" href="ascension-perks/" style="--ring: #ec4899"><img src="../assets/rogue-roller/badges/badge_walloffame.png" alt=""><span><strong>Ascension perks</strong><span class="aa-tile-text">Spend Stardust so every run starts with the gate perks you choose.</span></span></a>
 <a class="aa-tile" href="forge/" style="--ring: #eab308"><img src="../assets/rogue-roller/icons/sections/forge.png" alt=""><span><strong>Forge</strong><span class="aa-tile-text">Crates, drop chances and every die face effect.</span></span></a>
 <a class="aa-tile" href="daily-challenges/" style="--ring: #22c55e"><img src="../assets/rogue-roller/icons/sections/daily.png" alt=""><span><strong>Daily challenges</strong><span class="aa-tile-text">Daily tasks, their pay and the streak rewards.</span></span></a>
 <a class="aa-tile" href="challenges/" style="--ring: #f59e0b"><img src="../assets/rogue-roller/badges/badge_achiever.png" alt=""><span><strong>Challenges</strong><span class="aa-tile-text">Eight rule sets, five medals each, and the Limited perks they reward.</span></span></a>

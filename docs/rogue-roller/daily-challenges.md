@@ -23,7 +23,7 @@ Your band is set by your build the first time you play each day, and holds for t
 
 ## Pay and the streak
 
-Finish any task on back to back days to build a streak. Miss a day and the streak starts again from day 1. Each day has a base pay by streak day, times your band: easy pays the base, medium 1.5x and hard 2x. Finishing all three in one day adds 50% of the three on top. Every 7th day of a streak also opens a free **Astral Crate**, or pays its 850 meta price where crates are not on sale. Ascending raises all of it by your ascension multiplier; Double Meta and Alchemist do not.
+Finish any task on back to back days to build a streak. Miss a day and the streak starts again from day 1. Each day has a base pay by streak day, times your band: easy pays the base, medium 1.5x and hard 2x. Finishing all three in one day adds 50% of the three on top. Every 7th day of a streak also opens a free **Astral Crate**, or pays its 850 meta price where crates are not on sale. Ascending raises all of it by your ascension multiplier; Double Meta and Alchemist do not. With a streak of 2 or more, a [streak reminder](basics.md#coming-back) notification reminds you to play the next day.
 
 <div class="rr-ladder"><div class="rr-step"><b>100</b><i style="height: 18%"></i><small>Day 1</small></div><div class="rr-step"><b>125</b><i style="height: 22%"></i><small>Day 2</small></div><div class="rr-step"><b>150</b><i style="height: 26%"></i><small>Day 3</small></div><div class="rr-step"><b>200</b><i style="height: 35%"></i><small>Day 4</small></div><div class="rr-step"><b>250</b><i style="height: 44%"></i><small>Day 5</small></div><div class="rr-step"><b>300</b><i style="height: 52%"></i><small>Day 6</small></div><div class="rr-step"><b>400</b><i style="height: 70%"></i><small>Day 7+</small></div></div>
 
@@ -84,4 +84,4 @@ N is the band's target in the table. A task a band is not dealt never comes up f
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"></span> Get struck by weather N times today. | The whole day | 10 | 16 | 25 | 30 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyNoShop.png" alt="" loading="lazy"></span> Reach tile N without buying an upgrade. | One run | 300 | 800 | 1,200 | 1,500 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>

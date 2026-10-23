@@ -19,9 +19,12 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 4. **Tail.** If the curve comes to more than **500**, it becomes 500 + 234 x ln(curve / 500), where ln is the natural log. Past 500 a bigger score still pays more, but much more slowly. The curve reaches 500 at about 13,900,000 points above the floor.
 5. **Alchemist.** Multiply by 1 + 0.25 for each level of the Alchemist node, so up to **x2** at level 4.
 6. **Ascension.** Multiply by 1 + 0.5 for each of the first 5 ascensions (**x3.5** at 5). Past 5, add 2 x ln(1 + (ascensions - 5) / 5) / ln(5) to that 3.5. Each ascension then adds a little less than the one before: **x5.5** at 25, about **x6.4** at 50 and about **x7.2** at 100, with no cap.
-7. **Round down.** This is the only rounding in the sum.
-8. **Double Meta.** The [pass](store.md) doubles the result, after the round down.
-9. **Rebound.** For the first 5 runs after an ascension from 10 on, the result is multiplied by 2 again.
+7. **Round down.**
+8. **Every run.** Multiply by **2**. Challenges and Daily Runs get this too.
+9. **Double Meta.** The [pass](store.md) doubles the result.
+10. **Rebound.** For the first 5 runs after an ascension from 10 on, the result is multiplied by 2 again.
+11. **Challenge or Daily Run.** A [challenge](challenges.md) or [Daily Run](challenges.md#the-daily-run) multiplies by 1.5, then rounds down.
+12. **Friend.** A run that had a [friend in your server](basics.md#playing-with-friends) multiplies by 1.1, then rounds down.
 
 ```text
 left  = score - 0.7 x tree
@@ -30,17 +33,23 @@ if curve > 500:  curve = 500 + 234 x ln(curve / 500)
 asc   = 1 + 0.5 x min(ascensions, 5)
 if ascensions > 5:  asc = 3.5 + 2 x ln(1 + (ascensions - 5) / 5) / ln(5)
 meta  = round down( curve x (1 + 0.25 x Alchemist) x asc )
+meta  = meta x 2
 with Double Meta:  meta x 2
 with Rebound:  meta x 2
+challenge or Daily Run:  meta = round down(meta x 1.5)
+friend in your server:  meta = round down(meta x 1.1)
 ```
 
 ### Paid on top
 
-These are added after the sum, so Alchemist and Double Meta never raise them, but each one is times your ascension multiplier:
+These are added after the sum, so Alchemist, Double Meta and the x2 every run gets never raise them, but each one is times your ascension multiplier:
 
 - Your [daily tasks](daily-challenges.md), from a base of 100 to 400 meta a day by streak, times your band and each task's tier.
 - Tithe and Magpie [forge](forge.md) faces pay meta the moment they land, up to **120 a run** between them (the cap grows with the multiplier too).
-- [Challenge](challenges.md) medals, and the Daily Run's finish bonus and top 10 prizes.
+- [Challenge](challenges.md) medals, and the [Daily Run](challenges.md#the-daily-run)'s finish bonus.
+- The [welcome back gift](basics.md#coming-back), times your daily task band.
+
+[Daily Run prizes](#daily-run-prizes) are paid on top too, but they also take Alchemist and Double Meta. Invite rewards and season prizes are flat: nothing raises them.
 
 ### Worked example
 
@@ -55,21 +64,22 @@ A 10,000,000 point run after 5 ascensions, with every node open to you bought (a
 | Alchemist level 4 | x 2 = 845.78 |
 | 5 ascensions | x 3.5 = 2,960.24 |
 | Round down | 2,960 |
-| Double Meta | x 2 = **5,920** |
+| Every run | x 2 = 5,920 |
+| Double Meta | x 2 = **11,840** |
 
-And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,341.64. That is over 500, so it becomes 500 + 234 x ln(1,341.64 / 500) = 730.97, which rounds down to **730** meta.
+And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,341.64. That is over 500, so it becomes 500 + 234 x ln(1,341.64 / 500) = 730.97, which rounds down to 730. Every run's x2 then makes it **1,460** meta.
 
 ### Examples
 
-What a run pays, before the daily tasks and Tithe and Magpie. "Whole tree" means every node open to you bought, with Alchemist at level 4.
+What a plain run pays, before the daily tasks and Tithe and Magpie. "Whole tree" means every node open to you bought, with Alchemist at level 4.
 
 | Score | Empty tree | Whole base tree | Whole tree, 5 ascensions | Same with Double Meta |
 | --- | --- | --- | --- | --- |
-| 100,000 | 42 | 83 | 176 | 352 |
-| 1,000,000 | 134 | 267 | 908 | 1,816 |
-| 10,000,000 | 424 | 848 | 2,960 | 5,920 |
-| 100,000,000 | 730 | 1,461 | 5,116 | 10,232 |
-| 1,000,000,000 | 1,000 | 2,000 | 7,002 | 14,004 |
+| 100,000 | 84 | 166 | 352 | 704 |
+| 1,000,000 | 268 | 534 | 1,816 | 3,632 |
+| 10,000,000 | 848 | 1,696 | 5,920 | 11,840 |
+| 100,000,000 | 1,460 | 2,922 | 10,232 | 20,464 |
+| 1,000,000,000 | 2,000 | 4,000 | 14,004 | 28,008 |
 
 The floor and multiplier with the whole tree bought. The first points of a run, up to the floor, pay nothing:
 
@@ -84,6 +94,23 @@ The floor and multiplier with the whole tree bought. The first points of a run, 
 | 10 | 109,418 | 76,592.6 | x 4.36 |
 | 25 | 129,018 | 90,312.6 | x 5.5 |
 | 50 | 169,018 | 118,312.6 | x 6.36 |
+
+### Daily Run prizes
+
+A closed day's top 10 on the [Daily Run](challenges.md#the-daily-run) board are paid on their next join. Each place has a base prize, raised by Alchemist, Double Meta and your ascension multiplier as a run's meta is. The x2 every run gets does not apply.
+
+```text
+boost = (1 + 0.25 x Alchemist), x 2 with Double Meta
+prize = round(base x boost x ascension multiplier)
+```
+
+"Round" means to the nearest whole number. What each place pays:
+
+| Place | Base | 5 ascensions | Same, Alchemist level 4 | Same with Double Meta |
+| --- | --- | --- | --- | --- |
+| #1 | 1,000 | 3,500 | 7,000 | 14,000 |
+| #2 to #3 | 600 | 2,100 | 4,200 | 8,400 |
+| #4 to #10 | 300 | 1,050 | 2,100 | 4,200 |
 
 ## Stardust from ascending
 
@@ -147,4 +174,4 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 
 [Keeping a level](basics.md#keeping-levels) for good costs **500 Stardust + 10 x the level's meta price**, rounded up. A kept level leaves the meta traded in, so it pays no Stardust when you ascend, but it still counts toward the floor a run must pass.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>

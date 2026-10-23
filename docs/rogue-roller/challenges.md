@@ -7,7 +7,7 @@ Challenges open after your **first finished run**. Each one is a normal run unde
 - Your meta tree counts. Your forge counts too, except in Unrigged.
 - Start grant sockets are ignored, so every medal is earned by the rules and your tree.
 - Open the page with the **CHALLENGES** card on the home screen, beside the daily tasks.
-- Every challenge has its own leaderboard of best scores: press **TOP** on its card. A challenge run does not count for the main leaderboards or the daily tasks, except a daily task to earn a challenge medal.
+- Every challenge has its own leaderboard of this season's best scores: press **TOP** on its card. A challenge run does not count for the main leaderboards or the daily tasks, except a daily task to earn a challenge medal.
 - A challenge run pays **1.5x meta**, on top of the medal rewards below.
 - Medal meta is times your ascension multiplier, so the table is what you get before ascending.
 - SAVE & QUIT and CONTINUE work as in any run, and a medal is kept even if you leave. Starting a challenge while a normal run is saved asks you to **CONTINUE RUN** or **DELETE & PLAY** first.
@@ -20,7 +20,11 @@ Challenges open after your **first finished run**. Each one is a normal run unde
 | Bronze | 500 meta. |
 | Silver | 1,000 meta. |
 | Gold | 1,500 meta. |
-| Platinum | 2,500 meta. Its Limited perk unlocks: you meet it, so you can pour it on the Ascension perks page, and gates may deal it from then on. Platinum in every challenge earns a badge. |
+| Platinum | 2,500 meta. Its Limited perk opens up: it counts as found, so you can fill it on the Ascension perks page, and gates may deal it from then on. Platinum in every challenge earns a badge. |
+
+## Challenge of the week
+
+Every week, from Monday 00:00 UTC, one challenge is featured at the top of the Challenges page. Medals you earn in it that week pay **x2 meta**, and it has its own weekly board. The challenges take turns in the order of the table below, one a week.
 
 ## The challenges
 
@@ -28,7 +32,7 @@ Targets are in medal order: Clear / Bronze / Silver / Gold / Platinum.
 
 | Challenge | Rules | Scored on | Targets | Perk |
 | --- | --- | --- | --- | --- |
-| ⛽ Gas Station Membership | Refreshes grow twice as fast and upgrades 1.75x as fast. Refuel is a flat 800. Gates give 1.5x rolls. | tiles | 5,000 / 10,000 / 12,500 / 17,500 / 25,000 | Full Service |
+| ⛽ Gas Station Membership | Shop refresh prices rise twice as fast and upgrade prices 1.75x as fast. Refuel always costs 800. Gates give 1.5x rolls. | tiles | 5,000 / 10,000 / 12,500 / 17,500 / 25,000 | Full Service |
 | 🛠️ Faulty Engine | Every roll costs 2 rolls, plus 1 more for every 1,000 tiles. | points | 1,000,000 / 5,000,000 / 50,000,000 / 250,000,000 / 3,125,000,000 | Overhaul |
 | 📈 Inflation | Every biome gate raises shop prices by 25%, compounding. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Bull Market |
 | 🏜️ Drought | Every roll pays half. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Oasis |
@@ -37,4 +41,23 @@ Targets are in medal order: Clear / Bronze / Silver / Gold / Platinum.
 | 🪫 Out Of Fuel | Nothing refuels: no gate rolls, no Spark rolls, no Refuel, no Fresh Legs, no Sixth Sense. | tiles | 1,500 / 3,000 / 6,000 / 9,000 / 25,000 | Reserve Tank |
 | 🚫 Perk Hater | Biome gates deal no perk cards. The refuel still pays. | points | 10,000,000 / 25,000,000 / 125,000,000 / 625,000,000 / 3,125,000,000 | Lone Wolf |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
+## The Daily Run
+
+The **Daily Run** card on the Challenges page starts a run with one kit for everyone that UTC day: a meta tree bought with 50% of the base tree's price, and a forge die, both built around the day's theme.
+
+- A Daily Run ends after **50 rolls**, however many rolls gates and Spark give you. No rolls are sold in it.
+- Everyone gets the same [roads](roads.md) that day.
+- It pays meta like a challenge run, x1.5. The first Daily Run you play to its end each day also pays a finish bonus of 250 meta, times your [daily task band](daily-challenges.md#bands) and your ascension multiplier.
+- Your best score of the day goes on that day's board.
+- In a Daily Run, flags stand on the track where each friend's best run that day reached. Passing one shows a toast naming the next friend ahead.
+- Yesterday's top 3 stand on gold, silver and bronze steps at the top of the [LEADERBOARD page](basics.md#leaderboards).
+
+When a day closes at 00:00 UTC, its top 10 win meta, paid on their next join within 7 days. First place also earns the **Daily Champion** title. Each prize grows with your ascension multiplier, your Alchemist level and Double Meta, so the prize column on the board shows what each place would pay you. The sums are on [How the numbers work](formulas.md#daily-run-prizes).
+
+| Place | Base prize |
+| --- | --- |
+| #1 | 1,000 meta |
+| #2 to #3 | 600 meta |
+| #4 to #10 | 300 meta |
+
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>

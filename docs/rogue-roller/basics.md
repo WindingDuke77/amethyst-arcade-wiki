@@ -2,21 +2,32 @@
 
 # The basics
 
-<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">100</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers to unlock</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">250+</span><span class="rr-stat-label">Stardust every ascension pays</span></div></div>
+<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">50</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers in a run</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">250+</span><span class="rr-stat-label">Stardust every ascension pays</span></div></div>
 
 <div class="rr-banner"><img src="../../assets/rogue-roller/run.jpg" alt="A Rogue Roller run with the Ult shop open"></div>
 
 ## A run
 
-- You start with **100 rolls** and a normal 1 to 6 die.
+- You start with **50 rolls** and a normal 1 to 6 die.
 - Each roll moves your ball that many tiles, and every tile you cross pays points: 1 point to start with, plus whatever your upgrades add.
 - Tiles are light or dark. Lots of cards care which colour you land on.
 - The build panel beside the board shows your whole build as a grid of icons: the perks you picked and the shop upgrades you hold, with a count on a card when you have more than one. Hover, tap or select a card to read what it does.
 - Rolling into a new biome shows its name on a title card.
 - The run ends when you run out of rolls. Your score then turns into [meta points](#meta-points). From your 6th run on, an **OUT OF ROLLS** offer first gives you 12 seconds to buy [more rolls](store.md#roll-packs) and carry on.
 - **Auto Roll** rolls for you, with a 1 second pause between rolls. It is free for everyone from the first roll of their first run. Tap the Auto Roll button (the loop arrows) in a run to open its menu.
-- **Autopilot**, the [pass](store.md#game-passes) (also included with Roblox Premium), rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), and can stop itself when your rolls run low.
+- **Autopilot**, the [pass](store.md#game-passes) (also included with Roblox Premium), rolls as fast as the game allows, can take your gate cards and Spark choice for you (the left card, the right card, or a skip for the perk), answers [road events](roads.md#autopilot) (SAFE CARD, RISKY CARD or WALK PAST) and can stop itself when your rolls run low.
 - **Overdrive** speeds up a deep run for free: x1.25 from 5,000 tiles, then x0.25 more every 3,000 tiles, up to x5 from 50,000 tiles. It works on top of Fast Forward. Only the walk and the pauses speed up, never what a roll pays.
+
+### DETAILS card
+
+Switch on **SHOW ALL DETAILS** in the settings to see every counter of the run on one card.
+
+- **THIS RUN** opens with the meta you would get if you ended now. Below it sit your rolls and tiles, your biome, the gates you have crossed, the rolls the next gate gives back and the redeals you have left.
+- **BUILD** sums up your shop: its tier, the upgrades you bought, your perks and the boosts on your meta.
+- **ROAD** shows how many events are left on your road, how far away the next one is, and any road effect still running.
+- Your Spark meter, the counters that tick down and your die's effects come after those.
+- Press **EDIT** on the card, then tap rows to hide or show them, and **DONE** to finish. Hidden rows stay hidden in every run, and a line under the card says how many are hidden. EDIT works with a mouse or touch.
+- The card moves only in Edit HUD, below. It does not drag in a run.
 
 ### Edit HUD
 
@@ -31,7 +42,7 @@
 
 ## Getting started
 
-New players get 6 **Getting started** goals in place of the [daily tasks](daily-challenges.md). The **GETTING STARTED** card sits where the daily tasks go on the home screen and shows one goal at a time. Meet it, press **CLAIM** for its meta, and the next goal shows.
+New players get 6 **Getting started** goals in place of the [daily tasks](daily-challenges.md). The **GETTING STARTED** card sits where the daily tasks go on the home screen and shows one goal at a time. Finish it, press **CLAIM** for its meta, and the next goal shows.
 
 | Goal | What to do | Meta |
 | --- | --- | --- |
@@ -43,7 +54,7 @@ New players get 6 **Getting started** goals in place of the [daily tasks](daily-
 | 6 | 🏔️ Reach tile 1,000 in one run. | 500 |
 
 - The 6 goals pay **1,500 meta** in all.
-- A goal counts everything you have done so far, so one you already meet is ready to claim as soon as it shows.
+- A goal counts everything you have done so far, so one you have already done is ready to claim as soon as it shows.
 - Nothing done in a [sandbox](#sandbox) counts.
 - Your [daily tasks](#daily-tasks) start once the last goal is claimed.
 - Players who already had 10 or more runs, or had ascended, when Getting started arrived in version 3.4 skip it and its meta, and keep their daily tasks.
@@ -54,12 +65,12 @@ Some of the game opens after a number of runs. A run counts once, when it ends o
 
 | Feature | Opens after | What it is |
 | --- | --- | --- |
-| Rollodex | 1 run | A log of the perks, upgrades, forge cards, biomes, weather, creatures and badges you meet. Fill a tab to win its title. |
+| Rollodex | 1 run | A log of everything you find: perks, upgrades, forge cards, biomes, weather, creatures and badges. Fill a tab to win its title. |
 | [Challenges and the Daily Run](challenges.md) | 1 run | Runs with their own rules and medals, and a Daily Run with one kit for everyone. |
 | [Leaderboard](#leaderboards) | 1 run | Top scores and longest runs, all time and this week. |
 | Stats | 3 runs | Your records, lifetime totals, how you play and your last ten runs. |
 | [Forge](forge.md) | 5 runs | Meta buys crates of effects for the faces of your die. |
-| [Sandbox](#sandbox) | 5 runs | Practice runs with any build you have unlocked. They earn nothing. |
+| [Sandbox](#sandbox) | 5 runs | Practice runs with any build made from what you already own. They earn nothing. |
 
 Anyone who had already used the Forge (opened a crate, or has a card in the bag or on a face) keeps it, and anyone who owns Sandbox keeps that too.
 
@@ -67,9 +78,10 @@ Anyone who had already used the Forge (opened a crate, or has a card in the bag 
 
 The board is split into [biomes](biomes.md). Each one ends at a gate tile, and your ball stops on the gate even if the roll had moves left.
 
-- Reaching a gate gives you **11 rolls** (more with Gate Greeter in the [meta tree](meta-tree.md)) and a free [perk card](gate-perks.md).
-- At the first gate you also pick your [Spark source](gate-perks.md#spark-sources).
-- You can redeal the perk cards 2 times per run, at most once per gate. A redeal swaps both cards. The Spark choice cannot be redealt.
+- Reaching a gate gives you **11 rolls** (more with Gate Greeter in the [meta tree](meta-tree.md)) and a choice of two roads. Each road has a free [perk card](gate-perks.md), leads into its own biome and has 3 to 5 event tiles before the next gate. See [Roads and events](roads.md).
+- At the first gate you pick your [Spark source](gate-perks.md#spark-sources) before your road.
+- **NEW ROADS** deals both roads again, perk cards included. You can redeal 2 times per run, at most once per gate. The Spark choice cannot be redealt.
+- **SKIP THE PERK** takes no perk, but you still pick a road and the gate still refuels your rolls.
 - A gate never deals a perk card you were shown at the gate before, whether you picked a card, skipped or redealt there. The only exception is late in a run when no other card is left.
 
 Biomes get longer as you go. After biome 3, each one is 125 tiles longer than the last.
@@ -80,9 +92,9 @@ Biomes get longer as you go. After biome 3, each one is 125 tiles longer than th
 
 ## The shop
 
-The shop sells [upgrade cards](shop-upgrades.md) for points. Cards only last for the run you buy them in. Unlock a bigger shop to see more cards and stronger ones.
+The shop sells [upgrade cards](shop-upgrades.md) for points. Cards only last for the run you buy them in. Press **UPGRADE SHOP** to buy a bigger shop, which deals more cards and stronger ones.
 
-| Shop | Cards offered | Unlock cost | Card tiers dealt |
+| Shop | Cards offered | Price | Card tiers dealt |
 | --- | --- | --- | --- |
 | Basic | 3 | Free | 1 |
 | Advanced | 6 | 100 points | 1 to 2 |
@@ -107,23 +119,23 @@ Your Spark source charges the Spark meter as you play. When the meter fills, it 
 Press the cog in a run to pause it, then **SAVE & QUIT** to go back to the main menu with your run kept. The meta it has earned so far is banked straight away, and **CONTINUE** picks the run up where you left it. Leaving the game does the same.
 
 - SAVE & QUIT can't be used mid roll, while a purchase is going through, while the OUT OF ROLLS offer is showing, or once the run is out of rolls and can only end.
-- While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending, [keeping levels](#keeping-levels), the [ascension perk wall](ascension-perks.md) (pouring, setting start grants and buying sockets) and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on each card and says why, and those pages have a **CONTINUE RUN** button.
+- While a run is saved, the [forge](forge.md) (crates, putting effects on or taking them off, new loadout slots), [meta tree](meta-tree.md) buys, respecs, ascending, [keeping levels](#keeping-levels), the [ascension perk wall](ascension-perks.md) (filling perks, setting start grants and buying sockets) and [loadout](forge.md#loadouts) loads wait until you finish or end it. The UPGRADES page shows **LOCKED** on each card and says why, and those pages have a **CONTINUE RUN** button.
 - **NEW RUN** asks before it throws a saved run away. The meta that run earned is already yours.
 - The **bin** beside NEW RUN on the home screen shows while a run is saved. It deletes the saved run for good without starting a new one. It asks first, and the meta that run earned is already yours.
 
 ## Sandbox
 
-**SANDBOX** on the home screen starts a practice run built from what you have unlocked. It earns nothing and saves nothing, so you can try out a build without risk.
+**SANDBOX** on the home screen starts a practice run built from what you already own. It earns nothing and saves nothing, so you can try out a build without risk.
 
-- **Unlocking:** the tile opens after 5 runs (see [what opens as you play](#what-opens-as-you-play)). Then press **UNLOCK** to buy it once for **2,500 meta**. It is yours for good, and ascending keeps it. You can buy it while a run is saved, but not during a run.
+- **Buying it:** the tile opens after 5 runs (see [what opens as you play](#what-opens-as-you-play)). Then press **UNLOCK** to buy it once for **2,500 meta**. It is yours for good, and ascending keeps it. You can buy it while a run is saved, but not during a run.
 - Before you start, pick your setup on five tabs. The page remembers your last setup.
     - **UPGRADES:** any [shop upgrade](shop-upgrades.md) your shop has dealt you, up to 10 copies of each (1 of a card that is one per run). For a card that picks a side, you choose the faces. Conductor needs a Spark source, which a run only picks at its first gate, so it is never given at the start.
-    - **PERKS:** any [gate perk](gate-perks.md) you have met, poured on the wall or not. Common perks always count as met. A challenge's Limited perk joins once you have its Platinum medal.
-    - **DIE:** any [forge](forge.md) card you own, worn or in your bag, on any face at any level up to that effect's top level. **COPY MY DIE** copies the die you wear and **LOADOUT** copies a saved [loadout](forge.md#loadouts). Sandbox levels never change your cards.
+    - **PERKS:** any [gate perk](gate-perks.md) you have found, filled on the wall or not. Common perks always count as found. A challenge's Limited perk joins once you have its Platinum medal.
+    - **DIE:** any [forge](forge.md) card you own, on your die or in your bag, on any face at any level from 1 to that effect's top level. **COPY MY DIE** copies your die and **LOADOUT** copies a saved [loadout](forge.md#loadouts). Sandbox levels never change your cards.
     - **TREE:** every [meta tree](meta-tree.md) node you own, from 0 (off) up to the level you bought. **ALL MINE** sets every node to your level. Alchemist, Star Charter, Zodiac, Astrolabe, Nebula and Singularity only pay meta or Stardust, so they do nothing here.
     - **RULES:** the start biome (any biome you have reached, or **RANDOM** for the usual shuffled order), **NO ROLL LIMIT** or a set number of rolls from 1 to 999, and starting points of 0, 1K, 10K, 100K, 1M or 10M. The roll count is exact, so nodes that add rolls at the start do not change it. Starting points go on top of the points your tree starts you with.
 - In the run, the shop and gates deal like a normal run. Your [start grants](ascension-perks.md#start-grant-sockets) are not used, since you pick perks instead. No rolls are sold, so there are no roll packs and no OUT OF ROLLS offer.
-- Nothing counts: no meta, leaderboard scores, badges, daily tasks, Getting started goals, forge XP, stats, run history or skins. Perks, biomes and anything else you meet there are not marked as met or added to your Rollodex.
+- Nothing counts: no meta, leaderboard scores, badges, daily tasks, Getting started goals, forge XP, stats, run history or skins. Perks, biomes and anything else you find there are not marked as found or added to your Rollodex.
 - Your saved run is never touched. It is held aside while you play, and **CONTINUE** on the home screen picks it up after.
 - To stop, press the cog and **END SANDBOX**. Leaving the game ends it too, because a sandbox is never saved. The **SANDBOX OVER** screen shows the points you scored and the tiles you travelled.
 
@@ -131,9 +143,28 @@ Press the cog in a run to pause it, then **SAVE & QUIT** to go back to the main 
 
 The LEADERBOARD page shows the top 100 for **top scores** and **longest runs**, all time and this week. It opens after your first run.
 
+- Each row shows a square in that player's dice colour.
+- Yesterday's [Daily Run](challenges.md#the-daily-run) top 3 stand on gold, silver and bronze steps at the top of the page, each shown as their own dice.
 - Weekly boards start fresh every Monday at 00:00 UTC.
 - A run posts to the weekly boards only while the week it started is still on. Its score goes up when you finish it, save and quit, or leave the game.
 - Once Monday 00:00 UTC passes, a run that started the week before reaches no weekly board, whether it kept going or was continued from a save. The all time boards still count it.
+
+### Season 3
+
+Every leaderboard started fresh for Season 3: top scores, longest runs, both weekly boards, every [challenge](challenges.md) board and the [challenge of the week](challenges.md#challenge-of-the-week). Your STATS page keeps your lifetime records. A run started before the reset still pays meta when you finish it, but it posts nothing to the new boards.
+
+Season 2's top 100 get a prize on their first join of the new season: everyone in the top 100 of the all time top scores or longest runs when Season 2 ended, at the better of their two places. Each gets a title for good, the secret Season 2 dice and the prize below.
+
+| Place | Title | Prize |
+| --- | --- | --- |
+| #1 | S2 Champion | 10,000 Stardust |
+| #2 to #3 | S2 Top 3 | 6,000 Stardust |
+| #4 to #10 | S2 Top 10 | 4,000 Stardust |
+| #11 to #100 | S2 Top 100 | 2,000 meta |
+
+Stardust won before your first ascension is kept, and shows once you ascend.
+
+A popup shows your prize once, with **EQUIP TITLE** to use the new title straight away.
 
 ## Meta points
 
@@ -143,20 +174,22 @@ When a run ends, your score turns into meta points. Spend them on the [meta tree
 - Meta grows with the square root of your score, so four times the score pays about twice the meta.
 - Points your tree hands you for free don't count: 0.7 points come off your score for every meta point the levels you own cost at today's prices, kept levels and ascension nodes included.
 - Past 500 meta a run, before any bonus, a higher score still pays more, but much more slowly.
-- Alchemist in the tree adds 25% per level. Each of the first 5 ascensions adds 50%; after that each ascension adds a little less than the one before (23% for your 6th), reaching x5.5 at 25 and about x6.4 at 50, with no cap. The Alchemist and ascension bonuses multiply together and the result is rounded down. The Double Meta [pass](store.md) then doubles it, and so does Rebound for the first 5 runs after an ascension from 10 on.
+- Alchemist in the tree adds 25% per level. Each of the first 5 ascensions adds 50%; after that each ascension adds a little less than the one before (23% for your 6th), reaching x5.5 at 25 and about x6.4 at 50, with no cap. The Alchemist and ascension bonuses multiply together and the result is rounded down.
+- Every run then pays **x2**. The Double Meta [pass](store.md) doubles that again, and so does Rebound for the first 5 runs after an ascension from 10 on.
+- A [challenge](challenges.md) or [Daily Run](challenges.md#the-daily-run) pays x1.5 on top, and a run with a friend in your server pays 10% more (see [playing with friends](#playing-with-friends)).
 - Your [daily tasks](daily-challenges.md) and Tithe and Magpie [forge](forge.md) faces are paid on top. Alchemist and Double Meta never raise them, but your ascension multiplier does.
 
 Every step of the sum, with worked examples, is on [How the numbers work](formulas.md#meta-points-from-a-run).
 
-What a score is worth with an empty tree and no bonuses:
+What a score pays with an empty tree, no ascensions and no passes:
 
 | Score | Meta points |
 | --- | --- |
-| 10,000 | 13 |
-| 100,000 | 42 |
-| 1,000,000 | 134 |
-| 100,000,000 | 730 |
-| 1,000,000,000 | 1,000 |
+| 10,000 | 26 |
+| 100,000 | 84 |
+| 1,000,000 | 268 |
+| 100,000,000 | 1,460 |
+| 1,000,000,000 | 2,000 |
 
 ## Ascension
 
@@ -211,4 +244,16 @@ Once you have ascended 5 times, Stardust can keep levels of the [base tree](meta
 
 There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and a hard one, and they change at midnight UTC. Their targets and pay fit your build. Finish any of them to earn meta and keep your streak. New players do the [Getting started](#getting-started) goals first, and their daily tasks start once all 6 are claimed.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.4.2.</p>
+## Playing with friends
+
+- **Bring a friend:** the **BRING A FRIEND** card under the run summary has an **INVITE** button that opens Roblox's invite prompt. When a friend you invited joins for the first time and finishes their first run within 24 hours of joining, you both get **+250 meta**. You can earn it for up to 10 friends.
+- If you are offline or in another server when your friend finishes, your meta waits for your next join, with a card naming the friend.
+- **Play together:** once a friend has been in your server during a run, that run pays **10% more meta**. A card under the tiles counter shows who is there. Daily Runs and challenges count. A sandbox pays no meta, so it gets nothing.
+- On a [Daily Run](challenges.md#the-daily-run), flags on the track show how far each friend got that day.
+
+## Coming back
+
+- **Welcome back gift:** once you have played a run, staying away for 3 or more days (counted in UTC) makes your next join pay a one time meta gift: 300 times your [daily task band](daily-challenges.md#bands), times your ascension multiplier. Before that multiplier it is 150 on Fresh, 300 on Growing, 600 on Full Tree and 900 on Ascended.
+- **Streak reminder:** with a [daily task streak](daily-challenges.md#pay-and-the-streak) of 2 or more, a Roblox notification about 20 hours after you leave reminds you to play that day and keep it. You get at most one a day, none once you have played that day, and only if you allow notifications from the game.
+
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>
