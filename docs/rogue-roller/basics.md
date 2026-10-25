@@ -2,7 +2,7 @@
 
 # The basics
 
-<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">50</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at each gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers in a run</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">250+</span><span class="rr-stat-label">Stardust every ascension pays</span></div></div>
+<div class="rr-stats"><div class="rr-stat"><span class="rr-stat-value">50</span><span class="rr-stat-label">rolls to start a run</span></div><div class="rr-stat"><span class="rr-stat-value">1 to 6</span><span class="rr-stat-label">on a fresh die</span></div><div class="rr-stat"><span class="rr-stat-value">11</span><span class="rr-stat-label">rolls back at the first gate</span></div><div class="rr-stat"><span class="rr-stat-value">4</span><span class="rr-stat-label">shop tiers in a run</span></div><div class="rr-stat"><span class="rr-stat-value">44</span><span class="rr-stat-label">Spark fills the meter</span></div><div class="rr-stat"><span class="rr-stat-value">250+</span><span class="rr-stat-label">Stardust every ascension pays</span></div></div>
 
 <div class="rr-banner"><img src="../../assets/rogue-roller/run.jpg" alt="A Rogue Roller run with the Ult shop open"></div>
 
@@ -78,7 +78,8 @@ Anyone who had already used the Forge (opened a crate, or has a card in the bag 
 
 The board is split into [biomes](biomes.md). Each one ends at a gate tile, and your ball stops on the gate even if the roll had moves left.
 
-- Reaching a gate gives you **11 rolls** (more with Gate Greeter in the [meta tree](meta-tree.md)) and a choice of two roads. Each road has a free [perk card](gate-perks.md), leads into its own biome and has 3 to 5 event tiles before the next gate. See [Roads and events](roads.md).
+- Reaching a gate refuels your rolls: **11** at the first gate (more with Gate Greeter in the [meta tree](meta-tree.md)), then each gate gives 20% less than the one before. A die that averages more than 10.75 tiles a roll gets a little less, so a faster die does not refuel faster.
+- Each gate offers a choice of two roads. Each road has a free [perk card](gate-perks.md), leads into its own biome and has 3 to 5 event tiles before the next gate. From gate 2 on, a road can end at a [gate variant](roads.md#gate-variants). See [Roads and events](roads.md).
 - At the first gate you pick your [Spark source](gate-perks.md#spark-sources) before your road.
 - **NEW ROADS** deals both roads again, perk cards included. You can redeal 2 times per run, at most once per gate. The Spark choice cannot be redealt.
 - **SKIP THE PERK** takes no perk, but you still pick a road and the gate still refuels your rolls.
@@ -104,6 +105,7 @@ The shop sells [upgrade cards](shop-upgrades.md) for points. Cards only last for
 - A card costs more each time you buy it again: its base price times the copy number to the power of 3.
 - Cards that multiply your roll use the power of 6 instead, so their repeats get expensive fast.
 - Haggler in the meta tree takes 10% off card prices per level.
+- A [Fidelity Card](forge.md) on your die takes 20% (up to 30%) more off card prices, never Refuel. With more than one, the best counts.
 - Refreshing the shop costs 30, 48, 77, 123, 197 and so on. Each refresh costs 1.6 times the last.
 
 ## Spark
@@ -188,8 +190,8 @@ What a score pays with an empty tree, no ascensions and no passes:
 | 10,000 | 26 |
 | 100,000 | 84 |
 | 1,000,000 | 268 |
-| 100,000,000 | 1,460 |
-| 1,000,000,000 | 2,000 |
+| 100,000,000 | 2,594 |
+| 1,000,000,000 | 4,454 |
 
 ## Ascension
 
@@ -256,4 +258,4 @@ There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and 
 - **Welcome back gift:** once you have played a run, staying away for 3 or more days (counted in UTC) makes your next join pay a one time meta gift: 300 times your [daily task band](daily-challenges.md#bands), times your ascension multiplier. Before that multiplier it is 150 on Fresh, 300 on Growing, 600 on Full Tree and 900 on Ascended.
 - **Streak reminder:** with a [daily task streak](daily-challenges.md#pay-and-the-streak) of 2 or more, a Roblox notification about 20 hours after you leave reminds you to play that day and keep it. You get at most one a day, none once you have played that day, and only if you allow notifications from the game.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>

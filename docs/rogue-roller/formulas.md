@@ -16,7 +16,7 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 1. **Score.** Every point the run earned, from tiles, bonuses, jackpots and gates. Points you spend in the shop still count. The start points Trust Fund, War Chest and Foothold give you do not.
 2. **Floor.** Take off **0.7 points for every meta point your tree is worth**. That counts every level you own, ascension nodes and levels kept with Stardust included. If nothing is left, the run pays 0.
 3. **Curve.** Divide what is left by **500**, take the square root and multiply by **3**.
-4. **Tail.** If the curve comes to more than **500**, it becomes 500 + 234 x ln(curve / 500), where ln is the natural log. Past 500 a bigger score still pays more, but much more slowly. The curve reaches 500 at about 13,900,000 points above the floor.
+4. **Tail.** If the curve comes to more than **500**, it becomes 500 + 808 x ln(curve / 500), where ln is the natural log. Past 500 a bigger score still pays more, but much more slowly. The curve reaches 500 at about 13,900,000 points above the floor.
 5. **Alchemist.** Multiply by 1 + 0.25 for each level of the Alchemist node, so up to **x2** at level 4.
 6. **Ascension.** Multiply by 1 + 0.5 for each of the first 5 ascensions (**x3.5** at 5). Past 5, add 2 x ln(1 + (ascensions - 5) / 5) / ln(5) to that 3.5. Each ascension then adds a little less than the one before: **x5.5** at 25, about **x6.4** at 50 and about **x7.2** at 100, with no cap.
 7. **Round down.**
@@ -29,7 +29,7 @@ A run pays meta when it ends. SAVE & QUIT and leaving the game pay what the run 
 ```text
 left  = score - 0.7 x tree
 curve = 3 x sqrt(left / 500)
-if curve > 500:  curve = 500 + 234 x ln(curve / 500)
+if curve > 500:  curve = 500 + 808 x ln(curve / 500)
 asc   = 1 + 0.5 x min(ascensions, 5)
 if ascensions > 5:  asc = 3.5 + 2 x ln(1 + (ascensions - 5) / 5) / ln(5)
 meta  = round down( curve x (1 + 0.25 x Alchemist) x asc )
@@ -67,7 +67,7 @@ A 10,000,000 point run after 5 ascensions, with every node open to you bought (a
 | Every run | x 2 = 5,920 |
 | Double Meta | x 2 = **11,840** |
 
-And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,341.64. That is over 500, so it becomes 500 + 234 x ln(1,341.64 / 500) = 730.97, which rounds down to 730. Every run's x2 then makes it **1,460** meta.
+And one past the tail: 100,000,000 points on an empty tree gives a curve of 1,341.64. That is over 500, so it becomes 500 + 808 x ln(1,341.64 / 500) = 1,297.53, which rounds down to 1,297. Every run's x2 then makes it **2,594** meta.
 
 ### Examples
 
@@ -78,8 +78,8 @@ What a plain run pays, before the daily tasks and Tithe and Magpie. "Whole tree"
 | 100,000 | 84 | 166 | 352 | 704 |
 | 1,000,000 | 268 | 534 | 1,816 | 3,632 |
 | 10,000,000 | 848 | 1,696 | 5,920 | 11,840 |
-| 100,000,000 | 1,460 | 2,922 | 10,232 | 20,464 |
-| 1,000,000,000 | 2,000 | 4,000 | 14,004 | 28,008 |
+| 100,000,000 | 2,594 | 5,190 | 18,160 | 36,320 |
+| 1,000,000,000 | 4,454 | 8,910 | 31,188 | 62,376 |
 
 The floor and multiplier with the whole tree bought. The first points of a run, up to the floor, pay nothing:
 
@@ -174,4 +174,4 @@ What an ascension pays with every node open to you bought and no catch up. "Only
 
 [Keeping a level](basics.md#keeping-levels) for good costs **500 Stardust + 10 x the level's meta price**, rounded up. A kept level leaves the meta traded in, so it pays no Stardust when you ascend, but it still counts toward the floor a run must pass.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>

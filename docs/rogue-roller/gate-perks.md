@@ -77,4 +77,4 @@ At the first gate of a run, before you pick a road, the game deals two of these 
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/spark/sparkHot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Hot Hand</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">High rolls</span></div></div></div><p class="rr-card-body">Roll a 4 or better: charge 4 Spark.</p><p class="rr-card-body"><b>Roll 4 or better:</b> +4 Spark</p><p class="rr-card-body"><b>Roll 1 to 3:</b> no charge</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>

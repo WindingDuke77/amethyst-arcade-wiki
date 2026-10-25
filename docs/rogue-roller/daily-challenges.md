@@ -84,4 +84,4 @@ N is the band's target in the table. A task a band is not dealt never comes up f
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/climate/lightning.png" alt="" loading="lazy"></span> Get struck by weather N times today. | The whole day | 10 | 16 | 25 | 30 |
 | <span class="rr-day-icon"><img src="../../assets/rogue-roller/icons/daily/dailyNoShop.png" alt="" loading="lazy"></span> Reach tile N without buying an upgrade. | One run | 300 | 800 | 1,200 | 1,500 |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.5.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
