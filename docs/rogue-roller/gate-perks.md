@@ -67,7 +67,7 @@ There are **47 perks**. 28 are Common. The other 19 are tagged with their rarity
 
 ## Spark sources
 
-At the first gate of a run, before you pick a road, the game deals two of these 5 sources at random and you pick one. That choice lasts all run and cannot be redealt. Each card shows the empty Spark bar it will fill, the **2 rolls** a full bar pays, and what charges it and what does not. See [Spark](basics.md#spark) for how the meter works.
+At the first gate of a run, before you pick a road, the game deals two of these 5 sources at random and you pick one. That choice lasts all run and cannot be redealt. On your very first run the game gives you **Steady Drip** instead, so that gate asks only for your road. From your second run you choose, and Daily Runs and challenges always let you choose. Each card shows the empty Spark bar it will fill, the **2 rolls** a full bar pays, and what charges it and what does not. See [Spark](basics.md#spark) for how the meter works.
 
 <div class="rr-grid ">
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/spark/sparkSteady.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Steady Drip</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">Every tile</span></div></div></div><p class="rr-card-body">Every tile you land on charges 3 Spark.</p><p class="rr-card-body"><b>Light tile:</b> +3 Spark</p><p class="rr-card-body"><b>Dark tile:</b> +3 Spark</p></div>
@@ -77,4 +77,4 @@ At the first gate of a run, before you pick a road, the game deals two of these 
 <div class="rr-card " style="--ring: #eab308"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/spark/sparkHot.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Hot Hand</strong><div class="rr-tags"><span class="rr-tag rr-tag--plain">High rolls</span></div></div></div><p class="rr-card-body">Roll a 4 or better: charge 4 Spark.</p><p class="rr-card-body"><b>Roll 4 or better:</b> +4 Spark</p><p class="rr-card-body"><b>Roll 1 to 3:</b> no charge</p></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.7.0.</p>

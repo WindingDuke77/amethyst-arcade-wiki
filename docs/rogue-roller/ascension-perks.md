@@ -37,7 +37,7 @@ Uncommon and rarer perks show **NOT FOUND YET**, and their cells stay locked, un
 
 ## Start grant sockets
 
-Your first ascension opens 1 start grant socket for free. The next 2 are bought with Stardust in order, 1,500 then 3,000, for 3 sockets. Press the next locked socket in the band at the top of the page to buy it. A bought socket is yours for good, and ascending never takes it back. The **Extra Sockets** pass in the [store](store.md) adds 2 more after those, for 5 in all. A start grant that needs something your run does not have yet, like a golden tile perk without Golden Tiles, is skipped that run.
+Your first ascension opens 1 start grant socket for free. The next 2 are bought with Stardust in order, 1,500 then 3,000, for 3 sockets. Press the next locked socket in the band at the top of the page to buy it. A bought socket is yours for good, and ascending never takes it back. The **Extra Sockets** pass in the [store](store.md) adds 2 more after those, for 5 in all. A start grant that needs something your run does not have yet (Gold Fever, Pilgrim, Double or Nothing, Echo Chamber, Charged Up, Treasure Map and King's Ransom) still joins at the start and starts working once that thing arrives. Golden Touch is skipped instead while you have no Golden Tiles, since the bonus would switch Golden Tiles on by itself. A grant that would clash with your build, like Night Owl while you hold Mirror, is skipped that run.
 
 | Socket | How it opens |
 | --- | --- |
@@ -121,4 +121,4 @@ Sockets you can use always show first in the band, then the ones still to buy.
 <div class="rr-card " style="--ring: rgb(255, 178, 66)"><div class="rr-card-head"><img class="rr-art rr-art--icon" src="../../assets/rogue-roller/icons/perks/perkLoneWolf.png" alt="" loading="lazy"><div class="rr-card-title"><strong>Lone Wolf</strong><div class="rr-tags"><span class="rr-tag" style="--ring: rgb(255, 178, 66)">Legendary</span><span class="rr-tag" style="--ring: #eab308">Limited: Perk Hater</span></div></div></div><p class="rr-card-body">The first tile of every roll pays 0.5x more for every tile the roll moves. Every other tile pays 25% less.</p><div class="rr-card-foot"><span class="rr-price"><small>First fill</small><b>3,600</b></span><span class="rr-price"><small>Start grant</small><b>12,000</b></span></div></div>
 </div>
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.7.0.</p>

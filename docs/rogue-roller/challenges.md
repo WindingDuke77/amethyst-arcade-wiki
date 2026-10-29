@@ -60,4 +60,4 @@ When a day closes at 00:00 UTC, its top 10 win meta, paid on their next join wit
 | #2 to #3 | 600 meta |
 | #4 to #10 | 300 meta |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.7.0.</p>

@@ -8,11 +8,11 @@ Every biome gate is a choice of two roads. Each road gives you its [perk card](g
 
 ## Picking a road
 
-- Each road card shows its perk, the biome it leads into, how long that biome is and the events on the way.
+- Each road card shows its perk, the biome it leads into, how long that biome is and the events on the way. Each road also rolls its own length, from x0.8 to x1.25 of the usual (to the nearest 5 tiles), and its own event pay, from x0.8 to x1.25, so the two roads at a gate can differ. The road card shows both. Event pay scales what the road's events give, except rolls.
 - The left road enters the next biome in the run's order. The right road enters the biome after that, and the biome it skips becomes the next gate's left road.
 - **NEW ROADS** deals both roads again, perk cards included, and uses one of your 2 redeals for the run.
 - **SKIP THE PERK** takes no perk: press it, then tap the road you want. The gate still refuels your rolls.
-- At the first gate you pick your [Spark source](gate-perks.md#spark-sources) first, then your road.
+- At the first gate you pick your [Spark source](gate-perks.md#spark-sources) first, then your road. On your very first run the game gives you **Steady Drip** instead, so that gate asks only for your road. From your second run you choose, and Daily Runs and challenges always let you choose.
 - On a [Daily Run](challenges.md#the-daily-run), everyone gets the same roads that day.
 
 ## On the road
@@ -139,4 +139,4 @@ The [Autopilot](store.md#game-passes) pass adds a **Road events** row to the AUT
 | Dare | Play It Safe | Take the Dare |
 | Toll | Pay | Pay |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.7.0.</p>

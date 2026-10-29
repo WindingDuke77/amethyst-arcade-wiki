@@ -80,12 +80,12 @@ The board is split into [biomes](biomes.md). Each one ends at a gate tile, and y
 
 - Reaching a gate refuels your rolls: **11** at the first gate (more with Gate Greeter in the [meta tree](meta-tree.md)), then each gate gives 20% less than the one before. A die that averages more than 10.75 tiles a roll gets a little less, so a faster die does not refuel faster.
 - Each gate offers a choice of two roads. Each road has a free [perk card](gate-perks.md), leads into its own biome and has 3 to 5 event tiles before the next gate. From gate 2 on, a road can end at a [gate variant](roads.md#gate-variants). See [Roads and events](roads.md).
-- At the first gate you pick your [Spark source](gate-perks.md#spark-sources) before your road.
+- At the first gate you pick your [Spark source](gate-perks.md#spark-sources) before your road. On your very first run the game gives you **Steady Drip** instead, so that gate asks only for your road. From your second run you choose, and Daily Runs and challenges always let you choose.
 - **NEW ROADS** deals both roads again, perk cards included. You can redeal 2 times per run, at most once per gate. The Spark choice cannot be redealt.
 - **SKIP THE PERK** takes no perk, but you still pick a road and the gate still refuels your rolls.
 - A gate never deals a perk card you were shown at the gate before, whether you picked a card, skipped or redealt there. The only exception is late in a run when no other card is left.
 
-Biomes get longer as you go. After biome 3, each one is 125 tiles longer than the last.
+Biomes get longer as you go. After biome 3, each one is 125 tiles longer than the last. Each road also rolls its own length, from x0.8 to x1.25 of the usual (to the nearest 5 tiles), and its own event pay, from x0.8 to x1.25, so the two roads at a gate can differ. The road card shows both. Event pay scales what the road's events give, except rolls.
 
 | Biome | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,7 @@ The shop sells [upgrade cards](shop-upgrades.md) for points. Cards only last for
 - A card costs more each time you buy it again: its base price times the copy number to the power of 3.
 - Cards that multiply your roll use the power of 6 instead, so their repeats get expensive fast.
 - Haggler in the meta tree takes 10% off card prices per level.
-- A [Fidelity Card](forge.md) on your die takes 20% (up to 30%) more off card prices, never Refuel. With more than one, the best counts.
+- A [Fidelity Card](forge.md) on your die takes 20% (up to 32.5%) more off card prices, never Refuel. With more than one, the best counts.
 - Refreshing the shop costs 30, 48, 77, 123, 197 and so on. Each refresh costs 1.6 times the last.
 
 ## Spark
@@ -258,4 +258,4 @@ There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and 
 - **Welcome back gift:** once you have played a run, staying away for 3 or more days (counted in UTC) makes your next join pay a one time meta gift: 300 times your [daily task band](daily-challenges.md#bands), times your ascension multiplier. Before that multiplier it is 150 on Fresh, 300 on Growing, 600 on Full Tree and 900 on Ascended.
 - **Streak reminder:** with a [daily task streak](daily-challenges.md#pay-and-the-streak) of 2 or more, a Roblox notification about 20 hours after you leave reminds you to play that day and keep it. You get at most one a day, none once you have played that day, and only if you allow notifications from the game.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.6.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.7.0.</p>
