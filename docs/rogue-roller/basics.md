@@ -258,4 +258,4 @@ There are three [daily tasks](daily-challenges.md) a day, an easy, a medium and 
 - **Welcome back gift:** once you have played a run, staying away for 3 or more days (counted in UTC) makes your next join pay a one time meta gift: 300 times your [daily task band](daily-challenges.md#bands), times your ascension multiplier. Before that multiplier it is 150 on Fresh, 300 on Growing, 600 on Full Tree and 900 on Ascended.
 - **Streak reminder:** with a [daily task streak](daily-challenges.md#pay-and-the-streak) of 2 or more, a Roblox notification about 20 hours after you leave reminds you to play that day and keep it. You get at most one a day, none once you have played that day, and only if you allow notifications from the game.
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.8.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.9.1.</p>

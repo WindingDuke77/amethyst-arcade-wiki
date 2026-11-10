@@ -139,4 +139,4 @@ The [Autopilot](store.md#game-passes) pass adds a **Road events** row to the AUT
 | Dare | Play It Safe | Take the Dare |
 | Toll | Pay | Pay |
 
-<p class="wiki-version">Numbers on this page match Rogue Roller version 3.8.0.</p>
+<p class="wiki-version">Numbers on this page match Rogue Roller version 3.9.1.</p>
